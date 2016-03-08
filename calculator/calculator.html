@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>calculator powered by Kate Prasolek</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Custom Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+
+    <!-- javascript frameworks used -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+
+    <!-- external javascript file -->
+    <script src="file:///C:/Users/Katarzyna/Dropbox/IT/portfolio/calculator/calculator.js"></script>
+
+
+</head>
+
+<body role="document">
+
+<!-- header -->
+    <a href="C:/Users/Katarzyna/Dropbox/IT/portfolio/portfolio.html">
+        <header>
+            <div class="container header_text">
+                <p class="name">Kate Prasolek</p>
+                <p class="project_name">calculator</p>
+            </div>
+        </header>
+    </a>
+ 
+    <div class="nav">
+        <ul class="pull-right nav nav-pills">
+          <li class="navbar"><a href="#">About project</a></li>
+          <li class="navbar"><a href="#">Feedback</a></li>
+          <li class="navbar"><a href="#">Report a bug</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+<!-- calculator here -->
+    <div class="container" role="main">
+        <div class="row">
+            <div class="col-md-4 description">
+                <p>Try this calculator to do fancy mathemathic equations.</p>
+                <p>Use your keyboard too!</p>
+                <p>Enjoy!<p>
+                <hr>
+              
+                <div class="technologyUsed">
+                    <p>Technologies used:</p>
+                    <img class="icon img-responsive" src="file:///C:/Users/Katarzyna/Dropbox/IT/portfolio/icon_bootstrap.png" alt="icon_bootstrap" />
+                    <img class="icon img-responsive" src="file:///C:/Users/Katarzyna/Dropbox/IT/portfolio/icon_css.png" alt="icon_css" />
+                    <img class="icon img-responsive" src="file:///C:/Users/Katarzyna/Dropbox/IT/portfolio/icon_html.png" alt="icon_html" />
+                    <img class="icon img-responsive" src="file:///C:/Users/Katarzyna/Dropbox/IT/portfolio/icon_javascript.png" alt="icon_js" />
+                    <img class="icon img-responsive" src="file:///C:/Users/Katarzyna/Dropbox/IT/portfolio/icon_jquery.png" alt="icon_jq" />
+                    <img class="icon img-responsive" src="file:///C:/Users/Katarzyna/Dropbox/IT/portfolio/icon_underscore.png" alt="icon_underscore" />
+                </div>
+
+                <hr>
+                <a href="calculator.js" class="btn btn-info" role="button">source code</a>
+                <hr>
+            </div>
+
+            <div class="col-md-8">
+                <div class="row calculator">
+                    <div class="rows">
+                        <input type="text" id="result_screen"> 
+                    </div>
+
+                    <div class="rows">
+                        <div class="button_operator" id="js_back">
+                            <span class="glyphicon glyphicon-arrow-left"></span>
+                        </div>
+                        <div class="button_operator" id="js_clear">C</div> 
+                        <div class="button_operator js_button" id="plus">+</div> 
+                    </div>
+
+                    <div class="rows">
+                        <div class="button_number js_button" id="seven">7</div>
+                        <div class="button_number js_button" id="eight">8</div>
+                        <div class="button_number js_button" id="nine">9</div>
+                        <div class="button_operator js_button" id="minus">-</div> 
+                    </div>
+
+                    <div class="rows">
+                        <div class="button_number js_button" id="four">4</div>
+                        <div class="button_number js_button" id="five">5</div>
+                        <div class="button_number js_button" id="six">6</div>
+                        <div class="button_operator js_button" id="divide">/</div> 
+                    </div>
+
+                    <div class="rows">
+                        <div class="button_number js_button" id="one">1</div>
+                        <div class="button_number js_button" id="two">2</div> 
+                        <div class="button_number js_button" id="three">3</div>
+                        <div class="button_operator js_button" id="multiply">*</div> 
+                    </div>
+
+                    <div class="rows">
+                        <div class="button_number js_button" id="zero">0</div>
+                        <div class="button_number js_button" id="dot">.</div>
+                        <div class="button_number js_button" id="openingBracket">(</div>
+                        <div class="button_number js_button" id="closingBracket">)</div>
+                    </div>
+
+                    <div class="rows">
+                        <div class="button_number js_button" id="equals">=</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p class="footer"> powered by Kate Prasolek &copy; 2015 </p>
+    </footer>
+
+</body>
+</html>
