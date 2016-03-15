@@ -3,14 +3,20 @@
     font-family: 'Lora', serif;
 }
 
+p a {
+    color: #021f40;
+}
+
 a:link {
     text-decoration: none;
+    color: #021f40;
 }
 
 p.powered-by, .navbar {
     text-align: center;
     font-size: 2vw;
-    color: #41403F;
+   
+
 }   
 
 p.quote {
@@ -27,7 +33,7 @@ p.quote {
 header {
     min-width: 100%;
     height: auto;
-    background-color: #002A55;
+    background-color: #021f40;
 }
 
 .name {
