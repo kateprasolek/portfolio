@@ -3,31 +3,31 @@
     font-family: 'Lora', serif;
 }
 
-p a {
+p {
     color: #021f40;
 }
-
-a:link {
-    text-decoration: none;
-    color: #021f40;
-}
-
-p.powered-by, .navbar {
-    text-align: center;
-    font-size: 2vw;
-   
-
-}   
 
 p.quote {
     text-align: center;
     font-size: 3vw;
-    color: #41403F;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .navbar, p.powered-by {
     font-weight: bold;
     font-style: italic;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.navbar-link {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #021f40;
 }
 
 header {
