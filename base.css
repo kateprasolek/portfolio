@@ -3,6 +3,10 @@
     font-family: 'Lora', serif;
 }
 
+/*div {
+    border: 1px solid red;
+}*/
+
 p {
     color: #021f40;
 }
@@ -12,15 +16,23 @@ p.quote {
     font-size: 3vw;
 }
 
+div.quote {
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
 a:link {
     text-decoration: none;
 }
 
-.navbar, p.powered-by {
+
+
+
+p.powered-by {
     font-weight: bold;
     font-style: italic;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .navbar-link {
@@ -28,6 +40,7 @@ a:link {
     font-style: italic;
     text-align: center;
     color: #021f40;
+    font-size: 2vw;
 }
 
 header {
@@ -47,6 +60,7 @@ header {
     font-size: 2vw;
     color: white;
     font-style: italic;
+    margin-left: 10%;
 }
 
 .header_text {
