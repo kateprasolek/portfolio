@@ -154,13 +154,9 @@ ul {
     background: transparent;
 }
 
-.border {
-    border: 1px solid black;
-}
-
-.button-margin {
+/*.button-margin {
     margin-top: 15%;
-}
+}*/
 
 select option:first-child {
     color: grey; display: none;
