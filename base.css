@@ -17,22 +17,12 @@ p.quote {
 }
 
 div.quote {
-    padding-top: 20%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 a:link {
     text-decoration: none;
-}
-
-
-
-
-p.powered-by {
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    font-size: 1.5vw;
 }
 
 .navbar-link {
@@ -97,25 +87,17 @@ header {
     float: right;
 }
 
-.gallery {
-    display: inline;
-}
 
-.gallery:hover {
- transform: scale(1.1, 1.1);
- -moz-transform: scale(1.1, 1.1);
--ms-transform: scale(1.1, 1.1);
--webkit-transform: scale(1.1, 1.1);
--o-transform: scale(1.1, 1.1);
-}
 
-ul {
-    list-style-type: none;
-}
+
 
 /*.bot {
     border: 1px solid red;
 }*/
+
+ul {
+    list-style-type: none;
+}
 
 .footer-icons ul li {
         float: left;
@@ -139,7 +121,7 @@ ul {
     background-color: #021f40;
 }
 
-.icon {
+.footer_icon {
     padding: 15%;
 }
 
@@ -152,14 +134,28 @@ ul {
     background: transparent;
 }
 
-/*.button-margin {
-    margin-top: 15%;
-}*/
+p.powered-by {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
 
 select option:first-child {
     color: grey; display: none;
 }
 
 
+.contact_content {
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
 
+.contact_icon {
+    max-width: 50%;
+    max-height: 50%;
+}
 
