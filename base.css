@@ -32,7 +32,7 @@ p.powered-by {
     font-weight: bold;
     font-style: italic;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .navbar-link {
@@ -91,7 +91,7 @@ header {
     background-color: #021f40;
 }
 
-.bottom_divider {
+.header_bottom_divider {
     width: 60%;
     height: auto;
     float: right;
@@ -113,35 +113,33 @@ ul {
     list-style-type: none;
 }
 
+/*.bot {
+    border: 1px solid red;
+}*/
 
-.footer-bar {
-    margin: auto;
-    text-align: center;
-    margin-top: 10%;
-  }
+.footer-icons ul li {
+        float: left;
+        text-align: center;
+        width: 33%;
+        margin: auto;
+        padding: 0;
+      }
 
-.footer-bar ul li {
-    float: left;
-    text-align: center;
-    width: 33%;
-  }
-
-.footer-bar hr {
-    width: 33%;
-    height: .063rem;
-    margin: 3rem 1rem;
-    display: inline-block;
-  }
-
-.footer-bar ul {
+.footer-icons ul {
     text-align: center;
     display: inline-block;
     margin: auto;
     padding: 0;
 }
 
+.footer_blue_line {
+    width: 100%;
+    height: 0.20vw;
+    margin-top: 15%;
+    background-color: #021f40;
+}
+
 .icon {
-    display: inline;
     padding: 15%;
 }
 
