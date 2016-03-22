@@ -28,43 +28,55 @@
 
 <body role="document">
 
+
 <!-- header-->
     <a href="home.html">
         <header>
+            <div class="container header_line_white_thick"></div>
+            <div class="container header_line_blue_thin"></div>
+            <div class="container header_line_white_thin"></div>
+
             <div class="container header_text">
-                <p class="desciption">contact</p>
-                <p class="name">Kate Prasolek</p>
+                <div class="col-md-12">
+                    <p class="desciption">contact</p>
+                    <p class="name">Kate Prasolek</p>
+                </div>
+            </div>
+
+            <div class="container header_bottom_divider">
+                <div class="header_line_white_thick"></div>
+                <div class="header_line_blue_thick"></div>
+                <div class="container header_line_white_thin"></div>
+                <div class="container header_line_blue_thin"></div> 
             </div>
         </header>
     </a>
- 
+
 <!-- navigation bar-->
-    <div class="nav">
+    <div class="container">
         <ul class="pull-right nav nav-pills">
-            <p class="navbar-text">
-                <a href="home.html" class="navbar-link">Home</a>
-            </p>
-            <p class="navbar-text">
-                <a href="skills.html" class="navbar-link">Skills</a>
-            </p>
-            <p class="navbar-text">
-                <a href="portfolio.html" class="navbar-link">Portfolio</a>
-            </p>
+            <li class="navbar-text">
+                <a href="skills.html" class="text">skills</a>
+            </li>
+            <li class="navbar-text">
+                <a href="portfolio.html" class="text">portfolio</a>
+            </li>
+            <li class="navbar-text">
+                <a href="contact.html" class="text">contact</a>
+            </li>
         </ul>
     </div>
 
-
 <!-- main content-->
-    <div class="container contact_content" role="main">
-     
-     <!-- left column -->
-        <div class="col-sm-6 bot">
-            <div class="row bot">
+    <div class="container contact_form_top" role="main">
+    <!-- left column -->
+        <div class="col-sm-offset-1 col-sm-4">
+            <div class="row">
                 <img class="img-responsive contact_icon" src="icons/icon_social_phone.png" alt="facebook">
                 <p>07479929600</p>
             </div>
 
-            <div class="row bot">
+            <div class="row">
                 <img class="img-responsive contact_icon" src="icons/icon_social_email.png" alt="facebook">
                 <p>kate.prasolek@gmail.com</p>
             </div>
@@ -76,13 +88,13 @@
 
             <div class="row">
                 <img class="img-responsive contact_icon" src="icons/icon_social_behance.png" alt="facebook">
-                <a href="https://www.behance.com/artekatie">Follow me on Behance</a>
+                <a href="https://www.behance.net/artekatie">Follow me on Behance</a>
             </div>
         </div>
 
     <!-- right column -->
-        <div class="col-sm-6 bot">
-            <div class="row bot">
+        <div class="col-sm-offset-2 col-sm-4">
+            <div class="row">
                 <img class="img-responsive contact_icon" src="icons/icon_social_facebook.png" alt="facebook">
                 <a href="https://www.facebook.com/artekatie">Like me on Facebook</a>
             </div>
@@ -102,56 +114,57 @@
                 <a href="https://www.instagram.com/artekatie">Follow me on Instagram</a>
             </div>
         </div>
+    </div>
 
-        <div class="col-md-12">
+    <div class="container contact_form_bottom">
+        <div class="col-md-12 contact_form">
+            <p class="text">Or, if you prefer to save some of your time, use the contact form below:</p>
             <div class="row">
-                                <div class="col-sm-offset-2 col-md-8 col-sm-offset-2">
-                                    <div class="well well-sm">
-                                        <form class="form-horizontal" method="post">
-                                            <fieldset>
-                                                <div class="form-group">
-                                                    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
-                                                        <input id="name" name="name" type="text" placeholder="Name" class="form-control">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
-                                                        <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
-                                                        <select class="form-control" id="sel1">
-                                                            <option value="" disabled selected hidden class="choose-subject">Choose the subject</option>
-                                                            <option>Calculator</option>
-                                                            <option>Chess Knight Case</option>
-                                                            <option>arteKatie</option>
-                                                            <option>To Do List</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
-                                                        <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="7"></textarea>
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <div class="col-md-12 text-center">
-                                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                                    </div>
-                                                </div>
-                                            </fieldset>
-                                        </form>
+                <div class="col-sm-offset-2 col-md-8 col-sm-offset-2">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
+                                        <input id="name" name="name" type="text" placeholder="Name" class="form-control">
                                     </div>
                                 </div>
-                            </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
+                                        <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
+                                        <select class="form-control" id="sel1">
+                                            <option value="" disabled selected hidden class="choose-subject">Choose the subject</option>
+                                            <option>Calculator</option>
+                                            <option>Chess Knight Case</option>
+                                            <option>arteKatie</option>
+                                            <option>To Do List</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="7"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
     </div>
 
 <!-- footer-->
