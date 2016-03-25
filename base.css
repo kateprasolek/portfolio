@@ -3,9 +3,9 @@
     font-family: 'Lora', serif;
 }
 
-/*div {
+div {
     border: 1px solid red;
-}*/
+}
 
 p {
     color: #021f40;
@@ -103,7 +103,7 @@ ul {
 .footer-icons ul li {
         float: left;
         text-align: center;
-        width: 33%;
+        width: 25%;
         margin: auto;
         padding: 0;
       }
