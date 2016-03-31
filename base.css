@@ -53,11 +53,12 @@ header {
     font-size: 2vw;
     color: white;
     font-style: italic;
-    margin-left: 10%;
+    margin-left: 13%;
 }
 
 .header_text {
     padding-top: 2%;
+    margin-left: 10%;
 }
 
 .header_line_white_thick {
@@ -90,9 +91,9 @@ header {
     float: right;
 }
 
-/*.bot {
+.bot {
     border: 1px solid red;
-}*/
+}
 
 /*footer*/
 .footer_main {
