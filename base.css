@@ -12,6 +12,7 @@ p {
     text-align: center;
 }
 
+/*home page*/
 p.quote {
     text-align: center;
     font-size: 3vw;
@@ -34,6 +35,7 @@ a:link {
     font-size: 1.5vw;
 }
 
+/*header*/
 header {
     min-width: 100%;
     height: auto;
@@ -82,31 +84,42 @@ header {
     background-color: #021f40;
 }
 
-.header_bottom_divider {
+.header_double_line_divider {
     width: 60%;
     height: auto;
     float: right;
 }
 
-
-
-
-
 /*.bot {
     border: 1px solid red;
 }*/
+
+/*footer*/
+.footer_main {
+    min-width: 100%;
+    height: auto;
+    background-color: #021f40;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+}
 
 ul {
     list-style-type: none;
 }
 
 .footer-icons ul li {
-        float: left;
-        text-align: center;
-        width: 25%;
-        margin: auto;
-        padding: 0;
-      }
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    padding: 0;
+  }
 
 .footer-icons ul {
     text-align: center;
@@ -115,10 +128,10 @@ ul {
     padding: 0;
 }
 
-.footer_blue_line {
+.social_blue_line {
     width: 100%;
-    height: 0.20vw;
-    margin-top: 15%;
+    height: 0.10vw;
+    margin-top: 4%;
     background-color: #021f40;
 }
 
@@ -135,28 +148,16 @@ ul {
     background: transparent;
 }
 
-p.powered-by {
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    font-size: 1.5vw;
-}
-
-
 select option:first-child {
     color: grey; display: none;
 }
 
-<!-- contact page -->
+/*contact page*/
 .contact_content {
     text-align: center;
     font-size: 1.5vw;
     padding-top: 15%;
     padding-bottom: 15%;
-}
-
-.contact_icon {
-    
 }
 
 .contact_form_top {
@@ -168,7 +169,6 @@ select option:first-child {
     margin-top: 5%;
     margin-bottom: 15%;
 }
-
 
 .top_menu {
     margin-top: 15%;
