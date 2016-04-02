@@ -7,6 +7,10 @@
     border: 1px solid red;
 }*/
 
+.green {
+    border: 1px solid green;
+}
+
 p {
     color: #021f40;
     text-align: center;
@@ -33,6 +37,7 @@ a:link {
     text-align: center;
     color: #021f40;
     font-size: 1.5vw;
+    font-family: 'Petit Formal Script', cursive;
 }
 
 /*header*/
@@ -53,12 +58,19 @@ header {
     font-size: 2vw;
     color: white;
     font-style: italic;
-    margin-left: 13%;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.header_text_padding {
+    padding-top: 8%;
 }
 
 .header_text {
-    padding-top: 2%;
-    margin-left: 10%;
+}
+
+.header_photo {
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .header_line_white_thick {
@@ -91,9 +103,6 @@ header {
     float: right;
 }
 
-.bot {
-    border: 1px solid red;
-}
 
 /*footer*/
 .footer_main {
