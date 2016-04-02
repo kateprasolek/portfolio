@@ -171,7 +171,20 @@ select option:first-child {
     margin-bottom: 15%;
 }
 
-.top_menu {
+.contact_text {
+    text-align: left;
+    font-size: 1.5vw;
+    margin-bottom: 10%;
+    display: inline-block;
+}
+
+.contact_icon {
+  
+    padding: 5%;
+}
+
+/*portfolio page*/
+.portfolio_top_menu {
     margin-top: 15%;
     text-transform: uppercase;
     font-weight: bold;
