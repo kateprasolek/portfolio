@@ -188,7 +188,6 @@ select option:first-child {
 }
 
 .contact_icon {
-  
     padding: 5%;
 }
 
@@ -201,4 +200,20 @@ select option:first-child {
 
 .portfolio_img {
     margin: 2%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.portfolio_padding {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.portfolio_padding_bottom {
+    padding-bottom: 15%;
+}
+
+.portfolio_text {
+    padding-bottom: 5%;
+    font-size: 1vw;
 }
