@@ -215,7 +215,7 @@ select option:first-child {
 .contact_plain_text {
     color: #021f40;
     font-size: 1vw;
-    text-align: justify
+    text-align: justify;
 }
 
 
@@ -245,6 +245,25 @@ select option:first-child {
 .skills_part {
     margin-bottom: 3%;
     margin-top: 3%;
+}
+
+.skill_plain_text {
+    color: #021f40;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-left: 5%;
+}
+.skill_plain_text1 {
+    color: #021f40;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.skill_icon {
+    padding: 2%;
+    width: 10%;
+    float: left;
 }
 
 .border_bottom {
