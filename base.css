@@ -31,13 +31,25 @@ a:link {
     text-decoration: none;
 }
 
-.text {
+.extra_text {
     font-weight: bold;
     font-style: italic;
     text-align: center;
     color: #021f40;
     font-size: 1.5vw;
     font-family: 'Petit Formal Script', cursive;
+}
+
+.plain_text {
+    text-align: center;
+    color: #021f40;
+    font-size: 1.5vw;
+}
+
+
+.portfolio_text {
+    padding-bottom: 5%;
+    font-size: 1vw;
 }
 
 /*header*/
@@ -180,6 +192,10 @@ select option:first-child {
     margin-bottom: 15%;
 }
 
+.contact_icon {
+    padding: 5%;
+}
+
 .contact_text {
     text-align: left;
     font-size: 1.5vw;
@@ -187,9 +203,22 @@ select option:first-child {
     display: inline-block;
 }
 
-.contact_icon {
-    padding: 5%;
+.contact_extra_text {
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    color: #021f40;
+    font-size: 1.5vw;
+    font-family: 'Petit Formal Script', cursive;
 }
+
+.contact_plain_text {
+    color: #021f40;
+    font-size: 1vw;
+    text-align: justify
+}
+
+
 
 /*portfolio page*/
 .portfolio_top_menu {
@@ -213,7 +242,11 @@ select option:first-child {
     padding-bottom: 15%;
 }
 
-.portfolio_text {
-    padding-bottom: 5%;
-    font-size: 1vw;
+.skills_part {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #021f40;
 }
