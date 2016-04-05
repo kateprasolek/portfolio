@@ -30,7 +30,7 @@
 <body role="document">
 <!-- header-->
     <a href="home.html">
-        <header>
+        <header id="top">
             <div class="header_line_white_thick"></div>
             <div class="header_line_blue_thin"></div>
             <div class="header_line_white_thin"></div>
@@ -79,28 +79,38 @@
 
 <!-- main content-->
     <div class="container" role="main">
-        <!-- Main portfolio menu -->
+    <!-- Main portfolio menu -->
         <div class="container">
             <div class="btn-group btn-group-justified portfolio_top_menu" role="group" aria-label="...">
-                  <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default extra_text">web design</button>
-                  </div>
+                <div class="btn-group" role="group">
+                    <a href="#section_webdesign">
+                        <button type="button" class="btn btn-default extra_text" id="menu_webdesign">web design</button>
+                    </a>
+                </div>
 
-                  <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default extra_text">print</button>
-                  </div>
+                <div class="btn-group" role="group">
+                    <a href="#section_print">
+                        <button type="button" class="btn btn-default extra_text" id="menu_print">print</button>
+                    </a>
+                </div>
 
-                  <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default extra_text">logo</button>
-                  </div>
+                <div class="btn-group" role="group">
+                    <a href="#section_logo">
+                        <button type="button" class="btn btn-default extra_text" id="menu_logo">logo</button>  
+                    </a>
+                </div>
 
-                  <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default extra_text">digital</button>
-                  </div>
+                <div class="btn-group" role="group">
+                    <a href="#section_digital">
+                        <button type="button" class="btn btn-default extra_text" id="menu_digital">digital</button>    
+                    </a>
+                </div>
 
-                  <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default extra_text">web apps</button>
-                  </div>
+                <div class="btn-group" role="group">
+                    <a href="#section_webapps">
+                        <button type="button" class="btn btn-default extra_text" id="menu_webapps">web apps</button>    
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -108,9 +118,8 @@
             <hr>
         </div>
 
-
-        <!-- Web design -->
-        <div class="container">
+    <!-- Web design -->
+        <div class="container" id="section_webdesign">
             <div class="row portfolio_padding">
                 <div class="col-sm-5">
                     <div class="container social_blue_line"></div>
@@ -125,11 +134,26 @@
                 </div>
             </div>
 
-            <div class="container"></div>
+            <div class="container">
+                <div class="row plain_text">
+                    <div class="col-sm-6">
+                        <p>my web portfolio page design</p>
+                        <a href="images/web_portfolio.pdf">
+                           <img src="images/web_portfolio1.png" class="img-responsive portfolio_img img-thumbnail" alt="portfolio design"> 
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6">
+                        <p>currently working at my cards website</p>
+                        <img src="images/coming_soon.png" class="img-responsive portfolio_img img-thumbnail" alt="coming soon">
+                    </div> 
+                </div>
+            </div>
         </div>
 
-        <!-- Logo Design -->
-        <div class="container">
+    <!-- Logo Design -->
+        <div class="container" id="section_logo">
             <div class="row portfolio_padding">
                 <div class="col-sm-5">
                     <div class="container social_blue_line"></div>
@@ -143,8 +167,7 @@
             </div>
 
             <div class="row plain_text">
-                <p> I have created the very first logo for myself to give a new, shiny look to my card fanpage - arteKatie.</p>
-                <p> Now I am more than happy to help others get more professional.</p>
+                <p> I have created the very first logo for myself to give a new, shiny look to my card fanpage. Now I am more than happy to help others get more professional.</p>
             </div>
 
             <div class="row">
@@ -176,8 +199,8 @@
             </div>
         </div>
 
-        <!-- Print design -->
-        <div class="container">
+    <!-- Print design -->
+        <div class="container" id="section_print">
             <div class="row portfolio_padding">
                 <div class="col-sm-5">
                     <div class="container social_blue_line"></div>
@@ -191,26 +214,32 @@
             </div>
 
             <div class="row plain_text">
-                <p>Need is the mother or invention, right?</p>
-                <p>I designed my daily planner for personal use and brochure about my artwork to spread it around.</p> 
-                <p>And because I keep records of my meals and it was annoying to have notes written everywhere I decided to design a template I can print and use every day. I use this idea to create also a recipe pages for a handmade cooking book.</p>  
+                <p>I designed planner and food page for my personal use.</p> 
+                <p>Offer brochure was created to spread a word about my card passion around.</p>
+                <p>Click the photo to see them.</p>  
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="images/print_brochure1.png" class="img-responsive portfolio_img img-thumbnail" alt="brochure">
+                    <a href="images/print_brochure.pdf">
+                        <img src="images/print_brochure1.png" class="img-responsive portfolio_img img-thumbnail" alt="brochure">
+                    </a>
                 </div>
 
                 <div class="col-sm-4">
-                    <img src="images/print_cookbook1.png" class="img-responsive portfolio_img img-thumbnail" alt="cookbook">
+                    <a href="images/print_cookbook.pdf">
+                        <img src="images/print_cookbook1.png" class="img-responsive portfolio_img img-thumbnail" alt="cookbook">
+                    </a>
                 </div>
 
                 <div class="col-sm-4">
-                    <img src="images/print_planner1.png" class="img-responsive portfolio_img img-thumbnail" alt="planner1">
+                    <a href="images/print_planner.pdf">
+                        <img src="images/print_planner1.png" class="img-responsive portfolio_img img-thumbnail" alt="planner1">
+                    </a>
                 </div>
             </div>
 
-            <div class="row portfolio_padding portfolio_extra_text">
+            <div class="row portfolio_padding plain_text">
                 <p>Digital images, when printed, gives a nice, personalised touch to my cards. I use to buy them, but as they did not cover my needs I decided to learn how to do them. Now I help others and it is great!</p>
             </div>
 
@@ -243,8 +272,8 @@
             </div>
         </div>
        
-        <!-- Digital Design -->
-        <div class="container">
+    <!-- Digital Design -->
+        <div class="container" id="section_digital">
             <div class="row portfolio_padding">
                 <div class="col-sm-5">
                     <div class="container social_blue_line"></div>
@@ -258,9 +287,8 @@
             </div>
 
             <div class="row plain_text">
-                <p> As a administrator in a crafts group I design backgrounds, contest info and diploma for winning a crafty competitions I organise. </p>
-                <p>I do also flyers, posters and marketing materials for my card fanpage.</p>
-                <p> Can not wait to take part in a big projects!</p>
+                <p> As a creative administrator in a craft group I design backgrounds, contest info and diploma for winners. I do also flyers, posters and marketing materials. </p>
+                <p>Can not wait to take part in a big projects!</p>
             </div>
 
             <div class="row">
@@ -284,20 +312,16 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-2">
-                    <img class="img-responsive" src="icons/icon_social_behance.png" alt="behance">
-                </div>
-
-                <div class="col-sm-10 portfolio_extra_text">
-                    <p class="contact_extra_text">Find more of my digital and print projects on 
+                <div class="col-sm-offset-2 col-sm-8">
+                    <p class="extra_text">Find more of my digital and print projects on 
                        <a href="https://www.behance.net/artekatie">Behance</a> 
                     </p>
                 </div>                
             </div>
         </div>
       
-        <!-- Web Apps-->
-        <div class="container">
+    <!-- Web Apps-->
+        <div class="container portfolio_padding_bottom" id="section_webapps">
             <div class="row portfolio_padding">
                 <div class="col-sm-5">
                     <div class="container social_blue_line"></div>
@@ -310,12 +334,12 @@
                 </div>
             </div>
 
-            <div class="row portfolio_extra_text">
+            <div class="row plain_text">
                 <p>While learning javascript I have created the calculator.</p>
                 <p>It does complicated equations with brackets and definitely try it using keyboard!</p>
             </div>
 
-            <div class="row portfolio_padding_bottom">
+            <div class="row">
                 <div class="col-sm-offset-3 col-sm-6">
                     <a href="calculator.html">
                         <img src="images/calculator.png" class="img-responsive img-thumbnail" alt="calculator">
@@ -324,19 +348,27 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-2">
-                    <img class="img-responsive" src="icons/icon_social_behance.png" alt="behance">
-                </div>
-
-                <div class="col-sm-10 plain_text">
-                    <p class="contact_extra_text">See my code practice on 
-                       <a href="https://www.behance.net/artekatie">Github</a> 
+                <div class="col-sm-offset-3 col-sm-6">
+                    <p class="extra_text">See my code practice on 
+                       <a href="https://github.com/artekatie">Github</a> 
                     </p>
-                </div>                
+                </div>          
             </div>
-
         </div>
     </div>
+
+    <!-- to the top-->
+    <div class="container">
+        <div class="row">
+                <a href="#top">
+                    <img class="img-responsive pull-left" src="icons/icon_arrow_up.png" alt="top">
+                </a>
+                <a href="#top">
+                    <img class="img-responsive pull-right" src="icons/icon_arrow_up.png" alt="top">
+                </a>
+        </div>
+    </div>
+            
 
 <!-- footer-->
     <footer>
