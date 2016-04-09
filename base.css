@@ -18,7 +18,7 @@ p {
     font-style: italic;
     text-align: center;
     color: #021f40;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-family: 'Petit Formal Script', cursive;
 }
 
@@ -115,6 +115,12 @@ header {
     width: 60%;
     height: auto;
     float: right;
+}
+
+.header_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 
