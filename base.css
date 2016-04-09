@@ -33,10 +33,6 @@ p.quote {
     font-size: 3vw;
 }
 
-div {
-    border: 1px solid green;
-}
-
 div.quote {
     padding-top: 15%;
     padding-bottom: 15%;
