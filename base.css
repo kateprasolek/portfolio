@@ -7,28 +7,9 @@
     border: 1px solid red;
 }*/
 
-.green {
-    border: 1px solid green;
-}
-
 p {
     color: #021f40;
     text-align: center;
-}
-
-/*home page*/
-p.quote {
-    text-align: center;
-    font-size: 3vw;
-}
-
-div.quote {
-    padding-top: 15%;
-    padding-bottom: 15%;
-}
-
-a:link {
-    text-decoration: none;
 }
 
 .extra_text {
@@ -46,6 +27,24 @@ a:link {
     font-size: 1.5vw;
 }
 
+/*home page*/
+p.quote {
+    text-align: center;
+    font-size: 3vw;
+}
+
+div {
+    border: 1px solid green;
+}
+
+div.quote {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+a:link {
+    text-decoration: none;
+}
 
 .portfolio_text {
     padding-bottom: 5%;
@@ -62,12 +61,12 @@ header {
 .name {
     font-weight: bold;
     color: white;
-    font-size: 6vw;
+    font-size: 4vw;
     text-transform: uppercase;
 }
 
 .desciption {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: white;
     font-style: italic;
     font-family: 'Petit Formal Script', cursive;
@@ -260,116 +259,115 @@ select option:first-child {
     }
 
 /*calculator page*/
-
-.calculator {
-    max-width: 80%;
-    border-radius: 12px;
-    padding: 4%;
-    background-color: #b3c9d6;
-    box-shadow: 0px 5px #41403F;
-    font-weight: bold;
-    border: 1px solid black;
-}
-
-#result_screen {
-    background-color: #f0d9b5;
-    width: 100%;
-    height: 100%;
-    float: left;
-    border: 1px solid black;
-    background: linear-gradient(#b3c9d6, #ffffff);
-    border-radius: 8px;
-    box-shadow: 0px 1px #41403F;
-    text-align: right;
-    margin-top: 3px;
-    overflow: auto visible;
-    font-size: 2vw;
-}
-
-#js_back {
-    width: 23%;
-}
-
-#js_clear {
-    width: 48%;
-}
-
-#equals {
-    width: 98%;
-}
-
-.button_number, .button_operator {
-    border-radius: 10px;
-    font-size: 2vw;
-    text-align: center;
-    box-shadow: 0px 4px #41403F;
-    -webkit-user-select: none;
-    transition: all 0.30s ease;
-    margin: 1%;
-    float: left;
-    width: 23%;
-    height: 100%;
-    cursor: pointer;
-}
-
-/* navy-grey design */
-.button_number {
-    background: linear-gradient(#f0d9b5, #b58863);
-}
-
-.button_operator {
-    background: linear-gradient(#376273, #8ea8b9);
-}
-
-div.button_number:hover{
-    background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
-    background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
-}
-
-div.button_number:active {
-    -webkit-box-shadow: 0px 2px 0px #41403F;
-    -moz-box-shadow: 0px 2px 0px #41403F;
-    box-shadow: 0px 2px 0px #41403F;
-    position: relative;
-    top: 5px;
-    cursor: pointer;
-}
-
-div.button_operator:hover{
-    background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
-    background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
-}
-
-div.button_operator:active {
-    -webkit-box-shadow: 0px 2px 0px #41403F;
-    -moz-box-shadow: 0px 2px 0px #41403F;
-    box-shadow: 0px 2px 0px #41403F;
-    position: relative;
-    top: 5px;
-    cursor: pointer;
-} 
-
-.calculator_icon {
-    display: inline;
-    padding: 2%;
-    text-align: center;
-}
-
-.calculator_icon:hover {
-    transform: scale(1.5, 1.5);
-    -moz-transform: scale(1.5, 1.5);
-    -ms-transform: scale(1.5, 1.5);
-    -webkit-transform: scale(1.5, 1.5);
-    -o-transform: scale(1.5, 1.5);
-    background: transparent;
+    .calculator {
+        max-width: 80%;
+        border-radius: 12px;
+        padding: 4%;
+        background-color: #b3c9d6;
+        box-shadow: 0px 5px #41403F;
+        font-weight: bold;
+        border: 1px solid black;
     }
 
-.calculator > div {
-    display: inline;
-}
+    #result_screen {
+        background-color: #f0d9b5;
+        width: 100%;
+        height: 100%;
+        float: left;
+        border: 1px solid black;
+        background: linear-gradient(#b3c9d6, #ffffff);
+        border-radius: 8px;
+        box-shadow: 0px 1px #41403F;
+        text-align: right;
+        margin-top: 3px;
+        overflow: auto visible;
+        font-size: 2vw;
+    }
 
-.technologyUsed {
-    padding-top: 10%;
-}
+    #js_back {
+        width: 23%;
+    }
+
+    #js_clear {
+        width: 48%;
+    }
+
+    #equals {
+        width: 98%;
+    }
+
+    .button_number, .button_operator {
+        border-radius: 10px;
+        font-size: 2vw;
+        text-align: center;
+        box-shadow: 0px 4px #41403F;
+        -webkit-user-select: none;
+        transition: all 0.30s ease;
+        margin: 1%;
+        float: left;
+        width: 23%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    /* navy-grey design */
+    .button_number {
+        background: linear-gradient(#f0d9b5, #b58863);
+    }
+
+    .button_operator {
+        background: linear-gradient(#376273, #8ea8b9);
+    }
+
+    div.button_number:hover{
+        background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
+        background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
+    }
+
+    div.button_number:active {
+        -webkit-box-shadow: 0px 2px 0px #41403F;
+        -moz-box-shadow: 0px 2px 0px #41403F;
+        box-shadow: 0px 2px 0px #41403F;
+        position: relative;
+        top: 5px;
+        cursor: pointer;
+    }
+
+    div.button_operator:hover{
+        background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
+        background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
+    }
+
+    div.button_operator:active {
+        -webkit-box-shadow: 0px 2px 0px #41403F;
+        -moz-box-shadow: 0px 2px 0px #41403F;
+        box-shadow: 0px 2px 0px #41403F;
+        position: relative;
+        top: 5px;
+        cursor: pointer;
+    } 
+
+    .calculator_icon {
+        display: inline;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .calculator_icon:hover {
+        transform: scale(1.5, 1.5);
+        -moz-transform: scale(1.5, 1.5);
+        -ms-transform: scale(1.5, 1.5);
+        -webkit-transform: scale(1.5, 1.5);
+        -o-transform: scale(1.5, 1.5);
+        background: transparent;
+        }
+
+    .calculator > div {
+        display: inline;
+    }
+
+    .technologyUsed {
+        padding-top: 10%;
+    }
