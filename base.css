@@ -10,6 +10,7 @@
 p {
     color: #021f40;
     text-align: center;
+    font-size: 1.125rem;
 }
 
 .extra_text {
@@ -17,21 +18,33 @@ p {
     font-style: italic;
     text-align: center;
     color: #021f40;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Petit Formal Script', cursive;
 }
 
 .plain_text {
     text-align: center;
     color: #021f40;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 /*home page*/
-p.quote {
+h1.quote {
     text-align: center;
-    font-size: 3vw;
+    color: #021f40;
 }
+
+/*h1.quote {
+    text-align: center;
+    font-size: 3rem;
+}*/
+
+/*font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 22px;
+    line-height: 1.375rem;
+    margin: 0 auto;
+    padding: 20px 0 0 0*/
 
 div.quote {
     padding-top: 15%;
@@ -44,7 +57,7 @@ a:link {
 
 .portfolio_text {
     padding-bottom: 5%;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 /*header*/
@@ -57,50 +70,44 @@ header {
 .name {
     font-weight: bold;
     color: white;
-    font-size: 4vw;
+    font-size: 6rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .desciption {
-    font-size: 1.5vw;
+    font-size: 2.5rem;
     color: white;
     font-style: italic;
     font-family: 'Petit Formal Script', cursive;
+    text-align: center;
 }
 
 .header_text_padding {
-    padding-top: 8%;
-}
-
-.header_text {
-}
-
-.header_photo {
-    max-width: 80%;
-    max-height: 80%;
+     padding-top: 7.5%;
 }
 
 .header_line_white_thick {
     width: 100%;
-    height: 1vw;
+    height: 1rem;
     background-color: white;
 }
 
 .header_line_white_thin {
     width: 100%;
-    height: 0.50vw;
+    height: 0.50rem;
     background-color: white;
 }
 
 .header_line_blue_thin {
     width: 100%;
-    height: 0.10vw;
+    height: 0.10rem;
     background-color: #021f40;
 }
 
 .header_line_blue_thick {
     width: 100%;
-    height: 0.30vw;
+    height: 0.30rem;
     background-color: #021f40;
 }
 
@@ -122,7 +129,7 @@ header {
 
 footer p {
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.125rem;
     color: white;
 }
 
@@ -147,7 +154,7 @@ ul {
 
 .social_blue_line {
     width: 100%;
-    height: 0.10vw;
+    height: 0.10rem;
     margin-top: 4%;
     background-color: #021f40;
 }
@@ -172,7 +179,7 @@ select option:first-child {
 /*contact page*/
     .contact_content {
         text-align: center;
-        font-size: 1.5vw;
+        font-size: 1.5rem;
         padding-top: 15%;
         padding-bottom: 15%;
     }
@@ -188,7 +195,7 @@ select option:first-child {
 
     .contact_text {
         text-align: left;
-        font-size: 1.5vw;
+        font-size: 1.5rem;
         margin-bottom: 10%;
         display: inline-block;
     }
@@ -198,13 +205,13 @@ select option:first-child {
         font-style: italic;
         text-align: justify;
         color: #021f40;
-        font-size: 1.5vw;
+        font-size: 1.5rem;
         font-family: 'Petit Formal Script', cursive;
     }
 
     .contact_plain_text {
         color: #021f40;
-        font-size: 1vw;
+        font-size: 1rem;
         text-align: justify;
     }
 
@@ -239,7 +246,7 @@ select option:first-child {
 
     .skill_plain_text {
         color: #021f40;
-        font-size: 1.2vw;
+        font-size: 1.2rem;
         text-align: justify;
         margin-left: 5%;
     }
@@ -277,7 +284,7 @@ select option:first-child {
         text-align: right;
         margin-top: 3px;
         overflow: auto visible;
-        font-size: 2vw;
+        font-size: 2rem;
     }
 
     #js_back {
@@ -294,7 +301,7 @@ select option:first-child {
 
     .button_number, .button_operator {
         border-radius: 10px;
-        font-size: 2vw;
+        font-size: 2rem;
         text-align: center;
         box-shadow: 0px 4px #41403F;
         -webkit-user-select: none;
