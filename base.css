@@ -4,6 +4,10 @@
         font-family: 'Lora', serif;    
     }
 
+    /*div {
+        border: 1px solid green;
+    }*/
+
     .plain_text {
         text-align: center;
         color: #021f40;
@@ -67,6 +71,14 @@
         color: white;
         font-style: italic;
         font-family: 'Petit Formal Script', cursive;
+        text-align: center;
+    }
+
+    .name2 {
+        font-weight: bold;
+        color: #021f40;
+        font-size: 3rem;
+        text-transform: uppercase;
         text-align: center;
     }
 
@@ -226,6 +238,7 @@ a:link {
         margin: 2%;
         max-height: 100%;
         max-width: 100%;
+        float: left;
     }
 
     .portfolio_padding {
