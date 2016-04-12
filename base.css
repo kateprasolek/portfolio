@@ -66,6 +66,7 @@
         font-size: 5rem;
         text-transform: uppercase;
         text-align: center;
+        position: relative;
     }
 
     .desciption {
@@ -115,20 +116,20 @@
     }*/
 
 /*home page*/
-.quote {
-   text-align: center;
-   color: #021f40;
-   font-size: 4rem;
-}
+    .quote {
+       text-align: center;
+       color: #021f40;
+       font-size: 4rem;
+    }
 
-div.quote {
-    padding-top: 15%;
-    padding-bottom: 15%;
-}
+    div.quote {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
 
-a:link {
-    text-decoration: none;
-}
+    a:link {
+        text-decoration: none;
+    }
 
 /*header*/
     header {
@@ -138,7 +139,7 @@ a:link {
     }
 
     .header_text_padding {
-         padding-top: 1em;
+         padding-top: 1.5em;
     }
 
     .header_line_white_thick {
@@ -197,7 +198,7 @@ a:link {
         list-style-type: none;
     }
 
-    .footer-icons ul li {
+    .footer_icons_bar ul li {
         float: left;
         text-align: center;
         width: 25%;
@@ -205,7 +206,7 @@ a:link {
         padding: 0;
       }
 
-    .footer-icons ul {
+    .footer_icons_bar ul {
         text-align: center;
         display: inline-block;
         margin: auto;
@@ -217,6 +218,10 @@ a:link {
         height: 0.10rem;
         margin-top: 4%;
         background-color: #021f40;
+    }
+
+    .social_bar {
+        margin-top: 5%;
     }
 
     .footer_icon {
@@ -255,10 +260,8 @@ a:link {
     }
 
     .portfolio_img {
-        margin: 2%;
-        max-height: 100%;
-        max-width: 100%;
-        float: left;
+        margin: 1em;
+       
     }
 
     .portfolio_padding {
@@ -267,12 +270,12 @@ a:link {
     }
 
     .portfolio_padding_bottom {
-        padding-bottom: 15%;
+        padding-bottom: 7em;
     }
 
 /*skills page*/
     .skills_part {
-        margin-top: 5%;
+        margin-top: 3em;
     }
 
     .skill_icon {
