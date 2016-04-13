@@ -102,21 +102,6 @@
         text-decoration: underline; 
     }
 
-
-
-    /*font-size: 1.125rem;
-    font-weight: 300;
-    line-height: 22px;
-    line-height: 1.375rem;
-    margin: 0 auto;
-    padding: 20px 0 0 0*/
-
-
-    /*.portfolio_text {
-        padding-bottom: 5%;
-        font-size: 1rem;
-    }*/
-
 /*home page*/
     .quote {
        text-align: center;
@@ -199,8 +184,8 @@
     }
 
 
-/*media queries mobile up to 550px*/
-    @media screen and (max-width:500px) {
+/*media queries mobile up to 520px*/
+    @media screen and (max-width:520px) {
         ul.nav_menu li:not(:first-child) {
             display: none;
         }
@@ -223,10 +208,6 @@
         ul.nav_menu.responsive li a {
             display: block;
         }
-
-        /*.header_photo {
-            width: 40%;
-        }*/
         .header_text_padding {
             padding-top: 1em;
         }
@@ -238,19 +219,13 @@
         }
     }
 
-/*media queries tablets 550-770px*/
-    @media screen and (min-width:500px) and (max-width:770px) {
-        /*.header_photo {
-            width: 40%;
-        }*/
-       /* .header_text_padding {
-            padding-top: 0.6em;
-        }*/
+/*media queries tablets 520-770px*/
+    @media screen and (min-width:520px) and (max-width:770px) {
         .quote, .name {
-            font-size: 3.25rem;
+            font-size: 4rem;
         }
         .description {
-            font-size: 1.8rem;
+            font-size: 2rem;
         }
     }
 
