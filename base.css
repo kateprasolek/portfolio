@@ -297,8 +297,8 @@ ul.nav_menu li.icon {display: none;}
 
 /*contact page*/
     .contact_me {
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 6em;
+        margin-bottom: 8em;
     }
 
     img.contact_me li.contact_me {
