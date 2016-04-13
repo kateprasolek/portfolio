@@ -1,4 +1,5 @@
-    
+
+
 /*fonts*/
     * {
         font-family: 'Lora', serif;
@@ -69,7 +70,7 @@
         position: relative;
     }
 
-    .desciption {
+    .description {
         font-size: 2.5rem;
         color: white;
         font-style: italic;
@@ -178,6 +179,53 @@
         margin-right: auto
     }
 
+/*nav menu*/
+ul.nav_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+/* Style the links inside the list items */
+ul.nav_menu li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 2rem;
+}
+
+/* Hide the list item that contains the link that should open and close the nav_menu on small screens */
+ul.nav_menu li.icon {display: none;}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the nav_menu (li.icon) */
+@media screen and (max-width:680px) {
+  ul.nav_menu li:not(:first-child) {display: none;}
+  ul.nav_menu li.icon {
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the nav_menu with JavaScript when the user clicks on the icon. This class makes the nav_menu look good on small screens */
+@media screen and (max-width:680px) {
+  ul.nav_menu.responsive {position: relative;}
+  ul.nav_menu.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.nav_menu.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.nav_menu.responsive li a {
+    display: block;
+  }
+}
+
+  
 
 /*footer*/
     .footer_main {
