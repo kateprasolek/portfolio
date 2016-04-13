@@ -199,7 +199,7 @@
     }
 
 
-/*media queries*/
+/*media queries mobile up to 550px*/
     @media screen and (max-width:500px) {
         ul.nav_menu li:not(:first-child) {
             display: none;
@@ -224,17 +224,33 @@
             display: block;
         }
 
-        .header_photo {
+        /*.header_photo {
             width: 40%;
-        }
+        }*/
         .header_text_padding {
             padding-top: 0.6em;
         }
         .quote, .name {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         .description {
-            font-size: 1.25rem;
+            font-size: 1rem;
+        }
+    }
+
+/*media queries tablets 550-770px*/
+    @media screen and (max-width:770px) {
+        /*.header_photo {
+            width: 40%;
+        }*/
+       /* .header_text_padding {
+            padding-top: 0.6em;
+        }*/
+        .quote, .name {
+            font-size: 3.25rem;
+        }
+        .description {
+            font-size: 1.8rem;
         }
     }
 
