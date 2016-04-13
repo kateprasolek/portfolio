@@ -228,18 +228,18 @@
             width: 40%;
         }*/
         .header_text_padding {
-            padding-top: 0.6em;
+            padding-top: 1em;
         }
         .quote, .name {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
         .description {
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
     }
 
 /*media queries tablets 550-770px*/
-    @media screen and (max-width:770px) {
+    @media screen and (min-width:500px) and (max-width:770px) {
         /*.header_photo {
             width: 40%;
         }*/
