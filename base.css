@@ -208,9 +208,9 @@ ul.nav_menu li.icon {display: none;}
   ul.nav_menu li.icon {
     display: inline-block;
   }
- /* .header_photo {
+  .header_photo {
     display: none;
-  }*/
+  }
 }
 
 /* The "responsive" class is added to the nav_menu with JavaScript when the user clicks on the icon. This class makes the nav_menu look good on small screens */
