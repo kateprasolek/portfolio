@@ -52,6 +52,7 @@
         font-size: 2rem;
         margin-bottom: 10%;
         display: inline-block;
+        
     }
 
     .skill_plain_text {
@@ -207,6 +208,9 @@ ul.nav_menu li.icon {display: none;}
   ul.nav_menu li.icon {
     display: inline-block;
   }
+ /* .header_photo {
+    display: none;
+  }*/
 }
 
 /* The "responsive" class is added to the nav_menu with JavaScript when the user clicks on the icon. This class makes the nav_menu look good on small screens */
@@ -259,8 +263,6 @@ ul.nav_menu li.icon {display: none;}
       }
 
     .footer_icons_bar ul {
-        text-align: center;
-        display: inline-block;
         margin: auto;
         padding: 0;
     }
@@ -297,6 +299,10 @@ ul.nav_menu li.icon {display: none;}
     .contact_me {
         margin-top: 5%;
         margin-bottom: 5%;
+    }
+
+    img.contact_me li.contact_me {
+        vertical-align: middle;
     }
 
     .contact_icon {
