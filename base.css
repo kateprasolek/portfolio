@@ -3,6 +3,7 @@
 /*fonts*/
     * {
         font-family: 'Lora', serif;
+        line-height: 1.375;
         /*font-family: 'Playfair Display', serif;*/
     }
 
@@ -14,7 +15,7 @@
         text-align: center;
         color: #021f40;
         font-size: 1.75rem;
-        line-height: 1.5;
+        
     }
 
     .extra_text {
@@ -38,7 +39,7 @@
     .plain_text_left {
         color: #021f40;
         font-size: 1.75rem;
-        text-align: justify;
+        text-align: left;
     }
 
     footer p {
@@ -176,7 +177,7 @@
 
     ul.nav_menu li a {
         transition: 0.3s;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     ul.nav_menu li.icon {
@@ -211,21 +212,54 @@
         .header_text_padding {
             padding-top: 1em;
         }
-        .quote, .name {
+        .quote, .name, span.portfolio_submenu_text, .portfolio_name {
             font-size: 2.5rem;
         }
         .description {
             font-size: 1.5rem;
         }
+        .plain_text, .plain_text_left, .text_highlight {
+            font-size: 1.5rem;
+        }
+        .portfolio_img {
+            display: block;
+            margin: 1em auto;
+            max-width: 60%;
+        }
+        ul.nav_menu li a {
+            transition: 0.3s;
+            font-size: 1.5rem;
+        }
+
     }
 
-/*media queries tablets 520-770px*/
+/*media queries tablets 520-750px*/
     @media screen and (min-width:520px) and (max-width:770px) {
-        .quote, .name {
-            font-size: 4rem;
+        .name {
+            font-size: 5rem;
+        }
+
+        .quote, span.portfolio_submenu_text, .portfolio_name {
+            font-size: 2.5rem;
         }
         .description {
             font-size: 2rem;
+        }
+        .plain_text, .plain_text_left, .text_highlight {
+            font-size: 1.5rem;
+        }
+        .portfolio_img {
+            display: block;
+            margin: 1em auto;
+            max-width: 40%;
+        }
+        ul.nav_menu li a {
+            transition: 0.3s;
+            font-size: 2rem;
+        }
+        .contact_me p, .contact_me img {
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 
@@ -312,7 +346,7 @@
 
     .portfolio_submenu_text {
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: bold;
         color: #021f40;
         text-transform: uppercase;
@@ -325,15 +359,8 @@
         text-transform: uppercase;
     }
 
-    .portfolio_menu_text {
-        text-transform: uppercase;
-        color: #021f40;
-        font-size: 1.75rem;
-        text-align: center;
-    }
-
-    .portfolio_img {
-        margin: 1em;
+   .portfolio_img {
+        margin: 1em auto;
     }
 
     .portfolio_padding {
