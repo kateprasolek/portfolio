@@ -226,12 +226,11 @@
         }
     }
 
-/*media queries tablets 520-750px*/
+/*media queries tablets 520-770px*/
     @media screen and (min-width:520px) and (max-width:770px) {
         .name {
             font-size: 4rem;
         }
-
         .quote, span.portfolio_submenu_text, .portfolio_name {
             font-size: 2.5rem;
         }
@@ -350,6 +349,9 @@
         font-weight: bold;
         color: #021f40;
         text-transform: uppercase;
+    }
+    .portfolio_img {
+        margin: 1rem auto;
     }
 
     .portfolio_padding {
