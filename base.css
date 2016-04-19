@@ -224,7 +224,7 @@
         .portfolio_img {
             display: block;
             margin: 1em auto;
-            max-width: 60%;
+            /*max-width: 80%;*/
         }
         ul.nav_menu li a {
             transition: 0.3s;
@@ -236,7 +236,7 @@
 /*media queries tablets 520-750px*/
     @media screen and (min-width:520px) and (max-width:770px) {
         .name {
-            font-size: 5rem;
+            font-size: 4rem;
         }
 
         .quote, span.portfolio_submenu_text, .portfolio_name {
@@ -251,7 +251,7 @@
         .portfolio_img {
             display: block;
             margin: 1em auto;
-            max-width: 40%;
+            /*max-width: 60%;*/
         }
         ul.nav_menu li a {
             transition: 0.3s;
