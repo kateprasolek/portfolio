@@ -4,18 +4,12 @@
     * {
         font-family: 'Lora', serif;
         line-height: 1.375;
-        /*font-family: 'Playfair Display', serif;*/
     }
-
-    /*div {
-        border: 1px solid green;
-    }*/
 
     .plain_text {
         text-align: center;
         color: #021f40;
-        font-size: 1.75rem;
-        
+        font-size: 1.75rem; 
     }
 
     .extra_text {
@@ -224,13 +218,12 @@
         .portfolio_img {
             display: block;
             margin: 1em auto;
-            /*max-width: 80%;*/
+            max-width: 80%;
         }
         ul.nav_menu li a {
             transition: 0.3s;
             font-size: 1.5rem;
         }
-
     }
 
 /*media queries tablets 520-750px*/
@@ -251,7 +244,7 @@
         .portfolio_img {
             display: block;
             margin: 1em auto;
-            /*max-width: 60%;*/
+            max-width: 60%;
         }
         ul.nav_menu li a {
             transition: 0.3s;
@@ -357,10 +350,6 @@
         font-weight: bold;
         color: #021f40;
         text-transform: uppercase;
-    }
-
-   .portfolio_img {
-        margin: 1em auto;
     }
 
     .portfolio_padding {
