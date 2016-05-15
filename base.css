@@ -6,6 +6,10 @@
         line-height: 1.375;
     }
 
+    .navy_border {
+        border: 1px solid #cccccc;
+    }
+
     .plain_text {
         text-align: center;
         color: #021f40;
@@ -34,6 +38,14 @@
         color: #021f40;
         font-size: 1.75rem;
         text-align: left;
+    }
+
+    .work_in_progress_text {
+        color: #021f40;
+        font-size: 1.4rem;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+        font-weight: bold;
     }
 
     footer p {
@@ -101,16 +113,20 @@
     .quote {
        text-align: center;
        color: #021f40;
-       font-size: 4rem;
+       font-size: 3rem;
     }
 
     div.quote {
-        padding-top: 15%;
-        padding-bottom: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
     a:link {
         text-decoration: none;
+    }
+
+    .work_in_progress {
+        border-left: 1px solid #cccccc;
     }
 
 /*header*/
