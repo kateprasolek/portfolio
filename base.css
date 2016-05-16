@@ -240,6 +240,10 @@
             transition: 0.3s;
             font-size: 1.5rem;
         }
+        .skills_part {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        }
     }
 
 /*media queries tablets 520-770px*/
@@ -268,6 +272,19 @@
         .contact_me p, .contact_me img {
             margin-left: auto;
             margin-right: auto;
+        }
+        .skills_part {
+        margin-top: 5em;
+        margin-bottom: 5em;
+        }
+    }
+
+
+/*media queries desktop min 771px*/
+    @media screen and (min-width:771px) {
+    .skills_part {
+        margin-top: 10em;
+        margin-bottom: 5em;
         }
     }
 
@@ -379,10 +396,13 @@
         padding-bottom: 7em;
     }
 
-/*skills page*/
-    .skills_part {
-        margin-top: 3em;
+    .webdesign_row {
+        margin-top: 5em;
+        margin-bottom: 5em;
     }
+
+/*skills page*/
+   
 
     .skill_icon {
         padding: 2%;
@@ -393,6 +413,8 @@
     .border_bottom {
         border-bottom: 1px solid #021f40;
     }
+
+
 
 /*calculator page*/
     .calculator_description {
