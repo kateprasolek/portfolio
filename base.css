@@ -125,8 +125,14 @@
         text-decoration: none;
     }
 
-    .work_in_progress {
-        border-left: 1px solid #cccccc;
+    .latest_projects {
+        border-bottom: 1px solid #cccccc;
+        margin-top: 5rem;
+    }
+
+    .current_work {
+        border-bottom: 1px solid #cccccc;
+        margin-top: 5rem;
     }
 
 /*header*/
@@ -279,6 +285,15 @@
         }
     }
 
+  /*  .green {
+        border: 1px solid green;
+    }
+
+    .red {
+        border: 1px solid red;
+    }*/
+
+   
 
 /*media queries desktop min 771px*/
     @media screen and (min-width:771px) {
