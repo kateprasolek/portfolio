@@ -139,7 +139,9 @@
     header {
         min-width: 100%;
         height: auto;
-        background-color: #021f40;
+        /*background-color: #021f40;*/
+        background-image: url("images/baner.png");
+        background-size: 100% 100%;
     }
 
     .header_text_padding {
