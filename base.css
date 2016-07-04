@@ -4,8 +4,32 @@
     border: 1px solid red;
 }*/
 
+
+a:link, a:visited {
+    color: #5e2571;
+}
+
+a:visited {
+    color: #5e2571;
+    border-color: #E87D04;
+}
+
+a:hover {
+    color: #021f40;
+}
+
+/*a:active {
+   text-decoration-color: red;
+    
+}*/
+
+/*.nav>li>a:active {
+    text-decoration: none;
+    background-color: red;
+}*/
+
 #background { 
-  background: url(images/background.png) no-repeat center center fixed;
+  background: url(images/background2.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,6 +54,8 @@
     font-size: 2.5rem;
     margin-left: 40%;
     margin-top: 5%;
+    /*text-decoration: none;*/
+
   
 
 }
@@ -83,6 +109,7 @@
         font-size: 2rem;
         margin-bottom: 10%;
         display: inline-block;
+        color: #5e2571;
         
     }
 
@@ -100,6 +127,15 @@
         text-transform: uppercase;
         text-align: center;
         position: relative;
+    }
+
+    .name2 {
+        font-weight: bold;
+        color: #5e2571;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 0.3em;
     }
 
     .description {
@@ -148,11 +184,6 @@
     div.quote {
         padding-top: 5%;
         padding-bottom: 5%;
-    }
-
-    a:link {
-        text-decoration: none;
-        /*color: #5e2571;*/
     }
 
     .current_work {
