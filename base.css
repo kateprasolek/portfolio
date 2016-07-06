@@ -3,30 +3,19 @@
 /*div {
     border: 1px solid red;
 }*/
-
-
 a:link, a:visited {
-    color: #5e2571;
-}
+        color: #5e2571;
+    }
 
-a:visited {
-    color: #5e2571;
-    border-color: #E87D04;
-}
+.current_link {
+    border-style: solid;
+    border-top: 1px solid #5e2571;
+    border-bottom: solid transparent;
+    border-left: solid transparent;
+    border-right: solid transparent;
 
-a:hover {
-    color: #021f40;
-}
-
-/*a:active {
-   text-decoration-color: red;
-    
-}*/
-
-/*.nav>li>a:active {
-    text-decoration: none;
-    background-color: red;
-}*/
+    /*text-decoration: underline;*/
+    }
 
 #background { 
   background: url(images/background2.png) no-repeat center center fixed;
@@ -129,7 +118,9 @@ a:hover {
 
     .name {
         font-weight: bold;
-        color: white;
+        /*color: #021f40;*/
+        color: #5e2571;
+        /*color: white;*/
         font-size: 5rem;
         text-transform: uppercase;
         text-align: center;
@@ -168,25 +159,25 @@ a:hover {
         text-align: center;
     }
 
-    .text_highlight_u {
+    /*.text_highlight_u {
         font-weight: bold;
         color: #5e2571;
         font-size: 1.85rem;
         text-align: center;
         text-decoration: underline; 
-    }
+    }*/
 
 /*home page*/
     .main_content {
         padding: 2% auto 2% auto;
     }
 
-    .quote {
+    /*.quote {
        text-align: center;
        color: #021f40;
        font-size: 2.25rem;
         padding-top: 5%;
-    }
+    }*/
 
     div.quote {
         padding-top: 5%;
@@ -197,10 +188,6 @@ a:hover {
         /*background-color: white;*/
         padding-top: 5rem;
         padding-bottom: 5rem;
-    }
-
-    .img_border {
-        border: 0.5px solid #cccccc;
     }
 
     .me {
@@ -214,15 +201,38 @@ a:hover {
     }
 
 /*header*/
-    /*.header_text_padding {
+    .header_text_padding {
          padding-top: 1.5em;
+    }
+
+    /*.header_line_blue_thin {
+        width: 100%;
+        height: 0.10rem;
+        background-color: #021f40;
+        background-color: #cccccc;
     }*/
 
-    .header_line_blue_thin {
+    .grey_line {
+        width: 100%;
+        height: 0.10rem;
+        background-color: #e6e6e6;
+    }
+
+    .navy_line {
         width: 100%;
         height: 0.10rem;
         background-color: #021f40;
     }
+
+    .purple_line {
+        width: 100%;
+        height: 0.10rem;
+        background-color: #5e2571;
+    }
+
+    /*.menu_desktop {
+        height: 110%;
+    }*/
 
     ul.nav_menu li a {
         transition: 0.3s;
@@ -282,12 +292,12 @@ a:hover {
             font-size: 1.5rem;
         }
         .skills_part {
-        margin-top: 2em;
-        margin-bottom: 2em;
+            margin-top: 2em;
+            margin-bottom: 2em;
         }
         .footer_icon {
-        padding: 25%;
-        max-width: 80%;
+            padding: 25%;
+            max-width: 80%;
     }
     }
 
@@ -319,8 +329,8 @@ a:hover {
             margin-right: auto;
         }
         .skills_part {
-        margin-top: 5em;
-        margin-bottom: 5em;
+            margin-top: 5em;
+            margin-bottom: 5em;
         }
     }
 
@@ -331,6 +341,7 @@ a:hover {
         margin-top: 10em;
         margin-bottom: 5em;
         }
+
     }
 
 /*footer*/
@@ -339,12 +350,12 @@ a:hover {
         height: auto;
         /*background-color: #121839;*/
         padding-top: 2%;
-        padding-bottom: 1%;
+        padding-bottom: 4%;
     }
 
     footer p {
         text-align: center;
-        font-size: 1.125rem;
+        font-size: 1.4rem;
         color: #021f40;
     }
 
@@ -389,8 +400,8 @@ a:hover {
 
 /*contact page*/
     .contact_me {
-        margin-top: 6em;
-        margin-bottom: 8em;
+        margin-top: 12em;
+        margin-bottom: 12em;
     }
 
     img.contact_me li.contact_me {
@@ -422,11 +433,18 @@ a:hover {
         color: #021f40;
         text-transform: uppercase;
     }
-    /*.portfolio_img {
-        border: 1px solid #021f40;
-    }*/
+    .portfolio_img {
+        margin: 3%;
+    }
     .img_border {
         border: 1px solid #021f40;
+    }
+
+    .social_blue_line {
+        width: 100%;
+        height: 0.10rem;
+        margin-top: 4%;
+        background-color: #021f40;
     }
 
     .portfolio_padding {
@@ -453,7 +471,7 @@ a:hover {
     }
 
     .border_bottom {
-        border-bottom: 1px solid #021f40;
+        border-bottom: 1px solid #e6e6e6;
     }
 
 
