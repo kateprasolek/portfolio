@@ -350,9 +350,11 @@ a:link, a:visited {
             margin: 1em auto;
             max-width: 50%;
         }
-         /*   .portfolio_img {
-           max-width: 90%;
-        }*/
+        .portfolio_img {
+            max-width: 100%;
+            display: block;
+            margin: 1em auto;
+        }
        /* ul.nav_menu li a {
             transition: 0.3s;
             font-size: 2rem;
