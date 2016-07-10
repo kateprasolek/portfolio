@@ -256,6 +256,9 @@ a:link, a:visited {
         ul.nav_menu.responsive li a {
             display: block;
         }
+        .current_link {
+            font-weight: bold;
+        }
         .name2, span.portfolio_submenu_text {
             font-size: 2.5rem;
             color: #021f40;
@@ -419,6 +422,9 @@ a:link, a:visited {
             margin-top: 7rem;
             position: relative;
         }
+        .portfolio_im, .portfolio_img_small {
+            margin: 3%;
+        }
         
     }
 
@@ -544,7 +550,7 @@ a:link, a:visited {
 
     .skill_icon {
         padding: 2%;
-        width: 11%;
+        width: 10%;
         float: left;
     }
 
