@@ -14,15 +14,9 @@ a:link, a:visited {
         color: #5e2571;
     }
 
-.current_link {
-    border-style: solid;
-    border-top: 1px solid #5e2571;
-    border-bottom: solid transparent;
-    border-left: solid transparent;
-    border-right: solid transparent;
+/*.portfolio_img_small {
 
-    /*text-decoration: underline;*/
-    }
+}*/
 
 #background { 
   background: url(images/background2.png) no-repeat center center fixed;
@@ -190,11 +184,17 @@ a:link, a:visited {
         padding-top: 5rem;
     }
 
-    div.working_on, .latest_projects {
+    /*div.working_on {
+        border-bottom: 1px solid #cccccc;
+        margin-top: 2rem;
+        position: relative;
+    }
+
+    div.latest_projects {
         border-bottom: 1px solid #cccccc;
         margin-top: 7rem;
         position: relative;
-    }
+    }*/
 
 /*header*/
     .header_text_padding {
@@ -267,11 +267,10 @@ a:link, a:visited {
         .plain_text, .plain_text_left, .text_highlight {
             font-size: 1.5rem;
         }
-        .portfolio_img {
+        .portfolio_img_small {
             display: block;
             margin: 1em auto;
-            max-width: 80%;
-            margin: 3%;
+            max-width: 70%;
         }
         ul.nav_menu li a {
             transition: 0.3s;
@@ -288,6 +287,14 @@ a:link, a:visited {
         .contact_me, .calculator_box {
             margin-top: 4em;
             margin-bottom: 4em;
+        }
+         div.latest_projects {
+            border-top: 1px solid #cccccc;
+            margin-top: 5rem;
+            position: relative;
+        }
+        div.latest_projects p {
+            margin-top: 1rem;
         }
     }
 
@@ -338,11 +345,14 @@ a:link, a:visited {
         .plain_text, .plain_text_left, .text_highlight {
             font-size: 1.5rem;
         }
-        .portfolio_img {
+        .portfolio_img_small {
             display: block;
             margin: 1em auto;
-            max-width: 60%;
+            max-width: 50%;
         }
+         /*   .portfolio_img {
+           max-width: 90%;
+        }*/
        /* ul.nav_menu li a {
             transition: 0.3s;
             font-size: 2rem;
@@ -359,8 +369,24 @@ a:link, a:visited {
         .contact_me, .calculator_box {
             margin-top: 6em;
             margin-bottom: 6em;
-            margin-left: 9em;
+            margin-left: 8em;
         }
+        .current_link {
+            font-weight: bold;
+        }
+        div.latest_projects {
+            border-top: 1px solid #cccccc;
+            margin-top: 5rem;
+            position: relative;
+        }
+        div.latest_projects p {
+            margin-top: 1rem;
+        }
+        .description {
+            font-size: 2rem;
+            color: #5e2571;
+        }
+
     }
 
 
@@ -374,6 +400,24 @@ a:link, a:visited {
         margin-top: 12em;
         margin-bottom: 12em;
         }
+        .current_link {
+            border-style: solid;
+            border-top: 1px solid #5e2571;
+            border-bottom: solid transparent;
+            border-left: solid transparent;
+            border-right: solid transparent;
+        }
+        div.working_on {
+            border-bottom: 1px solid #cccccc;
+            margin-top: 2rem;
+            position: relative;
+        }
+        div.latest_projects {
+            border-bottom: 1px solid #cccccc;
+            margin-top: 7rem;
+            position: relative;
+        }
+        
     }
 
 /*footer*/
@@ -466,7 +510,7 @@ a:link, a:visited {
         text-transform: uppercase;
     }
     /*.portfolio_img {
-        margin: 3%;
+       max-width: 90%;
     }*/
     .img_border {
         border: 1px solid #021f40;
