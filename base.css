@@ -421,7 +421,7 @@ a:link, a:visited {
     }
 
 /*contact page*/
-    .contact_me {
+    .contact_me, .calculator_box {
         margin-top: 12em;
         margin-bottom: 12em;
     }
@@ -548,6 +548,7 @@ a:link, a:visited {
         border-radius: 10px;
         font-size: 3rem;
         text-align: center;
+        color: #021f40;
         box-shadow: 0px 4px #41403F;
         -webkit-user-select: none;
         transition: all 0.30s ease;
