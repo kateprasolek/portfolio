@@ -1,6 +1,6 @@
 
-/*
-div {
+
+/*div {
     border: 1px solid red;
 }*/
 html {
@@ -14,8 +14,9 @@ a:link, a:visited {
         color: #5e2571;
     }
 
-/*.portfolio_img_small {
-
+/*.web_design {
+    background-color: #999999;
+    text-align: center;
 }*/
 
 #background { 
@@ -273,7 +274,7 @@ a:link, a:visited {
         .portfolio_img_small {
             display: block;
             margin: 1em auto;
-            max-width: 70%;
+            max-width: 90%;
         }
         ul.nav_menu li a {
             transition: 0.3s;
@@ -351,7 +352,7 @@ a:link, a:visited {
         .portfolio_img_small {
             display: block;
             margin: 1em auto;
-            max-width: 50%;
+            max-width: 90%;
         }
         .portfolio_img {
             max-width: 100%;
