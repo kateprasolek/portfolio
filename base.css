@@ -181,32 +181,14 @@ a:link, a:visited {
         padding: 2% auto 2% auto;
     }
 
-    div.quote {
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-
     .current_work {
-        /*background-color: white;*/
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-top: 18rem;
+        padding-bottom: 18rem;
     }
 
     .me {
         padding-top: 5rem;
     }
-
-    /*div.working_on {
-        border-bottom: 1px solid #cccccc;
-        margin-top: 2rem;
-        position: relative;
-    }
-
-    div.latest_projects {
-        border-bottom: 1px solid #cccccc;
-        margin-top: 7rem;
-        position: relative;
-    }*/
 
 /*header*/
     .header_text_padding {
@@ -313,8 +295,8 @@ a:link, a:visited {
         }
     }
 
-/*media queries tablets 520-770px*/
-    @media screen and (min-width:520px) and (max-width:770px) {
+/*media queries tablets 520-800px*/
+    @media screen and (min-width:520px) and (max-width:800px) {
         .button-explore, .header_photo, .navy_line {
             display: none;
         }
@@ -407,8 +389,8 @@ a:link, a:visited {
     }
 
 
-/*media queries desktop min 771px*/
-    @media screen and (min-width:771px) {
+/*media queries desktop min 801px*/
+    @media screen and (min-width:801px) {
         .skills_part {
             margin-top: 10em;
             margin-bottom: 5em;
