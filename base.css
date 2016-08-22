@@ -14,10 +14,16 @@ a:link, a:visited {
         color: #5e2571;
     }
 
-/*.web_design {
-    background-color: #999999;
-    text-align: center;
-}*/
+.to_the_top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 5rem;
+    z-index: 100;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    background: none;
+}
 
 #web_design_only, #print_only, #branding_only {
     display: none;

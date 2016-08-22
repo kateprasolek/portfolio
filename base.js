@@ -1,7 +1,10 @@
+
+//hamburger menu on small screen
 function myFunction() {
     document.getElementsByClassName("nav_menu")[0].classList.toggle("responsive");
 }
 
+//selectable portfolio
 $(document).ready(function(){
     $("#web_design").click(function(){
         $("#web_design_only").show();
@@ -42,11 +45,7 @@ $(document).ready(function(){
 });
 
 
-// $(document).ready(function(){
-//     $("#web_design").click(function(){
-//         $("#web_design2").toggle();
-//     });
-// });
+
 
 
 
