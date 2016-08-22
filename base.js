@@ -4,28 +4,33 @@ function myFunction() {
     document.getElementsByClassName("nav_menu")[0].classList.toggle("responsive");
 }
 
+//portfolio submenu 'Categories' on small screens
+// function myFunction() {
+//     document.getElementsByClassName("sub_menu")[0].classList.toggle("responsive2");
+// }
+
 //selectable portfolio
 $(document).ready(function(){
     $("#web_design").click(function(){
         $("#web_design_only").show();
-        $("#branding_only").hide();
+        $("#logo_only").hide();
         $("#print_only").hide();
         $(".web_design").hide();
         $(".print").hide();
-        $(".branding").hide();
+        $(".logo").hide();
         $(".cards").hide();
         $(".web_apps").hide();
     });
 });
 
 $(document).ready(function(){
-    $("#branding").click(function(){
-        $("#branding_only").show();
+    $("#logo").click(function(){
+        $("#logo_only").show();
         $("#web_design_only").hide();
         $("#print_only").hide();
         $(".web_design").hide();
         $(".print").hide();
-        $(".branding").hide();
+        $(".logo").hide();
         $(".cards").hide();
         $(".web_apps").hide();
     });
@@ -35,15 +40,28 @@ $(document).ready(function(){
     $("#print").click(function(){
         $("#print_only").show();
         $("#web_design_only").hide();
-        $("#branding_only").hide();
+        $("#logo_only").hide();
         $(".web_design").hide();
         $(".print").hide();
-        $(".branding").hide();
+        $(".logo").hide();
         $(".cards").hide();
         $(".web_apps").hide();
     });
 });
 
+$(document).ready(function(){
+    $("#all").click(function(){
+        $("#all").show();
+        $("#web_design_only").hide();
+        $("#logo_only").hide();
+        $("#print_only").hide();
+        $(".web_design").show();
+        $(".print").show();
+        $(".logo").show();
+        $(".cards").show();
+        $(".web_apps").show();
+    });
+});
 
 
 

@@ -33,7 +33,7 @@
     <div id="background2">
 <!-- header and navigation bar-->
         <header>
-            <div class="container">
+            <div class="container" id="top">
                 <div class="row">
                     <a href="index.html">
                         <div class="col-sm-5 pull-left">
@@ -80,14 +80,20 @@
 
 
 <!-- main content-->
+
+<!--#all-->
     <div class="container">  
-        <div class="row skills_part" id="top">
-            <div class="col-md-offset-2 col-md-10 nav nav-pills">
+        <div class="row skills_part">
+            <div class="col-md-12 nav nav-pills pull-left">
+               <!--  <ul class="sub_menu"> -->
+                    <li>
+                        <a><span class="portfolio_submenu_text" id="all">all</span></a>
+                    </li>
                     <li>
                         <a><span class="portfolio_submenu_text" id="web_design">web design</span></a>
                     </li>
                     <li>
-                        <a><span class="portfolio_submenu_text" id="branding">branding</span></a>
+                        <a><span class="portfolio_submenu_text" id="logo">logo</span></a>
                     </li>
                     <li>
                         <a><span class="portfolio_submenu_text" id="print">print</span></a>
@@ -98,29 +104,36 @@
                     <li>
                         <a href="https://www.facebook.com/artekatie" target="_blank"><span class="portfolio_submenu_text" id="cards">cards</span></a>
                     </li>
-                </ul>
+                    <!-- <li class="icon2">
+                        <a href="javascript:void(0);" onclick="myFunction()"><span class="glyphicon glyphicon-menu-hamburger">design categories</span></a>
+                    </li> -->
+               <!--  </ul> -->
             </div>
-
-            <p class="plain_text">I have been exploring the vast field of design, learning Adobe Creative Cloud and crafting this online portfolio. As I am a self learner I really appreciate your feedback. Please use <a href="contact.html">contact</a> section to share yours!</p>    
-
-        
-            <a href="https://www.behance.net/artekatie" target="_blank">
-                <p class="see_more_projects">See all my projects on Behance</p> 
-            </a>
-                
         </div>
     </div>
 
-    <div class="container">
+        <div class="container">
+            <p class="plain_text_left">I have been exploring the vast field of design, learning Adobe Creative Cloud and crafting this online portfolio.</p> 
+            <p class="plain_text_left">s I am a self learner I really appreciate your feedback. Please use <a href="contact.html">contact</a> section to share yours!</p>    
+        </div>    
+                
+        <div class="container">
+            <a href="https://www.behance.net/artekatie" target="_blank">
+                <p class="see_more_projects pull-right">See all my projects on Behance</p> 
+            </a>    
+        </div>
+    
+
+<!--#all-->
+    <div class="container" id="all">
         <div class="row">
             <div class="col-md-6 web_design">
-                <!-- <p class="web_design">web design</p> -->
                 <a href="https://www.behance.net/gallery/37143177/responsive-blog-layout-for-artekatie" target="_blank">
                     <img src="images/web_artekatie_blog.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="artekatie blog"> 
                 </a>       
             </div>
               
-            <div class="col-md-6 branding">
+            <div class="col-md-6 print">
                 <a href="https://www.behance.net/gallery/41915043/Artekatie-business-cards" target="_blank">
                     <img src="images/branding_artekatie_businesscards.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="artekatie business cards"> 
                 </a>     
@@ -141,25 +154,25 @@
         </div>
 
         <div class="row">
-            <div class="col-md-3 branding">
+            <div class="col-md-3 logo">
                 <a href="https://www.behance.net/gallery/36362187/TuTu-Handmade" target="_blank">
                     <img src="images/logo_totu.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="totu">
                 </a>    
             </div>
 
-            <div class="col-md-3 branding">
+            <div class="col-md-3 logo">
                 <a href="https://www.behance.net/gallery/36362647/Friend-personal-logo" target="_blank">
                     <img src="images/logo_drachenfels.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="drachu">
                 </a>    
             </div>
 
-            <div class="col-md-3 branding">
+            <div class="col-md-3 logo">
                 <a href="https://www.behance.net/gallery/36361869/logo-Handmade-by-Ania-gift-shop" target="_blank">
                     <img src="images/logo_ania.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="ania">
                 </a>    
             </div>
 
-            <div class="col-md-3 branding">
+            <div class="col-md-3 logo">
                 <a href="https://www.behance.net/gallery/34585335/logo-design-Chapalet-handmade-jewellery" target="_blank">
                     <img src="images/logo_chapalet.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="chapalet">
                 </a> 
@@ -167,13 +180,13 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6 branding">
+            <div class="col-md-6 print">
                 <a href="https://www.behance.net/gallery/36363289/marketing-brochure-artekatie-card-design" target="_blank">
                     <img src="images/print_brochure1.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="brochure">
                 </a>    
             </div>
 
-            <div class="col-md-6 branding">
+            <div class="col-md-6 print">
                 <a href="https://www.behance.net/gallery/41917639/Recipe-cards-template" target="_blank">
                     <img src="images/print_cookbook1.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="cookbook">
                 </a>    
@@ -214,6 +227,8 @@
             </div>
         </div>
     </div>
+        
+    
 
 <!--#web_design_only-->
     <div class="container" id="web_design_only">
@@ -238,28 +253,8 @@
         </div>
     </div>
 
-<!--#branding_only-->
-    <div class="container" id="branding_only">
-        <div class="row">
-            <div class="col-md-4">
-                <a href="https://www.behance.net/gallery/41915043/Artekatie-business-cards" target="_blank">
-                    <img src="images/branding_artekatie_businesscards.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="artekatie business cards"> 
-                </a>    
-            </div>
-
-            <div class="col-md-4">
-                <a href="https://www.behance.net/gallery/36363289/marketing-brochure-artekatie-card-design" target="_blank">
-                    <img src="images/print_brochure1.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="brochure">
-                </a>    
-            </div>
-
-            <div class="col-md-4">
-                <a href="https://www.behance.net/gallery/41917639/Recipe-cards-template" target="_blank">
-                    <img src="images/print_cookbook1.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="cookbook">
-                </a>    
-            </div>
-        </div>
-
+<!--#logo_only-->
+    <div class="container" id="logo_only">
         <div class="row">
             <div class="col-md-3">
                 <a href="https://www.behance.net/gallery/36362187/TuTu-Handmade" target="_blank">
@@ -290,22 +285,41 @@
 <!--#print_only-->
     <div class="container" id="print_only">
         <div class="row">
-            <div class="col-md-offset-1 col-md-3">
+            <div class="col-md-6">
+                <a href="https://www.behance.net/gallery/41915043/Artekatie-business-cards" target="_blank">
+                    <img src="images/branding_artekatie_businesscards.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="artekatie business cards"> 
+                </a>    
+            </div>
+            <div class="col-md-6">
+                <a href="https://www.behance.net/gallery/36372745/Digital-stamps-images-for-crafty-projects" target="_blank">
+                    <img src="images/print_digistamps.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="wedding3">
+                </a>      
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <a href="https://www.behance.net/gallery/36363289/marketing-brochure-artekatie-card-design" target="_blank">
+                    <img src="images/print_brochure1.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="brochure">
+                </a>    
+            </div>
+            <div class="col-md-6">
+                <a href="https://www.behance.net/gallery/41917639/Recipe-cards-template" target="_blank">
+                    <img src="images/print_cookbook1.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="cookbook">
+                </a>    
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
                 <a href="https://www.behance.net/gallery/40788089/event-leaflet-2" target="_blank">
                     <img src="images/print_leek.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="leaflet2">
                 </a>      
             </div>
-
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <a href="https://www.behance.net/gallery/36466969/event-leaflet" target="_blank">
                     <img src="images/print_dumplings1.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="dumplings">
                 </a>       
-            </div>
-        
-            <div class="col-md-4">
-                <a href="https://www.behance.net/gallery/36372745/Digital-stamps-images-for-crafty-projects" target="_blank">
-                    <img src="images/print_digistamps.png" class="img-responsive portfolio_img_small img_border img-thumbnail" alt="wedding3">
-                </a>      
             </div>
         </div>
     </div>

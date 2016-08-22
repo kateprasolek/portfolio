@@ -25,9 +25,8 @@ a:link, a:visited {
     background: none;
 }
 
-#web_design_only, #print_only, #branding_only {
+#web_design_only, #print_only, #logo_only {
     display: none;
-   
     margin-bottom: 10rem;
 }
 
@@ -79,8 +78,8 @@ a:link, a:visited {
     .see_more_projects {
         text-align: center;
         color: #5e2571;
-        font-size: 1.75rem; 
-       
+        font-size: 1.75rem;
+        margin-top: 5rem;
     }
 
     .plain_text {
@@ -155,7 +154,7 @@ a:link, a:visited {
         color: #5e2571;
         font-size: 3rem;
         text-transform: uppercase;
-        text-align: center;
+        text-align: left;
         padding-top: 0.3em;
     }
 
@@ -281,12 +280,17 @@ a:link, a:visited {
         }
         .skills_part {
             margin-top: 2em;
-            margin-bottom: 2em;
         }
         .footer_icon {
             padding: 25%;
             max-width: 80%;
         }
+        footer p {
+            text-align: center;
+            font-size: 1.4rem;
+            color: #021f40;
+        }
+
         .contact_me, .calculator_box {
             margin-top: 4em;
             margin-bottom: 4em;
@@ -298,6 +302,16 @@ a:link, a:visited {
         }
         div.latest_projects p {
             margin-top: 1rem;
+        }
+        .to_the_top {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 4rem;
+            z-index: 100;
+            text-decoration: none;
+            margin-bottom: 3rem;
+            background: none;
         }
     }
 
@@ -328,20 +342,10 @@ a:link, a:visited {
         ul.nav_menu.responsive li a {
             display: block;
         }
-        /*.name2, span.portfolio_submenu_text {
-            font-size: 2.5rem;
-            color: #021f40;
-        }*/
-        /*.name {
-            font-size: 4rem;
-        }*/
+      
         .header_photo, .navy_line {
             display: none;
         }
-
-       /* span.portfolio_submenu_text {
-            font-size: 2.5rem;
-        }*/
         .description {
             font-size: 2rem;
         }
@@ -351,25 +355,20 @@ a:link, a:visited {
         .portfolio_img_small {
             display: block;
             margin: 1em auto;
-            max-width: 90%;
+            max-width: 80%;
         }
-        .portfolio_img {
-            max-width: 100%;
-            display: block;
-            margin: 1em auto;
+       
+        footer p {
+            text-align: left;
+            font-size: 1.4rem;
+            color: #021f40;
         }
-       /* ul.nav_menu li a {
-            transition: 0.3s;
-            font-size: 2rem;
-        }*/
-
         .footer_icon {
             padding: 25%;
             max-width: 80%;
         }
         .skills_part {
             margin-top: 5em;
-            margin-bottom: 5em;
         }
         .contact_me, .calculator_box {
             margin-top: 6em;
@@ -399,7 +398,6 @@ a:link, a:visited {
     @media screen and (min-width:801px) {
         .skills_part {
             margin-top: 10em;
-            margin-bottom: 5em;
             }
         .contact_me, .calculator_box {
             margin-top: 12em;
@@ -425,22 +423,18 @@ a:link, a:visited {
         .portfolio_im, .portfolio_img_small {
             margin: 3%;
         }
-        
+        footer p {
+        text-align: left;
+        font-size: 1.4rem;
+        color: #021f40;
+    }
     }
 
 /*footer*/
     .footer_main {
-        /*min-width: 100%;*/
         height: auto;
-        /*background-color: #121839;*/
         padding-top: 2%;
         padding-bottom: 4%;
-    }
-
-    footer p {
-        text-align: center;
-        font-size: 1.4rem;
-        color: #021f40;
     }
 
     ul {
@@ -483,15 +477,9 @@ a:link, a:visited {
     }
 
 /*contact page*/
-    /*.contact_me, .calculator_box {
-        margin-top: 12em;
-        margin-bottom: 12em;
-    }
-*/
     img.contact_me li.contact_me {
         vertical-align: middle;
     }
-
     .contact_icon {
         padding: 5%;
     }
@@ -502,7 +490,6 @@ a:link, a:visited {
             padding-bottom: 1em;
             text-align: center;
     }
-
     .portfolio_submenu_text {
         text-align: center;
         font-size: 3rem;
@@ -510,50 +497,27 @@ a:link, a:visited {
         color: #021f40;
         text-transform: uppercase;
     }
-    .submenu_description {
-        text-align: center;
-        font-size: 1.75rem;
-        font-weight: bold;
-        color: #021f40;
-        text-transform: uppercase;
-    }
-    /*.portfolio_img {
-       max-width: 90%;
-    }*/
     .img_border {
         border: 1px solid #021f40;
     }
-
-    .social_blue_line {
-        width: 100%;
-        height: 0.10rem;
-        margin-top: 4%;
-        background-color: #021f40;
-    }
-
     .portfolio_padding {
         padding-top: 3%;
         padding-bottom: 3%;
     }
-
     .portfolio_padding_bottom {
         padding-bottom: 7em;
     }
-
     .webdesign_row {
         margin-top: 5em;
         margin-bottom: 5em;
     }
 
 /*skills page*/
-   
-
     .skill_icon {
         padding: 2%;
         width: 10%;
         float: left;
     }
-
     .border_bottom {
         border-bottom: 1px solid #e6e6e6;
     }
