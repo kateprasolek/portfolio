@@ -19,6 +19,12 @@ a:link, a:visited {
     text-align: center;
 }*/
 
+#web_design_only, #print_only, #branding_only {
+    display: none;
+   
+    margin-bottom: 10rem;
+}
+
 #background { 
   background: url(images/background2.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -64,7 +70,12 @@ a:link, a:visited {
         line-height: 1.375;
         
     }
-
+    .see_more_projects {
+        text-align: center;
+        color: #5e2571;
+        font-size: 1.75rem; 
+       
+    }
 
     .plain_text {
         text-align: center;
@@ -398,13 +409,13 @@ a:link, a:visited {
 
 /*media queries desktop min 771px*/
     @media screen and (min-width:771px) {
-    .skills_part {
-        margin-top: 10em;
-        margin-bottom: 5em;
-        }
-    .contact_me, .calculator_box {
-        margin-top: 12em;
-        margin-bottom: 12em;
+        .skills_part {
+            margin-top: 10em;
+            margin-bottom: 5em;
+            }
+        .contact_me, .calculator_box {
+            margin-top: 12em;
+            margin-bottom: 12em;
         }
         .current_link {
             border-style: solid;

@@ -3,6 +3,56 @@ function myFunction() {
 }
 
 $(document).ready(function(){
+    $("#web_design").click(function(){
+        $("#web_design_only").show();
+        $("#branding_only").hide();
+        $("#print_only").hide();
+        $(".web_design").hide();
+        $(".print").hide();
+        $(".branding").hide();
+        $(".cards").hide();
+        $(".web_apps").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#branding").click(function(){
+        $("#branding_only").show();
+        $("#web_design_only").hide();
+        $("#print_only").hide();
+        $(".web_design").hide();
+        $(".print").hide();
+        $(".branding").hide();
+        $(".cards").hide();
+        $(".web_apps").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#print").click(function(){
+        $("#print_only").show();
+        $("#web_design_only").hide();
+        $("#branding_only").hide();
+        $(".web_design").hide();
+        $(".print").hide();
+        $(".branding").hide();
+        $(".cards").hide();
+        $(".web_apps").hide();
+    });
+});
+
+
+// $(document).ready(function(){
+//     $("#web_design").click(function(){
+//         $("#web_design2").toggle();
+//     });
+// });
+
+
+
+
+//calculator functions
+$(document).ready(function(){
 
     var numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
     var zero = ['0']
