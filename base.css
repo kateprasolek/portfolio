@@ -406,8 +406,8 @@ html {
     }
 
 
-/*media queries desktop min 801px*/
-    @media screen and (min-width:801px) {
+/*media queries desktop min 901px*/
+    @media screen and (min-width:901px) {
         .skills_part {
             margin-top: 10em;
             }
