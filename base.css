@@ -327,8 +327,8 @@ html {
         }
     }
 
-/*media queries tablets 520-800px*/
-    @media screen and (min-width:520px) and (max-width:800px) {
+/*media queries tablets 520-900px*/
+    @media screen and (min-width:520px) and (max-width:900px) {
         .button-explore {
             display: none;
         }
