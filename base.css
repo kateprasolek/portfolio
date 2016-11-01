@@ -369,13 +369,12 @@ html {
             margin: 1em auto;
             max-width: 80%;
         }
-       
         footer p {
             text-align: center;
             font-size: 1.4rem;
             color: white;
         }
-        .footer_icon {
+        .footer_icon, .contact_icon {
             padding: 25%;
             max-width: 80%;
         }
@@ -385,7 +384,7 @@ html {
         .contact_me, .calculator_box {
             margin-top: 6em;
             margin-bottom: 6em;
-            margin-left: 8em;
+            margin-left: 2em;
         }
         .current_link {
             font-weight: bold;
