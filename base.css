@@ -203,7 +203,6 @@ a {
     header {
         /*background-color: black;*/
         background: url(images/background3.png) no-repeat center center fixed;
-        margin-bottom: 12rem;
     }
     .header_text_padding {
          padding-top: 1.5em;
@@ -321,13 +320,30 @@ a {
             margin-bottom: 3rem;
             background: none;
         }
+        .hire {
+            margin-top: 2em;
+        }
+        header {
+            margin-bottom: 6rem;
+        }
+        footer {
+            margin-top: 10rem;
+        }
+        .skill_icon {
+            padding: 1%;
+            width: 20%;
+            float: left;
+        }
+        .skill_icons_desktop{
+            display: none;
+        }
     }
 
 /*media queries tablets 520-900px*/
     @media screen and (min-width:520px) and (max-width:900px) {
-        /*.button-explore {
-            display: none;
-        }*/
+        header {
+            margin-bottom: 9rem;
+        }
         ul.nav_menu li:not(:last-child) {
             display: none;
         }
@@ -397,7 +413,17 @@ a {
             font-size: 2rem;
             color: white;
         }
-
+        footer {
+            margin-top: 15rem;
+        }
+        .skill_icon {
+            padding: 1%;
+            width: 20%;
+            float: left;
+        }
+        .skill_icons_desktop{
+            display: none;
+        }
     }
 
 
@@ -434,14 +460,27 @@ a {
         text-align: left;
         font-size: 1.4rem;
         color: white;
-    }
+        }
+        header {
+            margin-bottom: 12rem;
+        }
+        footer {
+            margin-top: 20rem;
+        }
+        .skill_icon {
+            padding: 1%;
+            width: 10%;
+            float: left;
+        }
+        .skill_icons_smallscreen{
+            display: none;
+        }
     }
 
 /*footer*/
 
     footer {
         background-color: black;
-        margin-top: 20rem;
     }
 
     .footer_main {
@@ -518,11 +557,6 @@ a {
     }
 
 /*skills page*/
-    .skill_icon {
-        padding: 2%;
-        width: 10%;
-        float: left;
-    }
     .border_bottom {
         border-bottom: 1px solid #e6e6e6;
     }
