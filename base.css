@@ -19,6 +19,9 @@ a {
     margin-top: 5%;
 }
 
+
+
+
 .home_plain_text:link, .home_plain_text:visited {
     color: #ffffff;
 }
@@ -346,6 +349,9 @@ a {
         .header_text_padding {
             padding-top: 0.5em;
         }
+        .summary {
+            padding-top: 4rem;
+        }
     }
 
 /*media queries tablets 520-900px*/
@@ -433,6 +439,9 @@ a {
         .skill_icons_desktop{
             display: none;
         }
+        .summary {
+            padding-top: 4rem;
+        }
     }
 
 ul.skills_padding {
@@ -487,7 +496,17 @@ ul.skills_padding {
         .skill_icons_smallscreen{
             display: none;
         }
+       .summary {
+            padding-top: 4rem;
+        }
     }
+
+/*media queries desktop min 1200px*/
+@media screen and (min-width:1200px) {
+    .summary {
+            padding-top: 14rem;
+        }
+}
 
 /*footer*/
 
@@ -573,8 +592,8 @@ ul.skills_padding {
         border-bottom: 1px solid #e6e6e6;
     }
     .trivia {
-        margin-top: 6rem;
-        margin-bottom: 6rem;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
     }
 
 
