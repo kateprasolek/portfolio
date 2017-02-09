@@ -1,13 +1,18 @@
 
-//hamburger menu on small screen
-function myFunction() {
-    document.getElementsByClassName("nav_menu")[0].classList.toggle("responsive");
-}
 
-//portfolio submenu 'Categories' on small screens
-// function myFunction() {
-//     document.getElementsByClassName("sub_menu")[0].classList.toggle("responsive2");
-// }
+    // google fonts
+    WebFontConfig = {
+        google: { families: [ 'Lora::latin' ] }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
 
 //selectable portfolio
 $(document).ready(function(){
@@ -21,9 +26,7 @@ $(document).ready(function(){
         $(".cards").hide();
         $(".web_apps").hide();
     });
-});
 
-$(document).ready(function(){
     $("#logo").click(function(){
         $("#logo_only").show();
         $("#web_design_only").hide();
@@ -34,9 +37,7 @@ $(document).ready(function(){
         $(".cards").hide();
         $(".web_apps").hide();
     });
-});
 
-$(document).ready(function(){
     $("#print").click(function(){
         $("#print_only").show();
         $("#web_design_only").hide();
@@ -47,9 +48,15 @@ $(document).ready(function(){
         $(".cards").hide();
         $(".web_apps").hide();
     });
-});
 
-$(document).ready(function(){
+
+
+
+    //hamburger menu on small screen
+function myFunction() {
+    $('.nav_menu').toggleClass('responsive')
+}
+
     $("#all").click(function(){
         $("#all").show();
         $("#web_design_only").hide();
@@ -62,11 +69,6 @@ $(document).ready(function(){
         $(".web_apps").show();
     });
 });
-
-
-
-
-
 
 //calculator functions
 $(document).ready(function(){
@@ -705,18 +707,3 @@ $(document).ready(function(){
             }
         });
     });
-
-    // google fonts
-    WebFontConfig = {
-        google: { families: [ 'Lora::latin' ] }
-    };
-    (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-    })();
-
