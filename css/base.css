@@ -172,13 +172,13 @@ a {
         text-align: center;
     }
 
- /*   .portfolio_name {
+    .portfolio_name {
         font-weight: bold;
         color: white;
         font-size: 3rem;
         text-transform: uppercase;
         text-align: center;
-    }*/
+    }
 
     .text_highlight {
         font-weight: bold;
@@ -200,7 +200,6 @@ a {
     .me {
         padding-top: 10rem;
         padding-bottom: 50rem;
-        /*background: url(images/background3.png) no-repeat center center fixed;*/
     }
 
 /*header*/
@@ -208,29 +207,11 @@ a {
 
     header {
         /*background-color: black;*/
-        background: url(images/background3.jpg) no-repeat center center fixed;
+        background: url(/images/background3.jpg) no-repeat center center fixed;
     }
     .header_text_padding {
          padding-top: 1.5em;
     }
-
-    /*.grey_line {
-        width: 100%;
-        height: 0.10rem;
-        background-color: #e6e6e6;
-    }*/
-
-    /*.navy_line {
-        width: 100%;
-        height: 0.10rem;
-        background-color: #021f40;
-    }*/
-
-    /*.purple_line {
-        width: 100%;
-        height: 0.10rem;
-        background-color: #5e2571;
-    }*/
 
     ul.nav_menu li a {
         transition: 0.3s;

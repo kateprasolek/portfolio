@@ -15,18 +15,15 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 
     <!-- css stylesheet -->
-    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
 
     <!-- javascript frameworks used -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <script src="http://underscorejs.org/underscore-min.js"></script>
-
-    <script src="base.js"></script>
-
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+    
+    <script src="js/base.js"></script>
 </head>
 
 <body role="document">
@@ -74,8 +71,6 @@
             </a>
         </div>
     </div>
-
-
 <!-- main content-->
 
 <!--#all-->
@@ -84,16 +79,16 @@
             <div class="col-md-12 nav nav-pills">
                <!--  <ul class="sub_menu"> -->
                     <li>
-                        <a><span class="portfolio_submenu_text" id="all">all</span></a>
+                        <a id="all"><span class="portfolio_submenu_text">all</span></a>
                     </li>
                     <li>
-                        <a><span class="portfolio_submenu_text" id="web_design">web design</span></a>
+                        <a id="web_design"><span class="portfolio_submenu_text">web design</span></a>
                     </li>
                     <li>
-                        <a><span class="portfolio_submenu_text" id="logo">logo</span></a>
+                        <a id="logo"><span class="portfolio_submenu_text">logo</span></a>
                     </li>
                     <li>
-                        <a><span class="portfolio_submenu_text" id="print">print</span></a>
+                        <a id="print"><span class="portfolio_submenu_text">print</span></a>
                     </li>
                     <li>
                         <a href="calculator.html" target="_blank"><span class="portfolio_submenu_text" id="web_apps">web apps</span></a>
@@ -108,14 +103,14 @@
                     <!-- <li class="icon2">
                         <a href="javascript:void(0);" onclick="myFunction()"><span class="glyphicon glyphicon-menu-hamburger">design categories</span></a>
                     </li> -->
-               <!--  </ul> -->
+              <!--  </ul> -->
             </div>
         </div>
     </div>
      
 
 <!--#all-->
-    <div class="container" id="all">
+    <div class="container" id="all_container">
         <div class="row">
 
             <div class="col-md-3 web_design">
@@ -245,7 +240,7 @@
     
 
 <!--#web_design_only-->
-    <div class="container" id="web_design_only">
+    <div class="container" id="web_design_container">
         <div class="row">
             <div class="col-md-4">
                 <a href="https://www.behance.net/gallery/38779361/facebook-cover-for-artekatie-design" target="_blank">
@@ -287,7 +282,7 @@
     </div>
 
 <!--#logo_only-->
-    <div class="container" id="logo_only">
+    <div class="container" id="logo_container">
         <div class="row">
             <div class="col-md-3">
                 <a href="https://www.behance.net/gallery/36362187/TuTu-Handmade" target="_blank">
@@ -316,7 +311,7 @@
     </div>
 
 <!--#print_only-->
-    <div class="container" id="print_only">
+    <div class="container" id="print_container">
         <div class="row">
             <div class="col-md-4">
                 <a href="https://www.behance.net/gallery/36363289/marketing-brochure-artekatie-card-design" target="_blank">
