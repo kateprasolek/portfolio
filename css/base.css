@@ -19,19 +19,22 @@ a {
     margin-top: 5%;
 }
 
-
+footer {
+    margin-top: 10rem;
+}
 
 
 .home_plain_text:link, .home_plain_text:visited {
-    color: #ffffff;
+    color: white;
 }
 
 .plain_text2:link, .plain_text2:visited {
     color: #5e2571;
 }
 
-.menu_desktop {
-    padding-top: 3rem;
+.me {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
 }
 
 .to_the_top {
@@ -47,7 +50,7 @@ a {
 
 #top {
     background: none;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 #web_design_only, #print_only, #logo_only {
@@ -55,30 +58,29 @@ a {
     margin-bottom: 10rem;
 }
 
-#background { 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
+#home_background {
+    background: url(/images/background3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 20rem;
+    margin-bottom: 10rem;
 }
 
-.button-explore {
+.button_checkme {
     background-color: #f38039;
     color: white;
     text-transform: uppercase;
     font-size: 2.5rem;
     display:block;
-    margin:0 auto; 
+    margin:0 auto;
 }
-
-
 
 /*fonts*/
     * {
         font-family: 'Lora', serif;
-        line-height: 1.375;
-        
+        line-height: 1.375;     
     }
     .see_more_projects {
         text-align: center;
@@ -86,13 +88,11 @@ a {
         font-size: 1.75rem;
         margin-top: 5rem;
     }
-
     .plain_text {
         text-align: center;
         color: #41434c;
         font-size: 1.75rem; 
     }
-
     .extra_text {
         font-weight: bold;
         font-style: italic;
@@ -101,7 +101,6 @@ a {
         font-size: 2.5rem;
         font-family: 'Petit Formal Script', cursive;
     }
-
     .extra_text_left {
         font-weight: bold;
         font-style: italic;
@@ -110,13 +109,11 @@ a {
         font-size: 2.5rem;
         font-family: 'Petit Formal Script', cursive;
     }
-
     .plain_text_left {
         color: #41434c;
         font-size: 1.75rem;
         text-align: left;
     }
-
     .work_in_progress_text {
         color: #41434c;
         font-size: 1.4rem;
@@ -124,7 +121,6 @@ a {
         font-family: 'Petit Formal Script', cursive;
         font-weight: bold;
     }
-
     .contact_text {
         text-align: left;
         font-size: 2rem;
@@ -136,14 +132,12 @@ a {
         top: 50%;
         transform: translateY(50%);
     }
-
     .skill_plain_text {
         color: #41434c;
         font-size: 1.5rem;
         text-align: justify;
         margin-left: 5%;
     }
-
     .name {
         font-weight: bold;
         /*color: #021f40;*/
@@ -154,7 +148,6 @@ a {
         text-align: center;
         position: relative;
     }
-
     .name2 {
         font-weight: bold;
         color: #5e2571;
@@ -163,7 +156,6 @@ a {
         text-align: left;
         padding-top: 0.3em;
     }
-
     .description {
         font-size: 2.5rem;
         color: white;
@@ -171,7 +163,6 @@ a {
         font-family: 'Petit Formal Script', cursive;
         text-align: center;
     }
-
     .portfolio_name {
         font-weight: bold;
         color: white;
@@ -179,7 +170,6 @@ a {
         text-transform: uppercase;
         text-align: center;
     }
-
     .text_highlight {
         font-weight: bold;
         color: #5e2571;
@@ -187,37 +177,14 @@ a {
         text-align: center;
     }
 
-/*home page*/
-    .main_content {
-        padding: 2% auto 2% auto;
-    }
-
-    /*.current_work {
-        padding-top: 18rem;
-        padding-bottom: 18rem;
-    }*/
-
-    .me {
-        padding-top: 10rem;
-        padding-bottom: 50rem;
-    }
-
 /*header*/
-
-
-    header {
-        /*background-color: black;*/
-        background: url(/images/background3.jpg) no-repeat center center fixed;
-    }
     .header_text_padding {
          padding-top: 1.5em;
     }
-
     ul.nav_menu li a {
         transition: 0.3s;
         font-size: 2.5rem;
     }
-
     ul.nav_menu li.icon {
         display: none;
     }
@@ -270,7 +237,6 @@ a {
         }
         ul.nav_menu li a {
             transition: 0.3s;
-            /*font-size: 1.5rem;*/
         }
         .skills_part {
             margin-top: 2em;
@@ -284,7 +250,6 @@ a {
             font-size: 1.4rem;
             color: white;
         }
-
         .contact_me, .calculator_box {
             margin-top: 4em;
             margin-bottom: 4em;
@@ -310,12 +275,6 @@ a {
         .hire {
             margin-top: 2em;
         }
-        header {
-            margin-bottom: 6rem;
-        }
-        footer {
-            margin-top: 10rem;
-        }
         .skill_icon {
             padding: 1%;
             width: 20%;
@@ -337,9 +296,9 @@ a {
 
 /*media queries tablets 520-900px*/
     @media screen and (min-width:520px) and (max-width:900px) {
-        header {
+       /* header {
             margin-bottom: 9rem;
-        }
+        }*/
         ul.nav_menu li:not(:last-child) {
             display: none;
         }
@@ -361,10 +320,6 @@ a {
         }
         ul.nav_menu.responsive li a {
             display: block;
-        }
-      
-        .header_photo, .navy_line {
-            display: none;
         }
         .description {
             font-size: 2rem;
@@ -408,9 +363,6 @@ a {
         .description {
             font-size: 2rem;
             color: white;
-        }
-        footer {
-            margin-top: 15rem;
         }
         .skill_icon {
             padding: 1%;
@@ -463,12 +415,6 @@ ul.skills_padding {
         font-size: 1.4rem;
         color: white;
         }
-        header {
-            margin-bottom: 12rem;
-        }
-        footer {
-            margin-top: 20rem;
-        }
         .skill_icon {
             padding: 1%;
             width: 10%;
@@ -490,7 +436,6 @@ ul.skills_padding {
 }
 
 /*footer*/
-
     footer {
         background-color: black;
     }
@@ -543,10 +488,10 @@ ul.skills_padding {
     }
 
 /*portfolio page*/
-    /*.portfolio_submenu {
+    .portfolio_submenu {
         padding-top: 8em;
         padding-bottom: 1em;
-    }*/
+    }
     .portfolio_submenu_text {
         text-align: center;
         font-size: 2.25rem;
