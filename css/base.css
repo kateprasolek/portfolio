@@ -1,647 +1,90 @@
 
 
 /*div {
-    border: 1px solid red;
+    border: 1px solid green;
 }*/
-html {
-  font-family: sans-serif; /* 1 */
-  line-height: 1.15; /* 2 */
-  -ms-text-size-adjust: 100%; /* 3 */
-  -webkit-text-size-adjust: 100%; /* 3 */
-}
-
-a {
-    color: #f38039;
-    text-decoration: none;
-}
-
-.margin_top {
-    margin-top: 5%;
-}
-
-footer {
-    margin-top: 10rem;
-}
-
-
-.home_plain_text:link, .home_plain_text:visited {
-    color: white;
-}
-
-.plain_text2:link, .plain_text2:visited {
-    color: #5e2571;
-}
-
-.me {
-    padding-top: 15rem;
-    padding-bottom: 5rem;
-}
-
-.to_the_top {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 5rem;
-    z-index: 100;
-    text-decoration: none;
-    margin-bottom: 3rem;
-    background: none;
-}
-
-#top {
-    background: none;
-    margin-top: 1rem;
-}
-
-#web_design_only, #print_only, #logo_only {
-    display: none;
-    margin-bottom: 10rem;
-}
 
 #home_background {
-    background: url(/images/background3.jpg);
+    background: url(/images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     padding-top: 3rem;
-    padding-bottom: 20rem;
-    margin-bottom: 10rem;
+    padding-bottom: 25rem;
 }
 
 .button_checkme {
-    background-color: #f38039;
+    /*background-color: #f38039;*/
+    background-color: orange;
     color: white;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     display:block;
     margin:0 auto;
 }
 
-/*fonts*/
-    * {
-        font-family: 'Lora', serif;
-        line-height: 1.375;     
-    }
-    .see_more_projects {
-        text-align: center;
-        color: #5e2571;
-        font-size: 1.75rem;
-        margin-top: 5rem;
-    }
-    .plain_text {
-        text-align: center;
-        color: #41434c;
-        font-size: 1.75rem; 
-    }
-    .extra_text {
-        font-weight: bold;
-        font-style: italic;
-        text-align: center;
-        color: #5e2571;
-        font-size: 2.5rem;
-        font-family: 'Petit Formal Script', cursive;
-    }
-    .extra_text_left {
-        font-weight: bold;
-        font-style: italic;
-        text-align: justify;
-        color: #5e2571;
-        font-size: 2.5rem;
-        font-family: 'Petit Formal Script', cursive;
-    }
-    .plain_text_left {
-        color: #41434c;
-        font-size: 1.75rem;
-        text-align: left;
-    }
-    .work_in_progress_text {
-        color: #41434c;
-        font-size: 1.4rem;
-        text-align: center;
-        font-family: 'Petit Formal Script', cursive;
-        font-weight: bold;
-    }
-    .contact_text {
-        text-align: left;
-        font-size: 2rem;
-        margin-bottom: 10%;
-        display: inline-block;
-        color: #5e2571;
-        /*596abf*/
-        position: relative;
-        top: 50%;
-        transform: translateY(50%);
-    }
-    .skill_plain_text {
-        color: #41434c;
-        font-size: 1.5rem;
-        text-align: justify;
-        margin-left: 5%;
-    }
-    .name {
-        font-weight: bold;
-        /*color: #021f40;*/
-        /*color: #5e2571;*/
-        color: white;
-        font-size: 7rem;
-        text-transform: uppercase;
-        text-align: center;
-        position: relative;
-    }
-    .name2 {
-        font-weight: bold;
-        color: #5e2571;
-        font-size: 3rem;
-        text-transform: uppercase;
-        text-align: left;
-        padding-top: 0.3em;
-    }
-    .description {
-        font-size: 2.5rem;
-        color: white;
-        font-style: italic;
-        font-family: 'Petit Formal Script', cursive;
-        text-align: center;
-    }
-    .portfolio_name {
-        font-weight: bold;
-        color: white;
-        font-size: 3rem;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    .text_highlight {
-        font-weight: bold;
-        color: #5e2571;
-        font-size: 1.75rem;
-        text-align: center;
-    }
-
-/*header*/
-    .header_text_padding {
-         padding-top: 1.5em;
-    }
-    ul.nav_menu li a {
-        transition: 0.3s;
-        font-size: 2.5rem;
-    }
-    ul.nav_menu li.icon {
-        display: none;
-    }
-
-
-/*media queries mobile up to 520px*/
-    @media screen and (max-width:520px) {
-        .button-explore {
-            display: none;
-        }
-        ul.nav_menu li:not(:last-child) {
-            display: none;
-        }
-        ul.nav_menu li.icon {
-            display: inline-block;
-        }
-        ul.nav_menu.responsive {
-            position: relative;
-            padding-right: 40px;
-        }
-        ul.nav_menu.responsive li.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-        ul.nav_menu.responsive li {
-            float: none;
-            display: inline;
-        }
-        ul.nav_menu.responsive li a {
-            display: block;
-        }
-        .current_link {
-            font-weight: bold;
-        }
-        .name2, span.portfolio_submenu_text {
-            font-size: 2.5rem;
-        }
-        .description {
-            font-size: 2rem;
-            color: white;
-        }
-        .plain_text, .plain_text_left, .text_highlight {
-            font-size: 1.5rem;
-        }
-        .portfolio_img_small {
-            display: block;
-            margin: 1em auto;
-            max-width: 90%;
-        }
-        ul.nav_menu li a {
-            transition: 0.3s;
-        }
-        .skills_part {
-            margin-top: 2em;
-        }
-        .footer_icon {
-            padding: 25%;
-            max-width: 80%;
-        }
-        footer p {
-            text-align: center;
-            font-size: 1.4rem;
-            color: white;
-        }
-        .contact_me, .calculator_box {
-            margin-top: 4em;
-            margin-bottom: 4em;
-        }
-         div.latest_projects {
-            border-top: 1px solid #cccccc;
-            margin-top: 5rem;
-            position: relative;
-        }
-        div.latest_projects p {
-            margin-top: 1rem;
-        }
-        .to_the_top {
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            width: 4rem;
-            z-index: 100;
-            text-decoration: none;
-            margin-bottom: 3rem;
-            background: none;
-        }
-        .hire {
-            margin-top: 2em;
-        }
-        .skill_icon {
-            padding: 1%;
-            width: 20%;
-            float: left;
-        }
-        .skill_icons_desktop{
-            display: none;
-        }
-        .name {
-            font-size: 5rem;
-        }
-        .header_text_padding {
-            padding-top: 0.5em;
-        }
-        .summary {
-            padding-top: 4rem;
-        }
-    }
-
-/*media queries tablets 520-900px*/
-    @media screen and (min-width:520px) and (max-width:900px) {
-       /* header {
-            margin-bottom: 9rem;
-        }*/
-        ul.nav_menu li:not(:last-child) {
-            display: none;
-        }
-        ul.nav_menu li.icon {
-            display: inline-block;
-        }
-        ul.nav_menu.responsive {
-            position: relative;
-            padding-right: 40px;
-        }
-        ul.nav_menu.responsive li.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-        ul.nav_menu.responsive li {
-            float: none;
-            display: inline;
-        }
-        ul.nav_menu.responsive li a {
-            display: block;
-        }
-        .description {
-            font-size: 2rem;
-        }
-        .plain_text, .plain_text_left, .text_highlight {
-            font-size: 1.5rem;
-        }
-        .portfolio_img_small {
-            display: block;
-            margin: 1em auto;
-            max-width: 80%;
-        }
-        footer p {
-            text-align: center;
-            font-size: 1.4rem;
-            color: white;
-        }
-        .footer_icon, .contact_icon {
-            padding: 25%;
-            max-width: 80%;
-        }
-        .skills_part {
-            margin-top: 5em;
-        }
-        .contact_me, .calculator_box {
-            margin-top: 6em;
-            margin-bottom: 6em;
-            margin-left: 2em;
-        }
-        .current_link {
-            font-weight: bold;
-        }
-        div.latest_projects {
-            border-top: 1px solid #cccccc;
-            margin-top: 5rem;
-            position: relative;
-        }
-        div.latest_projects p {
-            margin-top: 1rem;
-        }
-        .description {
-            font-size: 2rem;
-            color: white;
-        }
-        .skill_icon {
-            padding: 1%;
-            width: 20%;
-            float: left;
-        }
-        .skill_icons_desktop{
-            display: none;
-        }
-        .summary {
-            padding-top: 4rem;
-        }
-    }
-
-ul.skills_padding {
-    padding-left: 0px;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243, 128, 57, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/*media queries desktop min 901px*/
-    @media screen and (min-width:901px) {
-        .skills_part {
-            margin-top: 10em;
-            }
-        .contact_me, .calculator_box {
-            margin-top: 12em;
-            margin-bottom: 12em;
-        }
-        .current_link {
-            border-style: solid;
-            border-top: 1px solid #5e2571;
-            border-bottom: solid transparent;
-            border-left: solid transparent;
-            border-right: solid transparent;
-        }
-        div.working_on {
-            border-bottom: 1px solid #cccccc;
-            margin-top: 2rem;
-            position: relative;
-        }
-        div.latest_projects {
-            border-bottom: 1px solid #cccccc;
-            margin-top: 7rem;
-            position: relative;
-        }
-        .portfolio_im, .portfolio_img_small {
-            margin: 3%;
-        }
-        footer p {
-        text-align: left;
-        font-size: 1.4rem;
-        color: white;
-        }
-        .skill_icon {
-            padding: 1%;
-            width: 10%;
-            float: left;
-        }
-        .skill_icons_smallscreen{
-            display: none;
-        }
-       .summary {
-            padding-top: 4rem;
-        }
-    }
-
-/*media queries desktop min 1200px*/
-@media screen and (min-width:1200px) {
-    .summary {
-            padding-top: 14rem;
-        }
+.name {
+    font-weight: bold;
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
 }
 
-/*footer*/
-    footer {
-        background-color: black;
-    }
+.description {
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
 
-    .footer_main {
-        height: auto;
-        padding-top: 2%;
-        padding-bottom: 4%;
-    }
-    ul {
-        list-style-type: none;
-    }
-    .footer_icons_bar ul li {
-        float: left;
-        text-align: center;
-        width: 25%;
-        margin: auto;
-        padding: 0;
-      }
-    .footer_icons_bar ul {
-        margin: auto;
-        padding: 0;
-    }
+.icon {
+    max-width: 80%;
+    padding: 2%;
+}
 
-   .social_bar {
-        margin-top: 5%;
-    }
-    .footer_icon {
-        padding: 15%;
-        max-width: 80%;
-    }
-    .icon:hover {
-        transform: scale(1.2, 1.2);
-        -moz-transform: scale(1.2, 1.2);
-        -ms-transform: scale(1.2, 1.2);
-        -webkit-transform: scale(1.2, 1.2);
-        -o-transform: scale(1.2, 1.2);
-        background: transparent;
-    }
-    select option:first-child {
-        color: grey; display: none;
-    }
+#skills_section, #contact_section, #work_section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+/*    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;*/
+}
 
-/*contact page*/
-    img.contact_me li.contact_me {
-        vertical-align: middle;
-    }
-    .contact_icon {
-        padding: 5%;
-    }
+#contact_section {
+    background-color: orange;
+}
 
-/*portfolio page*/
-    .portfolio_submenu {
-        padding-top: 8em;
-        padding-bottom: 1em;
-    }
-    .portfolio_submenu_text {
-        text-align: center;
-        font-size: 2.25rem;
-        color: #f38039;;
-        text-transform: uppercase;
-    }
-    .img_border {
-        border: 1px solid #41434c;
-    }
-    .portfolio_padding {
-        padding-top: 3%;
-        padding-bottom: 3%;
-    }
-    .portfolio_padding_bottom {
-        padding-bottom: 7em;
-    }
-    .webdesign_row {
-        margin-top: 5em;
-        margin-bottom: 5em;
-    }
+#designer {
+    background-color: #ffa500;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
-/*skills page*/
-    .border_bottom {
-        border-bottom: 1px solid #e6e6e6;
-    }
-    .trivia {
-        margin-top: 7rem;
-        margin-bottom: 7rem;
-    }
+.project {
+    max-width: 100%;
+    padding: 2%;
+    border-radius: 10px;
+}
 
 
 
-/*calculator page*/
-    .calculator_description {
-        margin-top: 7.5%;
-    }
-   
-    .calculator {
-        max-width: 80%;
-        max-height: 80%;
-        border-radius: 12px;
-        padding: 4%;
-        background-color: #b3c9d6;
-        box-shadow: 0px 5px #41403F;
-        font-weight: bold;
-        border: 1px solid #021f40;
-        margin-left: auto;
-        margin-right: auto;
-    }
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
 
-    #result_screen {
-        background-color: #f0d9b5;
-        width: 100%;
-        height: 100%;
-        float: left;
-        border: 1px solid #021f40;
-        background: linear-gradient(#b3c9d6, #ffffff);
-        border-radius: 8px;
-        box-shadow: 0px 1px #41403F;
-        text-align: right;
-        margin-top: 3px;
-        overflow: auto visible;
-        font-size: 4rem;
-    }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
-    #js_back {
-        width: 23%;
-    }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
-    #js_clear {
-        width: 48%;
-    }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
 
-    #equals {
-        width: 98%;
-    }
-
-    .button_number, .button_operator {
-        border-radius: 10px;
-        font-size: 3rem;
-        text-align: center;
-        color: #021f40;
-        box-shadow: 0px 4px #41403F;
-        -webkit-user-select: none;
-        transition: all 0.30s ease;
-        margin: 1%;
-        float: left;
-        width: 23%;
-        height: 100%;
-        cursor: pointer;
-    }
-
-    /* navy-grey design */
-    .button_number {
-        background: linear-gradient(#f0d9b5, #b58863);
-    }
-
-    .button_operator {
-        background: linear-gradient(#376273, #8ea8b9);
-    }
-
-    div.button_number:hover{
-        background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
-        background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
-    }
-
-    div.button_number:active {
-        -webkit-box-shadow: 0px 2px 0px #41403F;
-        -moz-box-shadow: 0px 2px 0px #41403F;
-        box-shadow: 0px 2px 0px #41403F;
-        position: relative;
-        top: 5px;
-        cursor: pointer;
-    }
-
-    div.button_operator:hover{
-        background: -webkit-gradient(linear, left top, left bottom, from(#DCDCDC), to(#EDEDED));
-        background: -moz-linear-gradient(top,  #DCDCDC,  #EDEDED);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCDCDC', endColorstr='#EDEDED');
-    }
-
-    div.button_operator:active {
-        -webkit-box-shadow: 0px 2px 0px #41403F;
-        -moz-box-shadow: 0px 2px 0px #41403F;
-        box-shadow: 0px 2px 0px #41403F;
-        position: relative;
-        top: 5px;
-        cursor: pointer;
-    } 
-
-    .calculator_icon {
-        padding: 2%;
-        float: left;
-    }
-
-
-    .calculator_icon:hover {
-        transform: scale(1.5, 1.5);
-        -moz-transform: scale(1.5, 1.5);
-        -ms-transform: scale(1.5, 1.5);
-        -webkit-transform: scale(1.5, 1.5);
-        -o-transform: scale(1.5, 1.5);
-        background: transparent;
-        }
-
-    .calculator > div {
-        display: inline;
-    }
-
-    .technologyUsed {
-        padding-top: 10%;
-    }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

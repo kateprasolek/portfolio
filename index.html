@@ -1,181 +1,314 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <title>Kate Prasolek portfolio</title>
 
-    <!-- Bootstrap -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    
-    <!-- Custom Google Font -->
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <!-- css stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" type="text/css" href="css/calculator.css">
 
-    <!-- javascript frameworks used -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    
-    <script src="js/base.js"></script>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="home_background">
+    
 <!-- header and navigation bar-->
-        <header>
-            <div class="container menu_desktop">
-                <div class="col-md-12 col-sm-12 pull-right ">
-                    <ul class="nav_menu pull-right nav nav-pills">
-                        <li class="navbar-extra_text">
-                            <a href="index.html" class="home_plain_text current_link">home</a>
-                        </li>
-                        <li class="navbar-extra_text">
-                            <a href="skills.html" class="home_plain_text">skills</a>
-                        </li>
-                        <li class="navbar-extra_text">
-                            <a href="portfolio.html" class="home_plain_text">portfolio</a>
-                        </li>
-                        <li class="navbar-extra_text">
-                            <a href="contact.html" class="home_plain_text">contact</a>
-                        </li>
-                        <li class="icon">
-                            <a href="javascript:void(0);" onclick="myFunction()"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
+    <div id="top_section">
+    	<nav class="navbar navbar-toggleable-md sticky-top bg-faded">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">&nbsp;</a>
 
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav justify-content-center">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+    </div>
+
+
+
+			
+
+<!-- title / introduction -->       
+    <div id="home_background">
         <div class="container">
-            <div class="row me">
-                <div class="col-md-offset-4 col-md-8 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-md-12">
                     <p class="name">kate prasolek</p>
                     <p class="description">your digital designer</p> 
                 </div>
-                <div class="col-md-offset-4 col-md-8 col-sm-12 col-xs-12 margin_top">
-                    <a href="portfolio.html" class="btn button_checkme btn-responsive">
-                        <p>check me out</p> 
-                    </a>  
+                <div class="col-md-12">
+                    <a href="portfolio.html" class="btn button_checkme btn-responsive">check me out</a>  
                 </div>
             </div>       
         </div>
     </div>
 
-<!-- main content-->
-        <div class="main_content">
-            <div class="current_work">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <a href="https://www.iskillu.com/" target="_blank">
-                                <img src="images/current_work.png" class="img-responsive portfolio_img img-thumbnail img_border" alt="blog layout">
-                            </a>
-                        </div>
-                        <div class="col-sm-8 working_on">
-                            <p class="extra_text">currently on my plate</p>
-                            <p class="plain_text">I work with bunch of designers on brand new look of e-learning platform. Live March 2017! </p>
-                        </div>
-                    </div>
+<!-- skills -->
+	<div id="designer" class="fluid-container">
+		<div class="container">
+			<div class="col-md-12">
+                <h4>A reliable junior digital designer with friendly, easy-going, can-do attitude.</h4>
+                <h4>Creator of work that is tailored to individual needs. Self-learner of front end development.</h4>
+                <h4>I work across print and web projects and looking forward to develop into Web and UX design.</h4>
+            </div> 
+		</div>
+	</div>
 
-                    <div class="row">
-                        <div class="col-sm-4 latest_projects">
-                            <p class="extra_text">latest projects</p>
-                        </div>
-                        <div class="col-sm-8">
-                            <div class="row">
-                                <div class="col-md-4">
-					                <a href="http://katedesigns.uk/artekatie_banner/index.html" target="_blank">
-					                    <img src="images/web_animated_banner.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="artekatie animated banner"> 
-					                </a>       
-					            </div>
-                                <div class="col-sm-4">
-                                    <a href="https://www.behance.net/gallery/44595025/Web-banner-for-Crystal-Spirits-Publishing-Inc" target="_blank">
-                                        <img src="images/web_crystal1.png" class="img_border img-responsive img-thumbnail portfolio_img_small" alt="crystal banner">
-                                    </a>
-                                </div>
-                                <div class="col-md-4">
-                                    <a href="https://www.behance.net/gallery/44595025/Web-banner-for-Crystal-Spirits-Publishing-Inc" target="_blank">
-                                        <img src="images/web_crystal2.png" class="img-responsive img_border img-thumbnail portfolio_img_small" alt="crystal spirits web banner2"> 
-                                    </a>       
-                                </div>  
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+	<div id="skills_section" class="fluid-container">
+		<div class="container">
+		
+			<!-- <h1>have a closer look at me</h1> -->
+
+		    <div class="row">
+		    	<div class="col-md-12">
+	                <ul class="nav justify-content-center">
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_photoshop.png" alt="photoshop">
+	                    </li>
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_indesign.png" alt="indesign">
+	                    </li>
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_illustrator.png" alt="illustrator">
+	                    </li>
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_html.png" alt="html">
+	                    </li>
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_css.png" alt="css">
+	                    </li>
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_javascript.png" alt="js">
+	                    </li>
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_bootstrap.png" alt="bootstrap">
+	                    </li>
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_jquery.png" alt="jquery">
+	                    </li>  
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_sublime.png" alt="sublime">
+	                    </li>         
+	                    <li>
+	                        <img class="img-fluid icon" src="icons/icon_tech_github.png" alt="github">
+	                    </li>  
+	                </ul>
+	            </div>
+		    </div>
+		    
+		    <div class="row">
+		    	<div class="col-md-3">
+	                <p>tech skills</p>
+	                <ul>
+	                    <li class="">Photoshop CC 2015</li>
+	                    <li class="">Illustrator CC 2015</li>
+	                    <li class="">inDesign CC 2015</li>
+	                    <li class="">Typography</li>
+	                    <li class="">HTML5</li>
+	                    <li class="">CSS3</li>
+	                    <li class="">Bootstrap</li>
+	                    <li class="">Sublime Text</li>
+	                    <li class="">github</li>
+	                    <li class="">Javascript</li>
+	                    <li class="">jQuery</li>
+	                    <li class="">user experience</li>
+	                </ul> 
+	            </div>
+
+	            <div class="col-md-4">
+	                <p>interpersonal skills</p>
+	                <ul>
+	                    <li class="">ease of interpersonal contacts</li>
+	                    <li class="">strong sense of responsibility</li>
+	                    <li class="">open mind &amp creativity</li>
+	                    <li class="">rapid learning ability</li>
+	                    <li class="">can-do attitude</li>
+	                    <li class="">organisational skills</li>
+	                    <li class="">time management skills</li>
+	                    <li class="">ability to teamwork</li>
+	                    <li class="">flexibility</li>
+	                    <li class="">commitment and consistency</li>
+	                </ul> 
+	            </div>
+
+	            <div class="col-md-5">
+	                <p>trivia</p>
+	                <ul>
+	                    <li class="">tea lover, not a coffee drinker</li>
+	                    <li class="">handmade card designer for 15 years</li>
+	                    <li class="">passionate of observing the world and absorbing inspirations from it</li>
+	                    <li class="">from zero to hero in English, withing 3 years</li>
+	                    <li class="">person who experienced real Indian wedding</li>
+	                    <li class="">gamer that Don'ts Starve Together, but is afraid of <a href="http://dont-starve-game.wikia.com/wiki/Deerclops">deerclops</a></li>
+	                </ul> 
+	            </div>
+		    </div>
+		</div>    
+	</div>
+
+<!-- work -->
+	<div id="work_section" class="fluid-container">
+
+		<div class="container">
+			<h1>Proud to present my work</h1>
+			<div class="row">
+	            <div class="col-sm-6">
+	            	<img src="images/web_artekatie_blog.png" class="img-fluid project">
+	            </div>
+
+	            <div class="col-sm-6">
+	            	<img src="images/web_artekatie_blog.png" class="img-fluid project">
+	            </div>
+	        </div>
+
+	        <div class="row">
+	        	<div class="col-sm-4">
+	            	<img src="images/web_artekatie_blog.png" class="img-fluid project">
+	            </div>
+
+	            <div class="col-sm-4">
+	            	<img src="images/web_artekatie_blog.png" class="img-fluid project">
+	            </div>
+
+	            <div class="col-sm-4">
+	            	<img src="images/web_artekatie_blog.png" class="img-fluid project">
+	            </div>
+	        </div>
+		</div>
+	</div>
+
+
+
+
+
+
+<!-- contact -->
+	<div id="contact_section" class="fluid-container">
+		<div class="container">
+			<!-- <h1>contact me</h1> -->
+			<div class="row">
+				
+		        <div class="col-lg-6">
+		            <div class="row">
+		                <div class="col-md-2">
+		                    <img class="img-fluid icon" src="icons/icon_social_phone2.png" alt="phone"> 
+		                </div>
+		                <div class="col-md-10">
+		                    <p class="contact_text">07479929600</p>
+		                </div>
+		            </div>
+
+		            <div class="row">
+		                <div class="col-md-2">
+		                    <img class="img-fluid icon" src="icons/icon_social_mail2.png" alt="mail">
+		                </div>
+		                <div class="col-md-10">
+		                    <p class="contact_text">kate.prasolek@gmail.com</p>
+		                </div>
+		            </div>
+
+		            <div class="row">
+		                <div class="col-md-2">
+		                    <img class="img-fluid icon" src="icons/icon_social_linkedin2.png" alt="linkedin">
+		                </div>
+		                <div class="col-md-10">
+		                    <a href="https://uk.linkedin.com/in/kateprasolek" target="_blank">
+		                        <p class="contact_text">Connect on LinkedIn</p> 
+		                    </a>
+		                </div>
+		            </div>
+
+		            <div class="row">
+		                <div class="col-md-2">
+		                    <img class="img-fluid icon" src="icons/icon_social_behance2.png" alt="behance">
+		                </div>
+		                <div class="col-md-10">
+		                    <a href="https://www.behance.net/artekatie" target="_blank">
+		                        <p class="contact_text">Follow on Behance</p> 
+		                    </a>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col-lg-6">
+		            <a href="https://www.peopleperhour.com/freelancer/kate/graphic-designer/1244685" target="_blank">
+		                <img class="img-fluid" src="images/hire.png" alt="hire">
+		            </a>
+		        </div>
+		     
+		    </div>	
+		
+	</div>
+</div>
+
+
+
+
+       
+      
 
 <!-- footer-->
-        <footer>
-            <div class="grey_line"></div>
-                <div class="container footer_main"> 
-                    <div class="row">
-                        <div class="col-sm-8 footer_text">
-                            <p>designed & coded by Kate Prasolek &copy; 2016/2017</p>
+<nav class="navbar navbar-inverse bg-inverse">
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+		    <p class="justify-content-center description">designed & coded by Kate Prasolek &copy; 2016/2017</p>
+		</div>
 
-                            <p>created with 
-                                <a href="https://artekatie.wordpress.com/" target="_blank">passion</a> || 
-                                <a href="http://www.adobe.com/uk/creativecloud.html" target="_blank">Adobe Creative Cloud</a> || 
-                                <a href="http://www.w3schools.com/html/html5_intro.asp" target="_blank">HTML5</a> || 
-                                <a href="http://www.w3schools.com/css/css3_intro.asp" target="_blank">CSS3</a> || 
-                                <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> || 
-                                <a href="http://www.w3schools.com/js/" target="_blank">Javascript</a> || 
-                                <a href="https://jquery.com/" target="_blank">jQuery</a>
-                            </p>
+		<div class="col-md-4">
+	        <ul class="nav justify-content-center">
+	            <li class="nav-item">
+	                <a class="nav-link" href="#"><img class="img-fluid icon" src="icons/icon_social_facebook.png" alt="facebook"></a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link" href="#"><img class="img-fluid icon" src="icons/icon_social_instagram.png" alt="instagram"></a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link disabled" href="#"><img class="img-fluid icon" src="icons/icon_social_wordpress.png" alt="wordpress"></a>
+	            </li>
+	        </ul>    
+		</div>
+	</div>
+</div>
+ </nav>
 
-                            <p>icons created by 
-                            <a href="http://www.flaticon.com/authors/bogdan-rosu" target="_blank">Bogdan Rosu</a>, 
-                            <a href="http://www.flaticon.com/authors/sebastien-gabriel" target="_blank">Sebastian Gabriel</a>  & 
-                            <a href="http://www.flaticon.com/authors/freepik" target="_blank">Freepik </a> 
-                            from <a href="http://www.flaticon.com/" target="_blank">flaticon.com</a>
-                            </p>
 
-                            <p>all graphics used to create digital art are from <a href="http://www.freepik.com/" target="_blank">freepik.com</a></p>
-                        </div>
+    
+   
 
-                        <div class="col-sm-4">
-                        <div class="footer_icons_bar">
-                            <ul>
-                                <li>
-                                    <a href="https://www.facebook.com/kasiek2303" target="_blank">
-                                        <img class="img-responsive footer_icon" src="icons/icon_social_facebook.png" alt="facebook">
-                                    </a>
-                                </li>
+    
 
-                                <li>
-                                    <a href="https://www.twitter.com/artekatie" target="_blank">
-                                        <img class="img-responsive footer_icon" src="icons/icon_social_twitter.png" alt="twitter">
-                                    </a>
-                                </li>
 
-                                <li>
-                                    <a href="https://www.instagram.com/artekatie" target="_blank">
-                                        <img class="img-responsive footer_icon" src="icons/icon_social_instagram.png" alt="instagram">
-                                    </a>
-                                </li>
+ 
+       
 
-                                <li>
-                                    <a href="https://https://artekatie.wordpress.com" target="_blank">
-                                        <img class="img-responsive footer_icon" src="icons/icon_social_wordpress.png" alt="wordpress">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>       
-            </div>    
-        </footer>
-    </div>
+
+   
 
 </body>
 </html>
