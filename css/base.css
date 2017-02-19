@@ -51,8 +51,6 @@
 #skills_section, #work_section {
     padding-top: 6rem;
     padding-bottom: 6rem;
-/*    border-top: 1px solid orange;
-    border-bottom: 1px solid orange;*/
 }
 
 #footer_section {
@@ -61,7 +59,7 @@
 }
 
 #contact_section {
-    background-color: orange;
+    background-color: #ffa500;
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
@@ -84,9 +82,7 @@
     padding-top: 1rem;
 }
 
-#work_section h1 {
 
-}
 
 
 // Extra small devices (portrait phones, less than 576px)
