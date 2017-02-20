@@ -8,22 +8,35 @@ body {
    font-family: 'Roboto', sans-serif;
 }
 
+#top_section a {
+    color: #5e2571;
+}
+
+#skills_section a {
+    color: #ffa500;
+}
+
+#top_section a:hover {
+    color: #ffa500;
+}
+
 #home_background {
     background: url(/images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 3rem;
-    padding-bottom: 25rem;
+    padding-top: 5rem;
+    padding-bottom: 20rem;
 }
 
 .button_checkme {
-    /*background-color: #f38039;*/
     background-color: #ffa500;
     color: white;
     font-size: 1.5rem;
     display:block;
     margin:0 auto;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
 }
 
 .navbar-toggler-icon {
@@ -31,18 +44,23 @@ body {
 }
 
 .name {
-    font-weight: bold;
-    color: white;
+    font-weight: bolder;
     font-size: 5rem;
     text-align: center;
     position: relative;
     font-family: 'Roboto Slab', serif;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    color: #ffa500;
+
 }
 
 .description {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     text-align: center;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
 }
 
 .extra_text {
