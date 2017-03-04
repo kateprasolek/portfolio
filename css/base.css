@@ -109,13 +109,14 @@ body {
 .project {
     max-width: 100%;
     padding: 2%;
-    border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
 #footer_section p, #work_section h1 {
-   /* text-align: center;*/
     padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
 }
+
 
 
 
