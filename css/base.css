@@ -1,19 +1,10 @@
 
-/*
-div {
-    border: 1px solid green;
-}*/
-
 body {
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #top_section a {
     color: #5e2571;
-}
-
-#skills_section a {
-    
 }
 
 #top_section a:hover {
@@ -30,13 +21,11 @@ body {
    height: 83%;
    margin: 2%;
    transition-duration: 1s;
-
 }
 
 .card_info:hover {
   background-color: white;
   opacity: 1;
-
 }
 
 #wrapper{
@@ -45,14 +34,15 @@ body {
     height:auto; 
     width:auto;
 }
+
 #inner1{
     float:left; 
 }
+
 #inner2{
     float:left; 
     clear: left;
     padding-top: 25%;
-
 } 
 
 #work_section a {
@@ -88,7 +78,7 @@ body {
 
 .name {
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     position: relative;
     font-family: 'Roboto Slab', serif;
@@ -128,8 +118,6 @@ body {
 .progress-bar {
     color: black;  
 }
-
-
 
 #skills_section {
     padding-top: 6rem;
@@ -180,11 +168,11 @@ body {
 
 
 
-// Extra small devices (portrait phones, less than 576px)
+/*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { ..}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
@@ -193,4 +181,4 @@ body {
 @media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { ... }*/
