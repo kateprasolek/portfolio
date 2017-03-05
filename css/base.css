@@ -20,6 +20,50 @@ body {
     color: #ffa500;
 }
 
+.card .card_info {
+    border: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+    border-radius: 6px;
+    color: black;
+    position: absolute;
+    opacity: 0;
+   height: 83%;
+   margin: 2%;
+   transition-duration: 1s;
+
+}
+
+.card_info:hover {
+  background-color: white;
+  opacity: 1;
+
+}
+
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    height:auto; 
+    width:auto;
+}
+#inner1{
+    float:left; 
+}
+#inner2{
+    float:left; 
+    clear: left;
+    padding-top: 25%;
+
+} 
+
+#work_section a {
+    text-decoration: none;
+}
+
+.card-text {
+    color: black;
+    text-align: center;
+}
+
 #home_background {
     background: url('/images/background.jpg');
     background-repeat: no-repeat;
@@ -73,11 +117,12 @@ body {
     margin: 0.55rem;
 }
 
-.progress-bar {
+.skills_progress_bar {
     text-align: left;
     color: black;  
     font-size: 1rem;
     line-height: normal;
+    padding: 1%;
 }
 
 #skills_section, #work_section {
@@ -104,9 +149,7 @@ body {
 }
 
 .project {
-    max-width: 100%;
     padding: 2%;
-    margin-bottom: 2rem;
 }
 
 .title {
