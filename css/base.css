@@ -13,7 +13,7 @@ body {
 }
 
 #skills_section a {
-    color: #ffa500;
+    
 }
 
 #top_section a:hover {
@@ -93,7 +93,6 @@ body {
     position: relative;
     font-family: 'Roboto Slab', serif;
     color: #ffa500;
-
 }
 
 .description {
@@ -106,6 +105,7 @@ body {
 
 .extra_text {
     font-family: 'Roboto Slab', serif;
+    text-align: center;
 }
 
 .icon {
@@ -125,8 +125,12 @@ body {
     padding: 1%;
 }
 
-#skills_section, #work_section {
+#skills_section {
     padding-top: 6rem;
+    padding-bottom: 6rem;  
+}
+
+#work_section {
     padding-bottom: 6rem;
 }
 
