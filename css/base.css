@@ -125,6 +125,12 @@ body {
     padding: 1%;
 }
 
+.progress-bar {
+    color: black;  
+}
+
+
+
 #skills_section {
     padding-top: 6rem;
     padding-bottom: 6rem;  
@@ -135,14 +141,13 @@ body {
 }
 
 #footer_section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
 }
 
 #contact_section {
     background-color: #ffa500;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #designer {
@@ -161,7 +166,11 @@ body {
     margin-top: 6rem;
 }
 
-#footer_section p, #work_section h1 {
+#footer_section p {
+    padding-top: 1.75rem;
+}
+
+#work_section h1 {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
 }
