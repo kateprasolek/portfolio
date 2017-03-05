@@ -112,6 +112,11 @@ body {
     margin-bottom: 2rem;
 }
 
+.title {
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+}
+
 #footer_section p, #work_section h1 {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
