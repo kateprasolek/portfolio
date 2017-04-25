@@ -134,6 +134,10 @@ body {
     padding-top: 1rem;
 }
 
+footer .author {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 #contact_section {
     background-color: #ffa500;
     padding-top: 2rem;
