@@ -18,9 +18,10 @@ body {
     color: black;
     position: absolute;
     opacity: 0;
-   height: 83%;
-   margin: 2%;
-   transition-duration: 1s;
+    height: 83%;
+    width: 96%;
+    margin: 2%;
+    transition-duration: 1s;
 }
 
 .card_info:hover {
@@ -28,18 +29,18 @@ body {
   opacity: 1;
 }
 
-#wrapper{
+#wrapper_iskillu, #wrapper_banner, #wrapper_portfolio, #wrapper_blog {
     margin-left:auto;
     margin-right:auto;
     height:auto; 
     width:auto;
 }
 
-#inner1{
+#inner1_iskillu, #inner1_banner, #inner1_portfolio, #inner1_blog {
     float:left; 
 }
 
-#inner2{
+#inner2_iskillu, #inner2_banner, #inner2_portfolio, #inner2_blog {
     float:left; 
     clear: left;
     padding-top: 25%;
