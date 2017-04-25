@@ -145,11 +145,9 @@ footer .author {
 }
 
 #designer {
-    background-color: #ffa500;
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background: url('/images/background2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
