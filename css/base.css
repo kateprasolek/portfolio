@@ -61,7 +61,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     padding-top: 4rem;
-    padding-bottom: 6rem;
 }
 
 .button_checkme {
@@ -151,8 +150,7 @@ footer .author {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-top: 6rem;
 }
 
 .project {
