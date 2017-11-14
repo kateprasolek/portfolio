@@ -124,7 +124,8 @@ body {
 
 #skills_section {
     padding-top: 6rem;
-    padding-bottom: 6rem;  
+    padding-bottom: 6rem;
+    font-weight: lighter;
 }
 
 #work_section {
@@ -183,10 +184,29 @@ footer .author {
     padding-bottom: 1.75rem;
 }
 
+span.client {
+    font-weight: bold;
+    color: #5e2571;
+    float: right;
+}
 
+/*css trick to make an empty line*/
+span::before {
+  content: "\A";
+  white-space: pre;
+}
 
+#recommendations {
+    /*height: 24rem;*/
+}
 
-
+p.recommendation {
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: large;
+}
 
 /*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
