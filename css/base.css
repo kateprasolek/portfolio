@@ -63,7 +63,7 @@ body {
     padding-top: 4rem;
 }
 
-.button_checkme {
+.button_cta {
     background-color: #ffa500;
     color: white;
     font-size: 1.5rem;
@@ -72,9 +72,10 @@ body {
     margin-top: 2rem;
     box-shadow: 4px 4px 20px black;
     text-shadow: 1px 1px 5px #5e2571;
+    font-weight: 700;
 }
 
-.button_prototype {
+/*.button_prototype {
     background-color: #ffa500;
     color: white;
     font-size: 1.5rem;
@@ -84,7 +85,7 @@ body {
     margin-bottom: 2rem;
     box-shadow: 4px 4px 20px black;
     text-shadow: 1px 1px 5px #5e2571;
-}
+}*/
 
 /*iframe {
     position: absolute;
@@ -99,7 +100,7 @@ body {
 }
 
 .name {
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 4rem;
     text-align: center;
     position: relative;
@@ -108,23 +109,36 @@ body {
     text-shadow: 1px 3px 3px black;
 }
 
-.description {
+.jobtitle {
     font-size: 2rem;
     color: white;
     opacity: 0.3;
     text-align: center;
     font-style: italic;
     font-family: 'Roboto Slab', serif;
+    font-weight: 700;
 }
+
+/*.statement {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-align: center;
+}*/
 
 .extra_text {
     font-family: 'Roboto Slab', serif;
+    font-weight: 700;
     text-align: center;
 }
 
-#designer h4 {
+#statement h4 {
     color: white;
-    text-shadow: 1px 3px 3px black;
+    text-shadow: 1px 3px 8px black;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-align: center;
 }
 
 .icon {
@@ -172,7 +186,7 @@ footer .author {
     padding-bottom: 2rem;
 }
 
-#designer {
+#statement {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
