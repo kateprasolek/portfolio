@@ -129,6 +129,7 @@ body {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 #statement h4 {
@@ -166,6 +167,11 @@ body {
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-weight: lighter;
+}
+
+.skills-col {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 #work_section {
@@ -248,17 +254,11 @@ p.recommendation {
     font-size: large;
 }
 
-/*// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ..}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
+/*Small devices*/
+@media only screen and (max-width: 768px) {
+    #skills_section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-weight: lighter;
+        }
+}
