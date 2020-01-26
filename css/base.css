@@ -262,3 +262,33 @@ p.recommendation {
         font-weight: lighter;
         }
 }
+
+/*Animations*/
+.name {
+  -webkit-animation-name: name-colour; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: name-colour;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes name-colour {
+  0% {color: #ffa500;}
+  25% {color: #e36990;}
+  45% {color: white;}
+  70% {color: #e36990;}
+  90% {color: #ffa500;}
+  100% {color: #ffa500;}
+}
+
+/* Standard syntax */
+@keyframes name-colour {
+  0% {color: #ffa500;}
+  25% {color: #e36990;}
+  45% {color: white;}
+  70% {color: #e36990;}
+  90% {color: #ffa500;}
+  100% {color: #ffa500;}
+}
