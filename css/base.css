@@ -29,18 +29,18 @@ body {
   opacity: 1;
 }
 
-#wrapper_iskillu, #wrapper_banner, #wrapper_portfolio, #wrapper_blog {
+#wrapper_iskillu, #wrapper_darts, #wrapper_portfolio, #wrapper_apex {
     margin-left:auto;
     margin-right:auto;
     height:auto; 
     width:auto;
 }
 
-#inner1_iskillu, #inner1_banner, #inner1_portfolio, #inner1_blog {
+#inner1_iskillu, #inner1_darts, #inner1_portfolio, #inner1_apex {
     float:left; 
 }
 
-#inner2_iskillu, #inner2_banner, #inner2_portfolio, #inner2_blog {
+#inner2_iskillu, #inner2_darts, #inner2_portfolio, #inner2_apex {
     float:left; 
     clear: left;
     padding-top: 25%;
