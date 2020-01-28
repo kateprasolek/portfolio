@@ -143,7 +143,7 @@ body {
 }
 
 .icon {
-    max-width: 70%;
+    max-width: 50%;
     padding: 2%;
 }
 
@@ -265,6 +265,10 @@ p.recommendation {
         padding-bottom: 2rem;
         font-weight: lighter;
         }
+    .icon {
+        max-width: 70%;
+        padding: 2%;
+    }
 }
 
 /*Animations*/
