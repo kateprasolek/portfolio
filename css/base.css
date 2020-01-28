@@ -29,18 +29,18 @@ body {
   opacity: 1;
 }
 
-#wrapper_iskillu, #wrapper_darts, #wrapper_portfolio, #wrapper_apex {
+#wrapper_iskillu, #wrapper_darts, #wrapper_portfolio, #wrapper_apex, #wrapper_pixel2 {
     margin-left:auto;
     margin-right:auto;
     height:auto; 
     width:auto;
 }
 
-#inner1_iskillu, #inner1_darts, #inner1_portfolio, #inner1_apex {
+#inner1_iskillu, #inner1_darts, #inner1_portfolio, #inner1_apex, #inner1_pixel2 {
     float:left; 
 }
 
-#inner2_iskillu, #inner2_darts, #inner2_portfolio, #inner2_apex {
+#inner2_iskillu, #inner2_darts, #inner2_portfolio, #inner2_apex, #inner2_pixel2 {
     float:left; 
     clear: left;
     padding-top: 25%;
