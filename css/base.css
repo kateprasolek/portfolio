@@ -143,8 +143,12 @@ body {
 }
 
 .icon {
-    max-width: 80%;
+    max-width: 70%;
     padding: 2%;
+}
+
+.nav {
+    padding-left: 2rem;
 }
 
 .progress {
@@ -270,7 +274,6 @@ p.recommendation {
   animation-name: name-colour;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-
 }
 
 /* Safari 4.0 - 8.0 */
@@ -292,3 +295,6 @@ p.recommendation {
   90% {color: #ffa500;}
   100% {color: #ffa500;}
 }
+
+
+
