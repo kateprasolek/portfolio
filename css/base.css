@@ -70,7 +70,7 @@ body {
     display:block;
     margin:0 auto;
     margin-top: 2rem;
-    box-shadow: 4px 4px 20px black;
+    box-shadow: 5px 5px 15px #404040;
     text-shadow: 1px 1px 5px #5e2571;
     font-weight: 700;
 }
