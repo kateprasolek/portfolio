@@ -302,9 +302,9 @@ p.recommendation {
 
 #interpersonal-skills {
     -webkit-animation-name: slideleft;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 9s;
     animation-name: slideleft;
-    animation-duration: 8s;
+    animation-duration: 9s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
 }
@@ -323,9 +323,9 @@ p.recommendation {
 
 #trivia {
     -webkit-animation-name: slideright;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 15s;
     animation-name: slideright;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
 }
