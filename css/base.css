@@ -29,18 +29,18 @@ body {
   opacity: 1;
 }
 
-#wrapper_iskillu, #wrapper_darts, #wrapper_portfolio, #wrapper_apex, #wrapper_pixel2 {
+#wrapper_iskillu, #wrapper_darts, #wrapper_portfolio, #wrapper_apex, #wrapper_pixel2, #wrapper_loader {
     margin-left:auto;
     margin-right:auto;
     height:auto; 
     width:auto;
 }
 
-#inner1_iskillu, #inner1_darts, #inner1_portfolio, #inner1_apex, #inner1_pixel2 {
+#inner1_iskillu, #inner1_darts, #inner1_portfolio, #inner1_apex, #inner1_pixel2, #inner1_loader {
     float:left; 
 }
 
-#inner2_iskillu, #inner2_darts, #inner2_portfolio, #inner2_apex, #inner2_pixel2 {
+#inner2_iskillu, #inner2_darts, #inner2_portfolio, #inner2_apex, #inner2_pixel2, #inner2_loader {
     float:left; 
     clear: left;
     padding-top: 25%;
@@ -243,6 +243,10 @@ p.recommendation {
         max-width: 70%;
         padding: 2%;
     }
+    .kropki {
+        align-content: center;
+        padding: 2rem;
+    }
 }
 
 /*Animations*/
@@ -315,4 +319,62 @@ p.recommendation {
   from {opacity: 0;}
   to {opacity: 100;}
 }
+
+/*work in progress animation*/
+.kropki {
+    align-content: center;
+    padding: 8.5rem;
+}
+
+.kropka {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-flex;
+    margin: 5px auto;
+    opacity: 0;
+}
+
+.k1, .k2, .k3, .k4, .k5 {
+    -webkit-animation-name: loading-animation-kropka;
+    -webkit-animation-duration: 9s;
+    animation-name: loading-animation-kropka;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.k1 {
+    animation-delay: 5s;
+    background-color: #ffa500;
+}
+
+.k2 {
+    animation-delay: 5.5s;
+    background-color: #e36990;
+}
+
+.k3 {
+    animation-delay: 6s;
+    background-color: #5e2571;
+}
+
+.k4 {
+    animation-delay: 6.5s;
+    background-color: #e36990;
+}
+
+.k5 {
+    animation-delay: 7s;
+    background-color: #ffa500;
+}
+
+@keyframes loading-animation-kropka {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    50% { opacity: 0; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 
