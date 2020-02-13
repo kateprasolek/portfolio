@@ -132,6 +132,7 @@ body {
     font-size: 1rem;
     line-height: normal;
     padding: 1%;
+    background-color: #ffd280!important;
 }
 
 .progress-bar {
@@ -322,23 +323,12 @@ p.recommendation {
     animation-timing-function: ease-in;
 }
 
-/* Safari 4.0 - 8.0 
-@-webkit-keyframes slideright {
-  from {opacity: 0;}
-  to {opacity: 100;}
-}
-
 /* Standard syntax */
 @keyframes slideright {
   from {opacity: 0;}
   to {opacity: 100;}
 }
 
-/*work in progress animation*/
-/*.kropki {
-    align-content: center;
-    padding: 8.5rem;
-}*/
 
 .kropka {
     width: 20px;
