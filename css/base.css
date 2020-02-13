@@ -68,6 +68,8 @@ body {
     background-color: #ffa500;
     color: black;
     font-size: 1.5rem;
+  /*  display:block;*/
+    /*margin:0 auto;*/
     margin-top: 2rem;
     box-shadow: 5px 5px 15px #404040;
     font-weight: 700;
@@ -209,6 +211,16 @@ span.client {
     float: right;
 }
 
+/*css trick to make an empty line*/
+span::before {
+  content: "\A";
+  white-space: pre;
+}
+
+#recommendations {
+    /*height: 24rem;*/
+}
+
 p.recommendation {
     font-style: italic;
     font-weight: lighter;
@@ -236,12 +248,18 @@ p.recommendation {
         align-content: center;
         padding: 4rem;
     }
+    .navbar-desktop {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 901px) {
     .kropki {
         align-content: center;
         padding: 8.5rem;
+    }
+    .navbar-mobile {
+        display: none;
     }
 }
 
@@ -302,6 +320,12 @@ p.recommendation {
     animation-duration: 15s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
+}
+
+/* Safari 4.0 - 8.0 
+@-webkit-keyframes slideright {
+  from {opacity: 0;}
+  to {opacity: 100;}
 }
 
 /* Standard syntax */
