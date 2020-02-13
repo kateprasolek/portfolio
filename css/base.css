@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#top_section a {
+#top_section a, #skills_section li a {
     color: #5e2571;
 }
 
@@ -68,11 +68,8 @@ body {
     background-color: #ffa500;
     color: black;
     font-size: 1.5rem;
-  /*  display:block;*/
-    /*margin:0 auto;*/
     margin-top: 2rem;
     box-shadow: 5px 5px 15px #404040;
-    /*text-shadow: 1px 1px 5px #5e2571;*/
     font-weight: 700;
 }
 
@@ -212,16 +209,6 @@ span.client {
     float: right;
 }
 
-/*css trick to make an empty line*/
-span::before {
-  content: "\A";
-  white-space: pre;
-}
-
-#recommendations {
-    /*height: 24rem;*/
-}
-
 p.recommendation {
     font-style: italic;
     font-weight: lighter;
@@ -315,12 +302,6 @@ p.recommendation {
     animation-duration: 15s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-}
-
-/* Safari 4.0 - 8.0 
-@-webkit-keyframes slideright {
-  from {opacity: 0;}
-  to {opacity: 100;}
 }
 
 /* Standard syntax */
