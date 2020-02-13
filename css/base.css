@@ -53,6 +53,7 @@ body {
 .card-text {
     color: black;
     text-align: center;
+    padding-bottom: 0.5rem;
 }
 
 #home_background {
@@ -67,8 +68,8 @@ body {
     background-color: #ffa500;
     color: black;
     font-size: 1.5rem;
-    display:block;
-    margin:0 auto;
+  /*  display:block;*/
+    /*margin:0 auto;*/
     margin-top: 2rem;
     box-shadow: 5px 5px 15px #404040;
     /*text-shadow: 1px 1px 5px #5e2571;*/
@@ -121,12 +122,9 @@ body {
     padding: 2%;
 }
 
-.nav {
-    padding-left: 2rem;
-}
-
 .progress {
     margin: 0.55rem;
+    height: auto;
 }
 
 .skills_progress_bar {
@@ -232,20 +230,31 @@ p.recommendation {
     font-size: large;
 }
 
+.nav {
+    flex-wrap: nowrap;
+}
+
 /*Small devices*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     #skills_section {
         padding-top: 2rem;
         padding-bottom: 2rem;
         font-weight: lighter;
-        }
+    }
     .icon {
         max-width: 70%;
         padding: 2%;
     }
     .kropki {
         align-content: center;
-        padding: 2rem;
+        padding: 4rem;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .kropki {
+        align-content: center;
+        padding: 8.5rem;
     }
 }
 
@@ -321,10 +330,10 @@ p.recommendation {
 }
 
 /*work in progress animation*/
-.kropki {
+/*.kropki {
     align-content: center;
     padding: 8.5rem;
-}
+}*/
 
 .kropka {
     width: 20px;
