@@ -68,10 +68,7 @@ body {
     background-color: #ffa500;
     color: black;
     font-size: 1.5rem;
-  /*  display:block;*/
-    /*margin:0 auto;*/
     margin-top: 2rem;
-    box-shadow: 5px 5px 15px #404040;
     font-weight: 700;
 }
 
@@ -86,7 +83,6 @@ body {
     position: relative;
     font-family: 'Roboto Slab', serif;
     color: #ffa500;
-    text-shadow: 1px 3px 3px black;
 }
 
 .jobtitle {
@@ -108,7 +104,6 @@ body {
 
 #statement h4 {
     color: white;
-    text-shadow: 1px 3px 8px black;
     line-height: 1.2;
     margin-bottom: 0.75rem;
     font-family: 'Roboto Slab', serif;
@@ -166,6 +161,7 @@ footer .author {
     background-color: #ffa500;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 #statement {
@@ -225,7 +221,6 @@ span::before {
 p.recommendation {
     font-style: italic;
     font-weight: lighter;
-    margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: large;
 }
