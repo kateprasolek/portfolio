@@ -203,8 +203,7 @@ footer .author {
 }
 
 span.client {
-    font-weight: bold;
-    color: #5e2571;
+    color: grey;
     float: right;
 }
 
