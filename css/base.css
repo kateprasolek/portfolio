@@ -70,6 +70,7 @@ body {
     font-size: 1.5rem;
     margin-top: 2rem;
     font-weight: 700;
+    border-radius: 55px;
 }
 
 .navbar-toggler-icon {
@@ -98,7 +99,6 @@ body {
 .extra_text {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-    text-align: center;
     padding-bottom: 1rem;
 }
 
@@ -127,7 +127,7 @@ body {
     font-size: 1rem;
     line-height: normal;
     padding: 1%;
-    background-color: #ffd280!important;
+    background-color: rgba(240, 86, 177, 0.35);
 }
 
 .progress-bar {
