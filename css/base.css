@@ -4,7 +4,7 @@ body {
 }
 
 #top_section a, #skills_section li a {
-    color: white;
+    color: #808080;
 }
 
 #top_section a:hover {
