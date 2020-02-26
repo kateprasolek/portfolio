@@ -4,16 +4,12 @@ body {
 }
 
 #top_section a, #skills_section li a {
-    color: #5e2571;
+    color: white;
 }
 
 #top_section a:hover {
     color: #ffa500;
 }
-
-/*#top_section {
-    background-color: black;
-}*/
 
 .card .card_info {
     border: 1px solid rgba(0,0,0,.125);
@@ -64,8 +60,11 @@ body {
     background: url('../images/hero-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#hero_section {
     padding-top: 4rem;
-    /*padding-bottom: 4rem;*/
+    padding-bottom: 4rem;
 }
 
 .button_cta {
@@ -92,44 +91,15 @@ body {
     color: black;
 }
 
-
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
-/*.name {
-    font-weight: 700;
-    font-size: 4rem;
-    text-align: center;
-    position: relative;
-    font-family: 'Roboto Slab', serif;
-    color: #ffa500;
-}*/
-
-/*.jobtitle {
-    font-size: 2rem;
-    color: white;
-    opacity: 0.3;
-    text-align: center;
-    font-style: italic;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
-}*/
 
 .extra_text {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     padding-bottom: 1rem;
 }
-
-/*#statement h4 {
-    color: white;
-    line-height: 1.2;
-    margin-bottom: 0.75rem;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    text-align: center;
-}*/
 
 .headline {
     color: white;
@@ -277,11 +247,23 @@ p.recommendation {
         align-content: center;
         padding: 4rem;
     }
-    .navbar-desktop {
-        display: none;
-    }
     .pph {
         margin-top: 2rem;
+    }
+    .ghost-nav {
+        display: none;
+    }
+    .mobile-nav {
+        background-color: black;
+    }
+    .space-evenly {
+        justify-content: space-evenly;
+    }
+    #footer_section {
+        margin-bottom: 3rem;
+    }
+    p.author {
+        text-align: center;
     }
 }
 
@@ -290,38 +272,42 @@ p.recommendation {
         align-content: center;
         padding: 8.5rem;
     }
-    .navbar-mobile {
+    .mobile-nav {
         display: none;
     }
 }
 
 /*Animations*/
 .name {
-  -webkit-animation-name: name-colour; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
-  animation-name: name-colour;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+    -webkit-animation-name: name-colour; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: name-colour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes name-colour {
-  0% {color: #ffa500;}
-  25% {color: #e36990;}
-  45% {color: white;}
-  70% {color: #e36990;}
-  90% {color: #ffa500;}
-  100% {color: #ffa500;}
+    0% {color: #ffa500;}
+    25% {color: #e36990;}
+    45% {color: white;}
+    70% {color: #e36990;}
+    90% {color: #ffa500;}
+    100% {color: #ffa500;}
 }
 
 /* Standard syntax */
 @keyframes name-colour {
-  0% {color: #ffa500;}
-  25% {color: #e36990;}
-  45% {color: white;}
-  70% {color: #e36990;}
-  90% {color: #ffa500;}
-  100% {color: #ffa500;}
+    0% {color: #ffa500;}
+    25% {color: #e36990;}
+    45% {color: white;}
+    70% {color: #e36990;}
+    90% {color: #ffa500;}
+    100% {color: #ffa500;}
 }
 
 #interpersonal-skills {
