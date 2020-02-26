@@ -11,6 +11,10 @@ body {
     color: #ffa500;
 }
 
+/*#top_section {
+    background-color: black;
+}*/
+
 .card .card_info {
     border: 1px solid rgba(0,0,0,.125);
     text-align: center;
@@ -57,17 +61,17 @@ body {
 }
 
 #home_background {
-    background: url('../images/background.jpg');
+    background: url('../images/hero-bg.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     padding-top: 4rem;
+    /*padding-bottom: 4rem;*/
 }
 
 .button_cta {
     background-color: #ffa500;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 2rem;
     font-weight: 700;
     border-radius: 55px;
@@ -83,20 +87,26 @@ body {
     border: 2px solid #ffa500;
 }
 
+.button_hire:hover {
+    background-color: #ffa500;
+    color: black;
+}
+
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.name {
+/*.name {
     font-weight: 700;
     font-size: 4rem;
     text-align: center;
     position: relative;
     font-family: 'Roboto Slab', serif;
     color: #ffa500;
-}
+}*/
 
-.jobtitle {
+/*.jobtitle {
     font-size: 2rem;
     color: white;
     opacity: 0.3;
@@ -104,7 +114,7 @@ body {
     font-style: italic;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-}
+}*/
 
 .extra_text {
     font-family: 'Roboto Slab', serif;
@@ -112,13 +122,21 @@ body {
     padding-bottom: 1rem;
 }
 
-#statement h4 {
+/*#statement h4 {
     color: white;
     line-height: 1.2;
     margin-bottom: 0.75rem;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     text-align: center;
+}*/
+
+.headline {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .icon {
@@ -145,7 +163,7 @@ body {
 }
 
 #skills_section {
-    padding-top: 6rem;
+    /*padding-top: 6rem;*/
     padding-bottom: 6rem;
     font-weight: lighter;
 }
