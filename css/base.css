@@ -11,7 +11,7 @@ body {
     color: #ffa500;
 }
 
-.card .card_info {
+/*.card .card_info {
     border: 1px solid rgba(0,0,0,.125);
     text-align: center;
     border-radius: 6px;
@@ -22,14 +22,39 @@ body {
     width: 96%;
     margin: 2%;
     transition-duration: 1s;
+}*/
+
+.card-cta {
+    color: #ffa500;
+    text-align: right;
+    font-weight: bold;
+    margin: 0;
 }
 
-.card_info:hover {
+.card-cta:hover {
+    color: rgba(240, 86, 177, 1);;
+}
+
+.card-text {
+    font-weight: lighter;
+    text-align: left;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.card {
+    margin-bottom: 1.75rem;
+}
+
+
+/*.card_info:hover {
   background-color: white;
   opacity: 1;
-}
+}*/
 
-#wrapper_iskillu, #wrapper_darts, #wrapper_portfolio, #wrapper_apex, #wrapper_pixel2, #wrapper_loader {
+/*#wrapper_iskillu, #wrapper_darts, #wrapper_portfolio, #wrapper_apex, #wrapper_pixel2, #wrapper_loader {
     margin-left:auto;
     margin-right:auto;
     height:auto; 
@@ -44,16 +69,10 @@ body {
     float:left; 
     clear: left;
     padding-top: 25%;
-} 
+} */
 
 #work_section a {
     text-decoration: none;
-}
-
-.card-text {
-    color: black;
-    text-align: center;
-    padding-bottom: 0.5rem;
 }
 
 #home_background {
@@ -63,8 +82,8 @@ body {
 }
 
 #hero_section {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .button_cta {
@@ -184,17 +203,24 @@ footer .author {
 
 .project {
     padding: 2%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom: none;
 }
 
-.project2 {
+.card-body {
     padding: 2%;
-    margin: 2%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border-top: none;
 }
 
-.project3 {
-    padding: 2%;
-    margin: 12%;
+.card {
+    border: none;
 }
+
 
 .title {
     margin-bottom: 3rem;
@@ -244,8 +270,8 @@ p.recommendation {
         margin-top: 1rem;
     }
     .kropki {
-        align-content: center;
-        padding: 4rem;
+      /*  align-content: center;*/
+       /* padding: 4rem;*/
     }
     .pph {
         margin-top: 2rem;
@@ -269,8 +295,8 @@ p.recommendation {
 
 @media only screen and (min-width: 901px) {
     .kropki {
-        align-content: center;
-        padding: 8.5rem;
+        /*align-content: center;*/
+        /*padding: 8.5rem;*/
     }
     .mobile-nav {
         display: none;
@@ -346,6 +372,12 @@ p.recommendation {
   to {opacity: 100;}
 }
 
+.kropki {
+    position: absolute;
+    align-self: center;
+    vertical-align: middle;
+    padding-top: 35%;
+}
 
 .kropka {
     width: 20px;
@@ -377,7 +409,7 @@ p.recommendation {
 
 .k3 {
     animation-delay: 6s;
-    background-color: #5e2571;
+    background-color: rgba(240, 86, 177, 0.35);
 }
 
 .k4 {
