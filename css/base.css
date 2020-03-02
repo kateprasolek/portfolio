@@ -3,36 +3,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#top_section a, #skills_section li a {
-    color: #808080;
+a {
+    text-decoration: none;
 }
 
-#top_section a:hover {
+a:hover, .card-cta:hover {
     color: #ffa500;
+    text-decoration: none;
 }
 
-/*.card .card_info {
-    border: 1px solid rgba(0,0,0,.125);
-    text-align: center;
-    border-radius: 6px;
+.deerclop {
     color: black;
-    position: absolute;
-    opacity: 0;
-    height: 83%;
-    width: 96%;
-    margin: 2%;
-    transition-duration: 1s;
-}*/
+    font-weight: bolder;
+}
 
 .card-cta {
-    color: #ffa500;
+    color: black;
     text-align: right;
     font-weight: bold;
     margin: 0;
-}
-
-.card-cta:hover {
-    color: rgba(240, 86, 177, 1);;
 }
 
 .card-text {
@@ -48,33 +37,6 @@ body {
     margin-bottom: 1.75rem;
 }
 
-
-/*.card_info:hover {
-  background-color: white;
-  opacity: 1;
-}*/
-
-/*#wrapper_iskillu, #wrapper_darts, #wrapper_portfolio, #wrapper_apex, #wrapper_pixel2, #wrapper_loader {
-    margin-left:auto;
-    margin-right:auto;
-    height:auto; 
-    width:auto;
-}
-
-#inner1_iskillu, #inner1_darts, #inner1_portfolio, #inner1_apex, #inner1_pixel2, #inner1_loader {
-    float:left; 
-}
-
-#inner2_iskillu, #inner2_darts, #inner2_portfolio, #inner2_apex, #inner2_pixel2, #inner2_loader {
-    float:left; 
-    clear: left;
-    padding-top: 25%;
-} */
-
-#work_section a {
-    text-decoration: none;
-}
-
 #home_background {
     background: url('../images/hero-bg.svg');
     background-repeat: no-repeat;
@@ -82,17 +44,29 @@ body {
 }
 
 #hero_section {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 .button_cta {
     background-color: #ffa500;
     color: black;
     font-size: 1.3rem;
-    margin-top: 2rem;
+/*    margin-top: 2rem;*/
     font-weight: 700;
     border-radius: 55px;
+}
+
+#top_section .button_cta:hover {
+    background-color: black;
+    color: #ffa500;
+    border: 2px solid #ffa500;
+}
+
+.button_cta:hover {
+    background-color: white;
+    color: #black;
+    border: 2px solid #ffa500;
 }
 
 .button_hire {
@@ -125,7 +99,8 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
     margin-bottom: 0;
-    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .icon {
@@ -170,7 +145,7 @@ footer .author {
     color: grey;
     font-weight: lighter;
     padding-top: 0.5rem;
-    text-align: right;
+    text-align: center;
 }
 
 #contact_section_black p {
@@ -237,16 +212,6 @@ span.client {
     float: right;
 }
 
-/*css trick to make an empty line*/
-span::before {
-  content: "\A";
-  white-space: pre;
-}
-
-#recommendations {
-    /*height: 24rem;*/
-}
-
 p.recommendation {
     font-style: italic;
     font-weight: lighter;
@@ -256,6 +221,14 @@ p.recommendation {
 
 .nav {
     flex-wrap: nowrap;
+}
+
+.nav-black {
+    background-color: black;
+}
+
+.nav-link {
+    color: #808080;
 }
 
 /*Small devices*/
