@@ -142,8 +142,9 @@ a:hover, .card-cta:hover {
 }
 
 footer .author {
-    color: grey;
+    color: black;
     font-weight: lighter;
+    font-size: smaller;
     padding-top: 0.5rem;
     text-align: center;
 }
@@ -208,8 +209,9 @@ footer .author {
 }
 
 span.client {
-    color: grey;
     float: right;
+    font-weight: lighter;
+    font-size: smaller;
 }
 
 p.recommendation {
@@ -260,9 +262,6 @@ p.recommendation {
     }
     #footer_section {
         margin-bottom: 3rem;
-    }
-    p.author {
-        text-align: center;
     }
 }
 
