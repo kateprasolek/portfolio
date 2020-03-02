@@ -35,6 +35,7 @@ a:hover, .card-cta:hover {
 
 .card {
     margin-bottom: 1.75rem;
+    border: none;
 }
 
 #home_background {
@@ -94,6 +95,10 @@ a:hover, .card-cta:hover {
     padding-bottom: 1rem;
 }
 
+#skills_section .extra_text {
+    padding-bottom: 0;
+}
+
 .headline {
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -127,7 +132,6 @@ a:hover, .card-cta:hover {
 }
 
 #skills_section {
-    /*padding-top: 6rem;*/
     padding-bottom: 6rem;
     font-weight: lighter;
 }
@@ -193,15 +197,10 @@ footer .author {
     border-top: none;
 }
 
-.card {
-    border: none;
-}
-
-
-.title {
+/*.title {
     margin-bottom: 3rem;
     margin-top: 6rem;
-}
+}*/
 
 #work_section h1 {
     padding-top: 1.75rem;
@@ -235,23 +234,14 @@ p.recommendation {
 
 /*Small devices*/
 @media only screen and (min-width: 300px) and (max-width: 900px) {
-    #skills_section {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        font-weight: lighter;
-    }
     .icon {
         max-width: 50%;
         margin-top: 1rem;
     }
-    .kropki {
-      /*  align-content: center;*/
-       /* padding: 4rem;*/
-    }
     .pph {
         margin-top: 2rem;
     }
-    .ghost-nav {
+    .ghost-nav, .about-me-desktop {
         display: none;
     }
     .mobile-nav {
@@ -263,22 +253,27 @@ p.recommendation {
     #footer_section {
         margin-bottom: 3rem;
     }
+    .headline {
+        font-size: 1.75rem;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .hero-img-mobile {
+        padding-top: 2rem;
+    }
 }
 
 @media only screen and (min-width: 901px) {
-    .kropki {
-        /*align-content: center;*/
-        /*padding: 8.5rem;*/
-    }
-    .mobile-nav {
+    .mobile-nav, .about-me-mobile {
         display: none;
     }
 }
 
 /*Animations*/
 .name {
-    -webkit-animation-name: name-colour; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: name-colour;
+    -webkit-animation-duration: 10s;
     animation-name: name-colour;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -308,35 +303,35 @@ p.recommendation {
     100% {color: #ffa500;}
 }
 
-#interpersonal-skills {
+/*#interpersonal-skills {
     -webkit-animation-name: slideleft;
     -webkit-animation-duration: 9s;
     animation-name: slideleft;
     animation-duration: 9s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-}
+}*/
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes slideleft {
+/*@-webkit-keyframes slideleft {
   from {left: -500px;}
   to {left: 0px;}
-}
+}*/
 
 /* Standard syntax */
-@keyframes slideleft {
+/*@keyframes slideleft {
   from {left: -500px;}
   to {left: 0px;}
-}
+}*/
 
-#trivia {
+/*#trivia {
     -webkit-animation-name: slideright;
     -webkit-animation-duration: 15s;
     animation-name: slideright;
     animation-duration: 15s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-}
+}*/
 
 /* Standard syntax */
 @keyframes slideright {
