@@ -85,14 +85,11 @@ a:hover, .card-cta:hover {
     color: black;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
 .extra_text {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 #skills_section .extra_text {
@@ -132,7 +129,7 @@ a:hover, .card-cta:hover {
 }
 
 #skills_section {
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
     font-weight: lighter;
 }
 
@@ -197,11 +194,6 @@ footer .author {
     border-top: none;
 }
 
-/*.title {
-    margin-bottom: 3rem;
-    margin-top: 6rem;
-}*/
-
 #work_section h1 {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
@@ -211,6 +203,13 @@ span.client {
     float: right;
     font-weight: lighter;
     font-size: smaller;
+}
+
+#recommendations {
+    background: url('../images/circles-long.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
 }
 
 p.recommendation {
@@ -268,6 +267,20 @@ p.recommendation {
     .mobile-nav, .about-me-mobile {
         display: none;
     }
+    #skills_section .col-md-4 {
+        max-width: 32%;
+    }
+    .neo {
+        box-shadow: 5px 5px 20px #eef3f6, -4px -4px 10px #ffffff;
+    }
+    .neo-padding {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        background-color: white;
+    }
+    #skills_section .button_cta {
+        margin-top: 2rem;
+    }
 }
 
 /*Animations*/
@@ -301,42 +314,6 @@ p.recommendation {
     70% {color: #e36990;}
     90% {color: #ffa500;}
     100% {color: #ffa500;}
-}
-
-/*#interpersonal-skills {
-    -webkit-animation-name: slideleft;
-    -webkit-animation-duration: 9s;
-    animation-name: slideleft;
-    animation-duration: 9s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-}*/
-
-/* Safari 4.0 - 8.0 */
-/*@-webkit-keyframes slideleft {
-  from {left: -500px;}
-  to {left: 0px;}
-}*/
-
-/* Standard syntax */
-/*@keyframes slideleft {
-  from {left: -500px;}
-  to {left: 0px;}
-}*/
-
-/*#trivia {
-    -webkit-animation-name: slideright;
-    -webkit-animation-duration: 15s;
-    animation-name: slideright;
-    animation-duration: 15s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-}*/
-
-/* Standard syntax */
-@keyframes slideright {
-  from {opacity: 0;}
-  to {opacity: 100;}
 }
 
 .kropki {
