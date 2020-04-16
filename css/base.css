@@ -80,6 +80,13 @@ a:hover, .card-cta:hover {
     color: black;
 }
 
+#skills_section .extra_text {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
 .extra_text {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
