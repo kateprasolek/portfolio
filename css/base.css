@@ -12,11 +12,6 @@ a:hover, .card-cta:hover {
     text-decoration: none;
 }
 
-.deerclop {
-    color: black;
-    font-weight: bolder;
-}
-
 .card-cta {
     color: black;
     text-align: right;
@@ -89,7 +84,7 @@ a:hover, .card-cta:hover {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 2.5rem;
 }
 
 #skills_section .extra_text {
