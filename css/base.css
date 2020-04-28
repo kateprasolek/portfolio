@@ -263,6 +263,9 @@ p.recommendation {
     .hero-img-mobile {
         padding-top: 2rem;
     }
+    #recommendations {
+        background-image: none;
+    }
 }
 
 @media only screen and (min-width: 901px) {
