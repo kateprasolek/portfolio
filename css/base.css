@@ -286,6 +286,9 @@ p.recommendation {
     #skills_section .button_cta {
         margin-top: 2rem;
     }
+    p .about-me-desktop {
+        padding-bottom: 2rem;
+    }
 }
 
 /*Animations*/
