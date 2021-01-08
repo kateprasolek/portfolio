@@ -5,6 +5,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover, .card-cta:hover {
@@ -12,8 +13,9 @@ a:hover, .card-cta:hover {
     text-decoration: none;
 }
 
+
 .card-cta {
-    color: black;
+    /*color: black;*/
     text-align: right;
     font-weight: bold;
     margin: 0;
