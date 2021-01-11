@@ -142,6 +142,10 @@ a:hover, .card-cta:hover {
     padding-top: 1rem;
 }
 
+.skills-col:hover, .card:hover {
+    transform: scale(1.075);
+}
+
 #work_section {
     padding-bottom: 6rem;
 }
