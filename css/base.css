@@ -297,8 +297,16 @@ p.recommendation {
     }
 }
 
-/*Animations*/
 .name {
+    color: #808080;
+    font-family: 'Roboto Slab', serif;
+    /*font-weight: 700;*/
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/*Animations*/
+/*.name {
     -webkit-animation-name: name-colour;
     -webkit-animation-duration: 10s;
     animation-name: name-colour;
@@ -308,27 +316,27 @@ p.recommendation {
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
-}
+}*/
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes name-colour {
+/*@-webkit-keyframes name-colour {
     0% {color: #ffa500;}
     25% {color: #e36990;}
     45% {color: white;}
     70% {color: #e36990;}
     90% {color: #ffa500;}
     100% {color: #ffa500;}
-}
+}*/
 
 /* Standard syntax */
-@keyframes name-colour {
+/*@keyframes name-colour {
     0% {color: #ffa500;}
     25% {color: #e36990;}
     45% {color: white;}
     70% {color: #e36990;}
     90% {color: #ffa500;}
     100% {color: #ffa500;}
-}
+}*/
 
 .kropki {
     position: absolute;
