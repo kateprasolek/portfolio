@@ -267,17 +267,29 @@ p.recommendation {
     #footer_section {
         margin-bottom: 3rem;
     }
-    .headline {
-        font-size: 1.75rem;
+    .headline-line1, .headline-line2, .headline-line3 {
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 2rem;
         margin-bottom: 0;
+        list-style-type: none;
+    }
+    .headline-line1 {
         padding-top: 0;
+        display: block;
+    }
+    .headline-line3 {
         padding-bottom: 2rem;
+        display: block;
+        margin-block-start: 3.5rem;
     }
     .hero-img-mobile {
         padding-top: 2rem;
     }
     #recommendations {
         background-image: none;
+        background-color: #feeef7;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -302,12 +314,27 @@ p.recommendation {
     .about-me-desktop {
         padding-bottom: 2rem;
     }
+    .headline-line1, .headline-line2, .headline-line3 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    list-style-type: none;
+    }
+    .headline-line1 {
+        padding-top: 2rem;
+        display: block;
+    }
+    .headline-line3 {
+        padding-bottom: 2rem;
+        display: block;
+        margin-block-start: 3.5rem;
+    }
 }
 
 .name {
     color: #808080;
     font-family: 'Roboto Slab', serif;
-    /*font-weight: 700;*/
     margin: 0;
     text-transform: uppercase;
 }
@@ -321,33 +348,7 @@ p.recommendation {
     padding-bottom: 2rem;
 }*/
 
-.headline-line1, .headline-line2, .headline-line3 {
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    font-size: 2.5rem;
-    margin-bottom: 0;
-    list-style-type: none;
-}
 
-.headline-line1 {
-    padding-top: 2rem;
-    display: block;
-}
-
-.headline-line3 {
-    padding-bottom: 2rem;
-    display: block;
-    margin-block-start: 3.5rem;
-}
-
-ul.headline-line2 {
-    padding: 0;
-    margin: 0;
-}
-
-.headline-expertise {
-    position: absolute;
-}
 
 /*Animations*/
 /*Changing headline*/
