@@ -312,16 +312,16 @@ p.recommendation {
     text-transform: uppercase;
 }
 
-.headline {
+/*.headline {
     color: white;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
     margin-bottom: 0;
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
+}*/
 
-.headline-line1, .headline-line2, .headline-line3, {
+.headline-line1, .headline-line2, .headline-line3 {
     color: white;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
@@ -350,8 +350,127 @@ ul.headline-line2 {
 }
 
 /*Animations*/
+/*Changing headline*/
 
-.headline-expertise {
+.animated{
+  display: inline;
+}
+
+.animated span {
+  animation: topToBottom 8s infinite;
+  -ms-animation: topToBottom 8s infinite;
+  -webkit-animation: topToBottom 8s infinite;
+  font-weight: 700;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.animated span:nth-child(1){
+  animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  color: #ffa500;
+}
+
+.animated span:nth-child(2){
+  animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  color: #e36990;
+}
+
+.animated span:nth-child(3){
+  animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  color: #ffa500;
+}
+
+.animated span:nth-child(4){
+  animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+  color: #e36990;
+}
+
+@-webkit-keyframes topToBottom {
+  0%, 20% {opacity: 1} /* visible for 1s */
+  20.01%, 100% {opacity: 0} /* hidden for 4s */
+}
+
+
+
+
+
+/*.graphicdesign {
+    -webkit-animation-name: graphicdesign;
+    -webkit-animation-duration: 2s;
+    animation-name: graphicdesign;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}*/
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes graphicdesign {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/* Standard syntax */
+/*@keyframes graphicdesign {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/*.digitaldesign {
+    -webkit-animation-name: digitaldesign;
+    -webkit-animation-duration: 2s;
+    animation-name: digitaldesign;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+    margin: 0;
+}*/
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes digitaldesign {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}
+
+ Standard syntax 
+@keyframes digitaldesign {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/*.greatexperiences {
+    -webkit-animation-name: greatexperiences;
+    -webkit-animation-duration: 2s;
+    animation-name: greatexperiences;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /*font-weight: 700;
+    margin: 0;*/
+/*}*/
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes greatexperiences {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/* Standard syntax */
+/*@keyframes greatexperiences {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/*Colour change on headlina animation*/
+/*.headline-expertise {
     -webkit-animation-name: name-colour;
     -webkit-animation-duration: 10s;
     animation-name: name-colour;
@@ -359,28 +478,27 @@ ul.headline-line2 {
     animation-iteration-count: infinite;
     font-weight: 700;
     margin: 0;
-
-}
+}*/
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes name-colour {
+/*@-webkit-keyframes name-colour {
     0% {color: #ffa500;}
     25% {color: #e36990;}
     45% {color: #ffa500;}
     70% {color: #e36990;}
     90% {color: #ffa500;}
     100% {color: #ffa500;}
-}
+}*/
 
 /* Standard syntax */
-@keyframes name-colour {
+/*@keyframes name-colour {
     0% {color: #ffa500;}
     25% {color: #e36990;}
     45% {color: #ffa500;}
     70% {color: #e36990;}
     90% {color: #ffa500;}
     100% {color: #ffa500;}
-}
+}*/
 
 /*.name {
     -webkit-animation-name: name-colour;
