@@ -3,6 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p, ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -100,14 +107,14 @@ a:hover, .card-cta:hover {
     padding-bottom: 0;
 }
 
-.headline {
+/*.headline {
     color: white;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
     margin-bottom: 0;
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
+}*/
 
 .icon {
     max-width: 50%;
@@ -305,7 +312,76 @@ p.recommendation {
     text-transform: uppercase;
 }
 
+.headline {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.headline-line1, .headline-line2, .headline-line3, {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.headline-line1 {
+    padding-top: 2rem;
+    display: block;
+}
+
+.headline-line3 {
+    padding-bottom: 2rem;
+    display: block;
+    margin-block-start: 3.5rem;
+}
+
+ul.headline-line2 {
+    padding: 0;
+    margin: 0;
+}
+
+.headline-expertise {
+    position: absolute;
+}
+
 /*Animations*/
+
+.headline-expertise {
+    -webkit-animation-name: name-colour;
+    -webkit-animation-duration: 10s;
+    animation-name: name-colour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes name-colour {
+    0% {color: #ffa500;}
+    25% {color: #e36990;}
+    45% {color: #ffa500;}
+    70% {color: #e36990;}
+    90% {color: #ffa500;}
+    100% {color: #ffa500;}
+}
+
+/* Standard syntax */
+@keyframes name-colour {
+    0% {color: #ffa500;}
+    25% {color: #e36990;}
+    45% {color: #ffa500;}
+    70% {color: #e36990;}
+    90% {color: #ffa500;}
+    100% {color: #ffa500;}
+}
+
 /*.name {
     -webkit-animation-name: name-colour;
     -webkit-animation-duration: 10s;
