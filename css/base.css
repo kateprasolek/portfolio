@@ -1,0 +1,595 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, .card-cta:hover {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+
+.card-cta {
+    /*color: black;*/
+    text-align: right;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-text {
+    font-weight: lighter;
+    text-align: left;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.card {
+    margin-bottom: 1.75rem;
+    border: none;
+}
+
+#home_background {
+    background: url('../images/hero-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero_section {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.button_cta {
+    background-color: #ffa500;
+    color: black;
+    font-size: 1.3rem;
+/*    margin-top: 2rem;*/
+    font-weight: 700;
+    border-radius: 55px;
+}
+
+#top_section .button_cta:hover {
+    background-color: black;
+    color: #ffa500;
+    border: 2px solid #ffa500;
+}
+
+.button_cta:hover {
+    background-color: white;
+    color: #black;
+    border: 2px solid #ffa500;
+}
+
+.button_hire {
+    background-color: black;
+    color: #ffa500;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    border-radius: 55px;
+    border: 2px solid #ffa500;
+}
+
+.button_hire:hover {
+    background-color: #ffa500;
+    color: black;
+}
+
+#skills_section .extra_text {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.extra_text {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    padding-top: 2.5rem;
+}
+
+#skills_section .extra_text {
+    padding-bottom: 0;
+}
+
+/*.headline {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}*/
+
+.icon {
+    max-width: 50%;
+    margin-top: 1rem;
+}
+
+.progress {
+    margin: 0.55rem;
+    height: auto;
+}
+
+.skills_progress_bar {
+    text-align: left;
+    color: black;  
+    font-size: 1rem;
+    line-height: normal;
+    padding: 1%;
+    background-color: rgba(240, 86, 177, 0.35);
+}
+
+.progress-bar {
+    color: black;  
+}
+
+#skills_section {
+    padding-bottom: 5rem;
+    font-weight: lighter;
+}
+
+.skills-col {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.skills-col:hover, .card:hover {
+    transform: scale(1.075);
+}
+
+#work_section {
+    padding-bottom: 6rem;
+}
+
+footer .author {
+    color: black;
+    font-weight: lighter;
+    font-size: smaller;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#contact_section_black p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#contact_section_black {
+    background-color: black;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.pph-logo {
+    max-width: 50%;
+}
+
+#statement {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 6rem;
+}
+
+.project {
+    padding: 2%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 2%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border-top: none;
+}
+
+#work_section h1 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+
+span.client {
+    float: right;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+#recommendations {
+    background: url('../images/circles-long.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    margin-bottom: 6rem;
+}
+
+p.recommendation {
+    /*font-style: italic;*/
+    font-weight: lighter;
+    margin-bottom: 3rem;
+    font-size: large;
+}
+
+.nav {
+    flex-wrap: nowrap;
+}
+
+.nav-black {
+    background-color: black;
+}
+
+.nav-link {
+    color: #808080;
+}
+
+/*Small devices*/
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .icon {
+        max-width: 50%;
+        margin-top: 1rem;
+    }
+    .pph {
+        margin-top: 2rem;
+    }
+    .ghost-nav, .about-me-desktop {
+        display: none;
+    }
+    .mobile-nav {
+        background-color: black;
+        border-top: 1px solid grey;
+    }
+    .space-evenly {
+        justify-content: space-evenly;
+    }
+    #footer_section {
+        margin-bottom: 3rem;
+    }
+    .headline-line1, .headline-line2, .headline-line3 {
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 2rem;
+        margin-bottom: 0;
+        list-style-type: none;
+    }
+    .headline-line1 {
+        padding-top: 0;
+        display: block;
+    }
+    .headline-line3 {
+        padding-bottom: 2rem;
+        display: block;
+        margin-block-start: 3.5rem;
+    }
+    .hero-img-mobile {
+        padding-top: 2rem;
+    }
+    #recommendations {
+        background-image: none;
+        background-color: #feeef7;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .mobile-nav, .about-me-mobile {
+        display: none;
+    }
+    #skills_section .col-md-4 {
+        max-width: 32%;
+    }
+    .neo {
+        box-shadow: 5px 5px 20px #eef3f6, -4px -4px 10px #ffffff;
+    }
+    .neo-padding {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        background-color: white;
+    }
+    #skills_section .button_cta {
+        margin-top: 2rem;
+    }
+    .about-me-desktop {
+        padding-bottom: 2rem;
+    }
+    .headline-line1, .headline-line2, .headline-line3 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    list-style-type: none;
+    }
+    .headline-line1 {
+        padding-top: 2rem;
+        display: block;
+    }
+    .headline-line3 {
+        padding-bottom: 2rem;
+        display: block;
+        margin-block-start: 3.5rem;
+    }
+}
+
+.name {
+    color: #808080;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/*.headline {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}*/
+
+
+
+/*Animations*/
+/*Changing headline*/
+
+.animated{
+  display: inline;
+}
+
+.animated span {
+  animation: topToBottom 8s infinite;
+  -ms-animation: topToBottom 8s infinite;
+  -webkit-animation: topToBottom 8s infinite;
+  font-weight: 700;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.animated span:nth-child(1){
+  animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  color: #ffa500;
+}
+
+.animated span:nth-child(2){
+  animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  color: #e36990;
+}
+
+.animated span:nth-child(3){
+  animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  color: #ffa500;
+}
+
+.animated span:nth-child(4){
+  animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+  color: #e36990;
+}
+
+@-webkit-keyframes topToBottom {
+  0%, 20% {opacity: 1} /* visible for 1s */
+  20.01%, 100% {opacity: 0} /* hidden for 4s */
+}
+
+
+
+
+
+/*.graphicdesign {
+    -webkit-animation-name: graphicdesign;
+    -webkit-animation-duration: 2s;
+    animation-name: graphicdesign;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}*/
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes graphicdesign {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/* Standard syntax */
+/*@keyframes graphicdesign {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/*.digitaldesign {
+    -webkit-animation-name: digitaldesign;
+    -webkit-animation-duration: 2s;
+    animation-name: digitaldesign;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+    margin: 0;
+}*/
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes digitaldesign {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}
+
+ Standard syntax 
+@keyframes digitaldesign {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/*.greatexperiences {
+    -webkit-animation-name: greatexperiences;
+    -webkit-animation-duration: 2s;
+    animation-name: greatexperiences;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /*font-weight: 700;
+    margin: 0;*/
+/*}*/
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes greatexperiences {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/* Standard syntax */
+/*@keyframes greatexperiences {
+    0% {opacity: 1; color: pink;}
+    100% {opacity: 0; color: yellow;}
+}*/
+
+/*Colour change on headlina animation*/
+/*.headline-expertise {
+    -webkit-animation-name: name-colour;
+    -webkit-animation-duration: 10s;
+    animation-name: name-colour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+    margin: 0;
+}*/
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes name-colour {
+    0% {color: #ffa500;}
+    25% {color: #e36990;}
+    45% {color: #ffa500;}
+    70% {color: #e36990;}
+    90% {color: #ffa500;}
+    100% {color: #ffa500;}
+}*/
+
+/* Standard syntax */
+/*@keyframes name-colour {
+    0% {color: #ffa500;}
+    25% {color: #e36990;}
+    45% {color: #ffa500;}
+    70% {color: #e36990;}
+    90% {color: #ffa500;}
+    100% {color: #ffa500;}
+}*/
+
+/*.name {
+    -webkit-animation-name: name-colour;
+    -webkit-animation-duration: 10s;
+    animation-name: name-colour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}*/
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes name-colour {
+    0% {color: #ffa500;}
+    25% {color: #e36990;}
+    45% {color: white;}
+    70% {color: #e36990;}
+    90% {color: #ffa500;}
+    100% {color: #ffa500;}
+}*/
+
+/* Standard syntax */
+/*@keyframes name-colour {
+    0% {color: #ffa500;}
+    25% {color: #e36990;}
+    45% {color: white;}
+    70% {color: #e36990;}
+    90% {color: #ffa500;}
+    100% {color: #ffa500;}
+}*/
+
+.kropki {
+    position: absolute;
+    align-self: center;
+    vertical-align: middle;
+    padding-top: 35%;
+}
+
+.kropka {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-flex;
+    margin: 5px auto;
+    opacity: 0;
+}
+
+.k1, .k2, .k3, .k4, .k5 {
+    -webkit-animation-name: loading-animation-kropka;
+    -webkit-animation-duration: 9s;
+    animation-name: loading-animation-kropka;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.k1 {
+    animation-delay: 5s;
+    background-color: #ffa500;
+}
+
+.k2 {
+    animation-delay: 5.5s;
+    background-color: #e36990;
+}
+
+.k3 {
+    animation-delay: 6s;
+    background-color: rgba(240, 86, 177, 0.35);
+}
+
+.k4 {
+    animation-delay: 6.5s;
+    background-color: #e36990;
+}
+
+.k5 {
+    animation-delay: 7s;
+    background-color: #ffa500;
+}
+
+@keyframes loading-animation-kropka {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    50% { opacity: 0; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
