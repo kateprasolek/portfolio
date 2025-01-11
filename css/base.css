@@ -419,18 +419,18 @@ span.menu_title{
     margin-bottom: 0rem;
 }
 
-.col-md-6 .card-img-overlay:hover,
-.col-md-6 img:hover {
+.col-md-12 .card-img-overlay:hover,
+.col-md-12 img:hover {
   background: rgba(0, 0, 0, 0.75); 
 }
 
-.col-md-6 .card-img-overlay:hover,
-.col-md-6 .card-img-overlay h5:hover {
+.col-md-12 .card-img-overlay:hover,
+.col-md-12 .card-img-overlay h5:hover {
   color: rgba(255, 165, 0, 1);  
 }
 
 
-.col-md-6 a {
+.col-md-12 a {
     color: black!important;
 
 }
