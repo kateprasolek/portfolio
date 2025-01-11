@@ -15,6 +15,7 @@ a {
     color: black;
 }
 
+
 a:hover, .card-cta:hover {
     color: #ffa500;
     text-decoration: none;
@@ -42,37 +43,44 @@ a:hover, .card-cta:hover {
     border: none;
 }
 
+/*
 #home_background {
     background: url('../images/hero-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
 
 #hero_section {
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
 
+
 .button_cta {
     background-color: #ffa500;
+    font-family: 'Roboto', sans-serif !important;
     color: black;
-    font-size: 1.3rem;
-/*    margin-top: 2rem;*/
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
     font-weight: 700;
     border-radius: 55px;
-}
 
+}
+/*
 #top_section .button_cta:hover {
     background-color: black;
     color: #ffa500;
     border: 2px solid #ffa500;
 }
-
+*/
+/*
 .button_cta:hover {
-    background-color: white;
-    color: #black;
-    border: 2px solid #ffa500;
+    background-color: black;
+    color: #ffa500;
+    border: 2px solid black;
 }
+
 
 .button_hire {
     background-color: black;
@@ -88,19 +96,35 @@ a:hover, .card-cta:hover {
     background-color: #ffa500;
     color: black;
 }
+*/
 
-#skills_section .extra_text {
+.title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    padding-top: 0rem;
+}
+
+.experience,
+.recommendations {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+.contact_section_title {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     padding-bottom: 1rem;
-    padding-top: 1rem;
+   padding-top: 2.5rem;
 }
 
 .extra_text {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     padding-bottom: 1rem;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
 }
 
 #skills_section .extra_text {
@@ -121,6 +145,7 @@ a:hover, .card-cta:hover {
     margin-top: 1rem;
 }
 
+/*
 .progress {
     margin: 0.55rem;
     height: auto;
@@ -138,10 +163,21 @@ a:hover, .card-cta:hover {
 .progress-bar {
     color: black;  
 }
+*/
 
 #skills_section {
-    padding-bottom: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
     font-weight: lighter;
+}
+
+#skills_section li { 
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+#skills_section ul { 
+    padding-inline-start: 0px;
 }
 
 .skills-col {
@@ -149,12 +185,14 @@ a:hover, .card-cta:hover {
     padding-top: 1rem;
 }
 
-.skills-col:hover, .card:hover {
+/*.skills-col:hover, .card:hover {
     transform: scale(1.075);
 }
+*/
 
 #work_section {
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
 }
 
 footer .author {
@@ -220,11 +258,12 @@ span.client {
 }
 
 #recommendations {
-    background: url('../images/circles-long.svg');
+    /*background: url('../images/circles-long.svg');*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 p.recommendation {
@@ -333,10 +372,23 @@ p.recommendation {
     }
 }
 
-.name {
+.name,
+.manu_name {
+    color: #ffa500;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+span.menu_title{
     color: #808080;
     font-family: 'Roboto Slab', serif;
     margin: 0;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.nav-item {
     text-transform: uppercase;
 }
 
@@ -351,245 +403,56 @@ p.recommendation {
 
 
 
-/*Animations*/
-/*Changing headline*/
-
-.animated{
-  display: inline;
-}
-
-.animated span {
-  animation: topToBottom 8s infinite;
-  -ms-animation: topToBottom 8s infinite;
-  -webkit-animation: topToBottom 8s infinite;
-  font-weight: 700;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-}
-
-.animated span:nth-child(1){
-  animation-delay: 0s;
-  -ms-animation-delay: 0s;
-  -webkit-animation-delay: 0s;
-  color: #ffa500;
-}
-
-.animated span:nth-child(2){
-  animation-delay: 2s;
-  -ms-animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-  color: #e36990;
-}
-
-.animated span:nth-child(3){
-  animation-delay: 4s;
-  -ms-animation-delay: 4s;
-  -webkit-animation-delay: 4s;
-  color: #ffa500;
-}
-
-.animated span:nth-child(4){
-  animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  -webkit-animation-delay: 6s;
-  color: #e36990;
-}
-
-@-webkit-keyframes topToBottom {
-  0%, 20% {opacity: 1} /* visible for 1s */
-  20.01%, 100% {opacity: 0} /* hidden for 4s */
-}
 
 
-
-
-
-/*.graphicdesign {
-    -webkit-animation-name: graphicdesign;
-    -webkit-animation-duration: 2s;
-    animation-name: graphicdesign;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}*/
-
-/* Safari 4.0 - 8.0 */
-/*@-webkit-keyframes graphicdesign {
-    0% {opacity: 1; color: pink;}
-    100% {opacity: 0; color: yellow;}
-}*/
-
-/* Standard syntax */
-/*@keyframes graphicdesign {
-    0% {opacity: 1; color: pink;}
-    100% {opacity: 0; color: yellow;}
-}*/
-
-/*.digitaldesign {
-    -webkit-animation-name: digitaldesign;
-    -webkit-animation-duration: 2s;
-    animation-name: digitaldesign;
-    animation-delay: 2s;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    font-weight: 700;
-    margin: 0;
-}*/
-
-/* Safari 4.0 - 8.0 */
-/*@-webkit-keyframes digitaldesign {
-    0% {opacity: 1; color: pink;}
-    100% {opacity: 0; color: yellow;}
-}
-
- Standard syntax 
-@keyframes digitaldesign {
-    0% {opacity: 1; color: pink;}
-    100% {opacity: 0; color: yellow;}
-}*/
-
-/*.greatexperiences {
-    -webkit-animation-name: greatexperiences;
-    -webkit-animation-duration: 2s;
-    animation-name: greatexperiences;
-    animation-delay: 4s;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    /*font-weight: 700;
-    margin: 0;*/
-/*}*/
-
-/* Safari 4.0 - 8.0 */
-/*@-webkit-keyframes greatexperiences {
-    0% {opacity: 1; color: pink;}
-    100% {opacity: 0; color: yellow;}
-}*/
-
-/* Standard syntax */
-/*@keyframes greatexperiences {
-    0% {opacity: 1; color: pink;}
-    100% {opacity: 0; color: yellow;}
-}*/
-
-/*Colour change on headlina animation*/
-/*.headline-expertise {
-    -webkit-animation-name: name-colour;
-    -webkit-animation-duration: 10s;
-    animation-name: name-colour;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    font-weight: 700;
-    margin: 0;
-}*/
-
-/* Safari 4.0 - 8.0 */
-/*@-webkit-keyframes name-colour {
-    0% {color: #ffa500;}
-    25% {color: #e36990;}
-    45% {color: #ffa500;}
-    70% {color: #e36990;}
-    90% {color: #ffa500;}
-    100% {color: #ffa500;}
-}*/
-
-/* Standard syntax */
-/*@keyframes name-colour {
-    0% {color: #ffa500;}
-    25% {color: #e36990;}
-    45% {color: #ffa500;}
-    70% {color: #e36990;}
-    90% {color: #ffa500;}
-    100% {color: #ffa500;}
-}*/
-
-/*.name {
-    -webkit-animation-name: name-colour;
-    -webkit-animation-duration: 10s;
-    animation-name: name-colour;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
-    margin: 0;
-    text-transform: uppercase;
-}*/
-
-/* Safari 4.0 - 8.0 */
-/*@-webkit-keyframes name-colour {
-    0% {color: #ffa500;}
-    25% {color: #e36990;}
-    45% {color: white;}
-    70% {color: #e36990;}
-    90% {color: #ffa500;}
-    100% {color: #ffa500;}
-}*/
-
-/* Standard syntax */
-/*@keyframes name-colour {
-    0% {color: #ffa500;}
-    25% {color: #e36990;}
-    45% {color: white;}
-    70% {color: #e36990;}
-    90% {color: #ffa500;}
-    100% {color: #ffa500;}
-}*/
-
-.kropki {
+/* The overlay effect - lays on top of the container and over the image */
+.card-img-overlay {
+    background: rgba(255, 165, 0, 0.75); 
+    height:auto;
     position: absolute;
-    align-self: center;
-    vertical-align: middle;
-    padding-top: 35%;
+    top: auto;
+    bottom: 0!important;
+    padding: 1rem;
 }
 
-.kropka {
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    position: relative;
-    display: inline-flex;
-    margin: 5px auto;
-    opacity: 0;
+.card-title {
+    margin-bottom: 0rem;
 }
 
-.k1, .k2, .k3, .k4, .k5 {
-    -webkit-animation-name: loading-animation-kropka;
-    -webkit-animation-duration: 9s;
-    animation-name: loading-animation-kropka;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
+.col-md-6 .card-img-overlay:hover,
+.col-md-6 img:hover {
+  background: rgba(0, 0, 0, 0.75); 
 }
 
-.k1 {
-    animation-delay: 5s;
-    background-color: #ffa500;
-}
-
-.k2 {
-    animation-delay: 5.5s;
-    background-color: #e36990;
-}
-
-.k3 {
-    animation-delay: 6s;
-    background-color: rgba(240, 86, 177, 0.35);
-}
-
-.k4 {
-    animation-delay: 6.5s;
-    background-color: #e36990;
-}
-
-.k5 {
-    animation-delay: 7s;
-    background-color: #ffa500;
-}
-
-@keyframes loading-animation-kropka {
-    0% { opacity: 0; }
-    25% { opacity: 1; }
-    50% { opacity: 0; }
-    75% { opacity: 1; }
-    100% { opacity: 0; }
+.col-md-6 .card-img-overlay:hover,
+.col-md-6 .card-img-overlay h5:hover {
+  color: rgba(255, 165, 0, 1);  
 }
 
 
+.col-md-6 a {
+    color: black!important;
+
+}
+
+/*
+.card-img-overlay:hover {
+  opacity: 0;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 97%;
+  height:100%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 2%;
+}
+*/
