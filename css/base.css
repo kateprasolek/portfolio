@@ -1,6 +1,7 @@
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', serif;
+    font-weight: 400;
 }
 
 p, ul {
@@ -59,7 +60,7 @@ a:hover, .card-cta:hover {
 
 .button_cta {
     background-color: #ffa500;
-    font-family: 'Roboto', sans-serif !important;
+    /*font-family: 'Roboto', sans-serif !important;*/
     color: black;
     font-size: 1.5rem;
     margin-bottom: 4rem;
@@ -99,7 +100,7 @@ a:hover, .card-cta:hover {
 */
 
 .title {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     padding-bottom: 2rem;
     padding-top: 0rem;
@@ -375,14 +376,14 @@ p.recommendation {
 .name,
 .manu_name {
     color: #ffa500;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Libre Baskerville', serif;
     margin: 0;
     text-transform: uppercase;
 }
 
 span.menu_title{
     color: #808080;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Libre Baskerville', serif;
     margin: 0;
     text-transform: lowercase;
     font-style: italic;
@@ -402,7 +403,10 @@ span.menu_title{
 }*/
 
 
-
+.project-title {
+    font-family: 'Libre Baskerville', serif;
+    color: pink;
+}
 
 
 /* The overlay effect - lays on top of the container and over the image */
@@ -412,11 +416,13 @@ span.menu_title{
     position: absolute;
     top: auto;
     bottom: 0!important;
+    right: 0!important;
     padding: 1rem;
 }
 
 .card-title {
     margin-bottom: 0rem;
+    text-align: right;
 }
 
 .col-md-12 .card-img-overlay:hover,
