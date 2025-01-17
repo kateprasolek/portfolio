@@ -115,14 +115,14 @@ a:hover, .card-cta:hover {
 
 
 .contact_section_title {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     padding-bottom: 1rem;
    padding-top: 2.5rem;
 }
 
 .extra_text {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -134,7 +134,7 @@ a:hover, .card-cta:hover {
 
 /*.headline {
     color: white;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2.5rem;
     margin-bottom: 0;
     padding-top: 2rem;
@@ -295,7 +295,8 @@ p.recommendation {
     .pph {
         margin-top: 2rem;
     }
-    .ghost-nav, .about-me-desktop {
+    .ghost-nav, .about-me-desktop,
+    .project-img-desktop {
         display: none;
     }
     .mobile-nav {
@@ -310,7 +311,7 @@ p.recommendation {
     }
     .headline-line1, .headline-line2, .headline-line3 {
         color: white;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Libre Baskerville', serif;
         font-size: 2rem;
         margin-bottom: 0;
         list-style-type: none;
@@ -335,7 +336,8 @@ p.recommendation {
 }
 
 @media only screen and (min-width: 901px) {
-    .mobile-nav, .about-me-mobile {
+    .mobile-nav, .about-me-mobile,
+    .project-img-mobile {
         display: none;
     }
     #skills_section .col-md-4 {
@@ -357,7 +359,7 @@ p.recommendation {
     }
     .headline-line1, .headline-line2, .headline-line3 {
     color: white;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2.5rem;
     margin-bottom: 0;
     list-style-type: none;
@@ -395,7 +397,7 @@ span.menu_title{
 
 /*.headline {
     color: white;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2.5rem;
     margin-bottom: 0;
     padding-top: 2rem;
@@ -408,6 +410,14 @@ span.menu_title{
     color: pink;
 }
 
+p.web-text-left {
+  position: absolute;
+  top: 70%;
+  left: 4%;
+  /*transform: translate(-50%, -50%);*/
+  color: #808080;
+  font-size: 1.75em;
+}
 
 /* The overlay effect - lays on top of the container and over the image */
 .card-img-overlay {
