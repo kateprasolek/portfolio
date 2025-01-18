@@ -395,6 +395,16 @@ span.menu_title{
     text-transform: uppercase;
 }
 
+.project-next .about-me-mobile,
+.project-next .about-me-desktop {
+    margin-top: 3rem!important;
+}
+
+.project-imgages-row {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 /*.headline {
     color: white;
     font-family: 'Libre Baskerville', serif;
