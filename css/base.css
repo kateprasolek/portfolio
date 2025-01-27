@@ -107,6 +107,7 @@ a:hover, .card-cta:hover {
     font-weight: 700;
     padding-bottom: 2rem;
     padding-top: 0rem;
+    color: #ffa500;
 }
 
 .experience,
@@ -181,6 +182,12 @@ a:hover, .card-cta:hover {
 
 #about_section {
     padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-weight: lighter;
+}
+
+#top_section {
+    padding-top: 2rem;
     padding-bottom: 2rem;
     font-weight: lighter;
 }
