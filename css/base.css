@@ -62,10 +62,13 @@ a:hover, .card-cta:hover {
     background-color: #ffa500;
     /*font-family: 'Roboto', sans-serif !important;*/
     color: black;
-    font-size: 1.5rem;
-    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     font-weight: 700;
     border-radius: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 /*
@@ -132,6 +135,16 @@ a:hover, .card-cta:hover {
     padding-bottom: 0;
 }
 
+#skills_section .button_cta {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.skills_section_mobile,
+.skills_section_desktop {
+    margin-bottom: 1rem;
+}
+
 /*.headline {
     color: white;
     font-family: 'Libre Baskerville', serif;
@@ -166,9 +179,14 @@ a:hover, .card-cta:hover {
 }
 */
 
-#skills_section {
+#about_section {
     padding-top: 6rem;
     padding-bottom: 2rem;
+    font-weight: lighter;
+}
+
+#skills_section,
+#skills_section {
     font-weight: lighter;
 }
 
@@ -296,8 +314,13 @@ p.recommendation {
         margin-top: 2rem;
     }
     .ghost-nav, .about-me-desktop,
-    .project-img-desktop {
+    .project-img-desktop,
+    .skills-desktop {
         display: none;
+    }
+    .skills-mobile .row {
+        display: flex;
+        flex-wrap: nowrap;
     }
     .mobile-nav {
         background-color: black;
@@ -333,11 +356,21 @@ p.recommendation {
         background-color: #feeef7;
         margin-bottom: 1.5rem;
     }
+    .extra_text {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .about-me-mobile {
+        padding-bottom: 2rem;
+    }
 }
 
 @media only screen and (min-width: 901px) {
     .mobile-nav, .about-me-mobile,
-    .project-img-mobile {
+    .project-img-mobile,
+    .skills-mobile {
         display: none;
     }
     #skills_section .col-md-4 {
@@ -351,9 +384,7 @@ p.recommendation {
         padding-left: 2rem;
         background-color: white;
     }
-    #skills_section .button_cta {
-        margin-top: 2rem;
-    }
+    
     .about-me-desktop {
         padding-bottom: 2rem;
     }
@@ -404,6 +435,8 @@ span.menu_title{
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+
 
 /*.headline {
     color: white;
