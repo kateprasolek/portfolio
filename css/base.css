@@ -129,7 +129,7 @@ a:hover, .card-cta:hover {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 #skills_section .extra_text {
@@ -181,15 +181,13 @@ a:hover, .card-cta:hover {
 */
 
 #about_section {
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
-    font-weight: lighter;
 }
 
 #top_section {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-weight: lighter;
 }
 
 #skills_section,
@@ -218,7 +216,7 @@ a:hover, .card-cta:hover {
 
 #work_section {
     padding-bottom: 2rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 
 footer .author {
@@ -330,8 +328,11 @@ p.recommendation {
         flex-wrap: nowrap;
     }
     .mobile-nav {
-        background-color: black;
+        background-color: #ffa500;
         border-top: 1px solid grey;
+    }
+    .mobile-nav li a {
+        color: black;
     }
     .space-evenly {
         justify-content: space-evenly;
