@@ -185,10 +185,6 @@ a:hover, .card-cta:hover {
     padding-bottom: 2rem;
 }
 
-#top_section {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-}
 
 #skills_section,
 #skills_section,
@@ -216,10 +212,6 @@ a:hover, .card-cta:hover {
 }
 */
 
-#work_section {
-    padding-bottom: 2rem;
-    padding-top: 4rem;
-}
 
 footer .author {
     color: black;
@@ -379,7 +371,14 @@ p.recommendation {
         padding-top: 4rem;
         padding-bottom: 2rem;
     }
-
+    #top_section {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    #work_section {
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+    }
 }
 
 @media only screen and (min-width: 901px) {
@@ -422,6 +421,14 @@ p.recommendation {
     #about_section {
         padding-top: 6rem;
         padding-bottom: 2rem;
+    }
+    #top_section {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+    #work_section {
+        padding-bottom: 2rem;
+        padding-top: 6rem;
     }
 }
 
