@@ -375,7 +375,11 @@ p.recommendation {
     .about-me-mobile {
         padding-bottom: 2rem;
     }
-    
+    #about_section {
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
 }
 
 @media only screen and (min-width: 901px) {
@@ -414,6 +418,10 @@ p.recommendation {
         padding-bottom: 2rem;
         display: block;
         margin-block-start: 3.5rem;
+    }
+    #about_section {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
     }
 }
 
