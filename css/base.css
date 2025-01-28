@@ -191,7 +191,9 @@ a:hover, .card-cta:hover {
 }
 
 #skills_section,
-#skills_section {
+#skills_section,
+.about-me-desktop,
+.about-me-mobile {
     font-weight: lighter;
 }
 
@@ -371,6 +373,10 @@ p.recommendation {
         padding-top: 1rem;
     }
     .about-me-mobile {
+        padding-bottom: 2rem;
+    }
+    #about_section {
+        padding-top: 0rem; 
         padding-bottom: 2rem;
     }
 }
