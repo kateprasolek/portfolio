@@ -279,15 +279,16 @@ span.client {
     font-size: smaller;
 }
 
+/*
 #recommendations {
-    /*background: url('../images/circles-long.svg');*/
+    background: url('../images/circles-long.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
-
+*/
 .neo-padding {
     background-color: #fff6e6!important;
     border-radius: 35px;
@@ -376,8 +377,13 @@ ol.carousel-indicators {
     }
     #recommendations {
         background-image: none;
-        background-color: #feeef7;
+        background-color: #fff6e6;
         margin-bottom: 1.5rem;
+    }
+    p.recommendation {
+        font-weight: lighter;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
     }
     .extra_text {
         font-family: 'Libre Baskerville', serif;
@@ -399,6 +405,13 @@ ol.carousel-indicators {
     #work_section {
         padding-bottom: 2rem;
         padding-top: 4rem;
+    }
+    .col-md-6 img {
+        padding-top: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    .project-title-motion {
+        margin-top:2.5rem;
     }
 }
 
@@ -484,7 +497,7 @@ span.menu_title{
     margin-top: 3rem!important;
 }
 
-.project-imgages-row {
+.project-images-row {
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -573,7 +586,7 @@ p.web-text-left {
 /***** HOME PAGE ANIMATION *****/
 /***** Global Slide *****/
 .slide-right, .slide-left {
-  width: 100%;
+  width: auto;
 }
 
 /***** Slide Right *****/
