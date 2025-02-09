@@ -22,7 +22,7 @@ a:hover, .card-cta:hover {
     text-decoration: none;
 }
 
-.img-fluid {
+.img-rounded {
     border-radius: 50px;
 }
 
