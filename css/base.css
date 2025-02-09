@@ -113,6 +113,7 @@ a:hover, .card-cta:hover {
     color: #ffa500;
 }
 
+
 .experience,
 .recommendations {
     padding-bottom: 1rem;
@@ -287,12 +288,29 @@ span.client {
     margin-top: 2rem;
 }
 
+.neo-padding {
+    background-color: #fff6e6!important;
+    border-radius: 35px;
+
+}
+
 p.recommendation {
     /*font-style: italic;*/
     font-weight: lighter;
     margin-bottom: 3rem;
+    margin-top: 2rem;
     font-size: large;
 }
+
+ol.carousel-indicators {
+    margin-bottom: -1.5rem;
+}
+.carousel-indicators li {
+    background-color: #ffe4b3;
+    opacity: 0.3;
+}
+
+
 
 .nav {
     flex-wrap: nowrap;
