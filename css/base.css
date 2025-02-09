@@ -402,6 +402,12 @@ p.recommendation {
     .about-me-desktop {
         padding-bottom: 2rem;
     }
+
+    .project-title-motion {
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }
+
     .headline-line1, .headline-line2, .headline-line3 {
     color: white;
     font-family: 'Libre Baskerville', serif;
