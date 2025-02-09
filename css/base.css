@@ -22,6 +22,9 @@ a:hover, .card-cta:hover {
     text-decoration: none;
 }
 
+.img-fluid {
+    border-radius: 50px;
+}
 
 .card-cta {
     /*color: black;*/
