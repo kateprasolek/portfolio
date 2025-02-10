@@ -47,13 +47,6 @@ a:hover, .card-cta:hover {
     border: none;
 }
 
-/*
-#home_background {
-    background: url('../images/hero-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
 
 #hero_section {
     padding-top: 5rem;
@@ -63,7 +56,6 @@ a:hover, .card-cta:hover {
 
 .button_cta {
     background-color: #ffa500;
-    /*font-family: 'Roboto', sans-serif !important;*/
     color: black;
     font-size: 1.2rem;
     margin-bottom: 2rem;
@@ -74,36 +66,6 @@ a:hover, .card-cta:hover {
     padding-right: 20px;
 
 }
-/*
-#top_section .button_cta:hover {
-    background-color: black;
-    color: #ffa500;
-    border: 2px solid #ffa500;
-}
-*/
-/*
-.button_cta:hover {
-    background-color: black;
-    color: #ffa500;
-    border: 2px solid black;
-}
-
-
-.button_hire {
-    background-color: black;
-    color: #ffa500;
-    font-size: 1rem;
-    margin-top: 1rem;
-    font-weight: 700;
-    border-radius: 55px;
-    border: 2px solid #ffa500;
-}
-
-.button_hire:hover {
-    background-color: #ffa500;
-    color: black;
-}
-*/
 
 .title {
     font-family: 'Libre Baskerville', serif;
@@ -112,7 +74,6 @@ a:hover, .card-cta:hover {
     padding-top: 0rem;
     color: #ffa500;
 }
-
 
 .experience,
 .recommendations {
@@ -150,45 +111,15 @@ a:hover, .card-cta:hover {
     margin-bottom: 1rem;
 }
 
-/*.headline {
-    color: white;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 2.5rem;
-    margin-bottom: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}*/
-
 .icon {
     max-width: 50%;
     margin-top: 1rem;
 }
 
-/*
-.progress {
-    margin: 0.55rem;
-    height: auto;
-}
-
-.skills_progress_bar {
-    text-align: left;
-    color: black;  
-    font-size: 1rem;
-    line-height: normal;
-    padding: 1%;
-    background-color: rgba(240, 86, 177, 0.35);
-}
-
-.progress-bar {
-    color: black;  
-}
-*/
-
 #about_section {
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
-
 
 #skills_section,
 #skills_section,
@@ -210,11 +141,6 @@ a:hover, .card-cta:hover {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
-
-/*.skills-col:hover, .card:hover {
-    transform: scale(1.075);
-}
-*/
 
 
 footer .author {
@@ -279,16 +205,6 @@ span.client {
     font-size: smaller;
 }
 
-/*
-#recommendations {
-    background: url('../images/circles-long.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 90%;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-*/
 .neo-padding {
     background-color: #fff6e6!important;
     border-radius: 35px;
@@ -311,8 +227,6 @@ ol.carousel-indicators {
     opacity: 0.3;
 }
 
-
-
 .nav {
     flex-wrap: nowrap;
 }
@@ -324,6 +238,87 @@ ol.carousel-indicators {
 .nav-link {
     color: #808080;
 }
+
+
+.name,
+.manu_name {
+    color: #ffa500;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+span.menu_title{
+    color: #808080;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+.project-next .about-me-mobile,
+.project-next .about-me-desktop {
+    margin-top: 3rem!important;
+}
+
+.project-images-row {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.project-title {
+    font-family: 'Libre Baskerville', serif;
+    color: pink;
+}
+
+p.web-text-left {
+  position: absolute;
+  top: 70%;
+  left: 4%;
+  /*transform: translate(-50%, -50%);*/
+  color: #808080;
+  font-size: 1.75em;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.card-img-overlay {
+    background: rgba(255, 165, 0, 0.75); 
+    height:auto;
+    position: absolute;
+    top: auto;
+    bottom: 0!important;
+    right: 0!important;
+    padding: 1rem;
+}
+
+.card-title {
+    margin-bottom: 0rem;
+    text-align: right;
+}
+
+.col-md-12 .card-img-overlay:hover,
+.col-md-12 img:hover {
+  background: rgba(0, 0, 0, 0.75); 
+}
+
+.col-md-12 .card-img-overlay:hover,
+.col-md-12 .card-img-overlay h5:hover {
+  color: rgba(255, 165, 0, 1);  
+}
+
+
+.col-md-12 a {
+    color: black!important;
+
+}
+
+
+
 
 /*Small devices*/
 @media only screen and (min-width: 300px) and (max-width: 900px) {
@@ -415,6 +410,7 @@ ol.carousel-indicators {
     }
 }
 
+/*Desktop devices*/
 @media only screen and (min-width: 901px) {
     .mobile-nav, .about-me-mobile,
     .project-img-mobile,
@@ -472,115 +468,10 @@ ol.carousel-indicators {
     }
 }
 
-.name,
-.manu_name {
-    color: #ffa500;
-    font-family: 'Libre Baskerville', serif;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-span.menu_title{
-    color: #808080;
-    font-family: 'Libre Baskerville', serif;
-    margin: 0;
-    text-transform: lowercase;
-    font-style: italic;
-}
-
-.nav-item {
-    text-transform: uppercase;
-}
-
-.project-next .about-me-mobile,
-.project-next .about-me-desktop {
-    margin-top: 3rem!important;
-}
-
-.project-images-row {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
 
 
 
-/*.headline {
-    color: white;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 2.5rem;
-    margin-bottom: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}*/
 
-
-.project-title {
-    font-family: 'Libre Baskerville', serif;
-    color: pink;
-}
-
-p.web-text-left {
-  position: absolute;
-  top: 70%;
-  left: 4%;
-  /*transform: translate(-50%, -50%);*/
-  color: #808080;
-  font-size: 1.75em;
-}
-
-/* The overlay effect - lays on top of the container and over the image */
-.card-img-overlay {
-    background: rgba(255, 165, 0, 0.75); 
-    height:auto;
-    position: absolute;
-    top: auto;
-    bottom: 0!important;
-    right: 0!important;
-    padding: 1rem;
-}
-
-.card-title {
-    margin-bottom: 0rem;
-    text-align: right;
-}
-
-.col-md-12 .card-img-overlay:hover,
-.col-md-12 img:hover {
-  background: rgba(0, 0, 0, 0.75); 
-}
-
-.col-md-12 .card-img-overlay:hover,
-.col-md-12 .card-img-overlay h5:hover {
-  color: rgba(255, 165, 0, 1);  
-}
-
-
-.col-md-12 a {
-    color: black!important;
-
-}
-
-/*
-.card-img-overlay:hover {
-  opacity: 0;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 97%;
-  height:100%;
-  transition: .5s ease;
-  opacity:1;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  padding: 2%;
-}
-*/
 
 
 /***** HOME PAGE ANIMATION *****/
