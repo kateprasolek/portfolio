@@ -45,8 +45,12 @@ a:hover, .card-cta:hover {
 .card {
     margin-bottom: 1.75rem;
     border: none;
+    background-color: #ffa500;
 }
 
+#work_section {
+    background-color: #ffa500;
+}
 
 #hero_section {
     padding-top: 5rem;
