@@ -4,6 +4,10 @@ body {
     font-weight: 400;
 }
 
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 p, ul {
     margin-block-start: 0;
     margin-block-end: 0;
@@ -16,15 +20,17 @@ a {
     color: black;
 }
 
+.col-md-12, .container-fluid {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    max-width: 100%!important;
+}
 
 a:hover, .card-cta:hover {
     color: #ffa500;
     text-decoration: none;
 }
 
-.img-rounded {
-    border-radius: 50px;
-}
 
 .card-cta {
     /*color: black;*/
@@ -45,11 +51,10 @@ a:hover, .card-cta:hover {
 .card {
     margin-bottom: 1.75rem;
     border: none;
-    background-color: #ffa500;
 }
 
 #work_section {
-    background-color: #ffa500;
+    background-color: #fff;
 }
 
 #hero_section {
@@ -70,6 +75,9 @@ a:hover, .card-cta:hover {
     padding-right: 20px;
 
 }
+
+
+
 
 .title {
     font-family: 'Libre Baskerville', serif;
@@ -476,36 +484,3 @@ p.web-text-left {
 
 
 
-
-
-/***** HOME PAGE ANIMATION *****/
-/***** Global Slide *****/
-.slide-right, .slide-left {
-  width: auto;
-}
-
-/***** Slide Right *****/
-.slide-right {
-  animation: 3s slide-right;
-}
-@keyframes slide-right {
-  from {
-    margin-left: -100%;
-  }
-  to {
-    margin-left: 0%;
-  }
-}
-
-/***** Slide Left *****/
-.slide-left {
-  animation: 3s slide-left;
-}
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-  }
-  to {
-    margin-left: 0%;
-  }
-}
