@@ -476,7 +476,7 @@ p.web-text-left {
     }
     #work_section {
         padding-bottom: 2rem;
-        padding-top: 0rem;
+        padding-top: 0rem!important;
     }
 }
 
